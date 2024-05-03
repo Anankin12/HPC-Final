@@ -50,8 +50,9 @@ int main(int argc, char *argv[]) {
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     double start_time;
+    start_time = MPI_Wtime();
+    
     if (rank == 0) {
-        start_time = MPI_Wtime();
         cout << "Running with " << size << " MPI processes." << endl;
     }
 
@@ -86,13 +87,17 @@ int main(int argc, char *argv[]) {
         sum += recvcounts[i];
     }
 
+    double finish_time = MPI_Wtime();
+    cout << "Process " << rank << " finished computations at " << finish_time - start_time << " seconds." << endl;
+
+
     MPI_Gatherv(buffer.data(), buffer.size(), MPI_UNSIGNED_SHORT,
                 final_image.data(), recvcounts, displs, MPI_UNSIGNED_SHORT, 0, MPI_COMM_WORLD);
 
     vector<unsigned short> ordered_image;
 
     if (rank == 0) {
-        cout << "Total time taken before order: " << MPI_Wtime() - start_time << " seconds." << endl;
+        // cout << "Total time taken before order: " << MPI_Wtime() - start_time << " seconds." << endl;
         ordered_image.resize(total_pixels);
         int offset = 0;
 	int next_offset = 0;
