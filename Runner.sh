@@ -10,20 +10,20 @@ output_file="timing_results.txt"
 max_threads=$(nproc)
 
 # Define program name and parameters
-program_name="./Run6-1-FinalImageCorrectionAttempt"  # Ensure this is the correct path
+program_name="./Run6-2"  # Ensure this is the correct path
 xl="-2"
 yl="-2"
 xr="2"
 yr="2"
-width="256"
-height="256"
+width="1024"
+height="1024"
 max_iterations="65535"
 
 # Header for the timing results
 echo "Threads, Time (seconds)" >> "$output_file"
 
 # Loop over thread count from 1 to max_threads
-for (( i=1; i<=max_threads; i++ ))
+for (( i=max_threads; i>=1; i-- ))
 do
     echo "Running with $i threads..."
     command="mpiexec --use-hwthread-cpus -np $i $program_name $xl $yl $xr $yr $width $height $max_iterations"
