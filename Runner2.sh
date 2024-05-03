@@ -26,7 +26,8 @@ echo "Threads, Time (seconds)" >> "$output_file"
 for (( i=max_threads; i>=1; i-- ))
 do
     echo "Running with $i threads..."
-    command="mpiexec --use-hwthread-cpus -np $i $program_name $xl $yl $xr $yr $width $height $max_iterations"
+    export OMP_NUM_THREADS=$i
+    command="mpiexec --map-by ppr:1:core --bind-to core --report-bindings -np $i $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
     # Execute the MPI program and measure the time
     TIMEFORMAT=%R
