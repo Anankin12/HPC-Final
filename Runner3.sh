@@ -28,6 +28,7 @@ do
     echo "Running with $i threads..."
 
     # Adjust MPI command to handle oversubscription gracefully
+    # export OMP_NUM_THREADS=1
     command="mpiexec --use-hwthread-cpus --oversubscribe --bind-to hwthread --map-by ppr:1:hwthread -np $i $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
     # Execute the MPI program and measure the time

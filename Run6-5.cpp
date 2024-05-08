@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
 
     vector<unsigned short> buffer((rank < leftover) ? pixels_per_process + 1 : pixels_per_process);
 
-    #pragma omp parallel for
+    // #pragma omp parallel for
     for (int index = rank; index < total_pixels; index += size) {
         int i = index % width;
         int j = index / width;

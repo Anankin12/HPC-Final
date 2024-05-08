@@ -10,7 +10,7 @@ output_file="timing_results.txt"
 max_threads=$(nproc)
 
 # Define program name and parameters
-program_name="./Run6-3"  # Ensure this is the correct path
+program_name="./Run6-4"  # Ensure this is the correct path
 xl="-2"
 yl="-2"
 xr="2"
@@ -27,7 +27,7 @@ for (( i=max_threads; i>=1; i-- ))
 do
     echo "Running with $i threads..."
     export OMP_NUM_THREADS=$i
-    command="mpiexec --map-by ppr:1:core --bind-to core --report-bindings -np $i $program_name $xl $yl $xr $yr $width $height $max_iterations"
+    command="mpiexec --use-hwthread-cpus -np $i $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
     # Execute the MPI program and measure the time
     TIMEFORMAT=%R

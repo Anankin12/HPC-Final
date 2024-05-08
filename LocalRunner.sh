@@ -10,7 +10,7 @@ output_file="timing_results.txt"
 max_threads=$(nproc)
 
 # Define program name and parameters
-program_name="./Run6-4"  # Ensure this is the correct path
+program_name="./Run6-5"  # Ensure this is the correct path
 xl="-2"
 yl="-2"
 xr="2"
@@ -33,7 +33,7 @@ time_taken=$( { time $command; } 2>&1 )
 echo "Execution time: $time_taken seconds with OMP"
 
 # Adjust MPI command to handle oversubscription gracefully
-command="mpiexec --use-hwthread-cpus --oversubscribe --bind-to hwthread --map-by ppr:1:hwthread $program_name $xl $yl $xr $yr $width $height $max_iterations"
+command="mpiexec --use-hwthread-cpus --oversubscribe --bind-to hwthread --map-by ppr:1:hwthread --report-bindings true $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
 # Execute the MPI program and measure the time
 TIMEFORMAT=%R
