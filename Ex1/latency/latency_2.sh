@@ -5,6 +5,7 @@
 #SBATCH --job-name=latency
 #SBATCH --nodes=2              # Requesting two nodes
 #SBATCH --exclusive
+#SBATCH --ntasks=2             # Two tasks to ensure one task per node
 #SBATCH --time=02:00:00
 #SBATCH --exclude=fat[001-002]
 
@@ -29,14 +30,15 @@ mkdir -p "$output_dir"
 echo "CPU_Pair,MessageSize,Latency" > $out_file
 
 # Iterate over all possible CPU pairs starting with core 0
-for cpu in {1..23}
+for cpu in {1..47}
 do
-    echo "Running latency test for CPU pair 0,$cpu..."
-    # Run the mpirun command and capture the output
-    mpirun -np 2 --map-by ppr:1:node --bind-to core:overload-allowed --cpu-set 0,$cpu ${src_path} -i 1000 -x 100 > temp_output.txt
+	echo "Running latency test for CPU pair 0,$cpu..."
 
-    # Extract and format the relevant data, filter out unwanted lines
-    tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
+	# Run the mpirun command and capture the output
+	mpirun -np 2 --map-by ppr:1:node --bind-to core --cpu-set $core_set ${src_path} -i 1000 -x 100 > temp_output.txt
+
+	# Extract and format the relevant data, filter out unwanted lines
+	tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
 done
 
 # Clean up the temporary output file
