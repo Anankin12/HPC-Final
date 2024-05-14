@@ -55,6 +55,6 @@ for map in $map_values; do
 		# Algorithm=5 is the binary tree algorithm
 		echo "...Benchmarking Default with map=$map and np=$np..."
 		mpirun -np $np -map-by $map --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_bcast_algorithm 5 ${src_path}osu_bcast -x 1000 -i 1000 | tail -n 21 \
-		| awk -v np="$np" -v map="$map" '{printf "%s,%s,%s,%s,%s\n", algorithm, map, np, $1, $2}' | sed 's/,$//' >> $out_csv
+		| awk -v np="$np" -v map="$map" -v algorithm="$algorithm" '{printf "%s,%s,%s,%s,%s\n", algorithm, map, np, $1, $2}' | sed 's/,$//' >> $out_csv
 	done
 done
