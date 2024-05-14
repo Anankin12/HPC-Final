@@ -32,13 +32,13 @@ echo "CPU_Pair,MessageSize,Latency" > $out_file
 # Iterate over all possible CPU pairs starting with core 0
 for cpu in {1..47}
 do
-	echo "Running latency test for CPU pair 0,$cpu..."
+    echo "Running latency test for CPU pair 0,$cpu..."
 
-	# Run the mpirun command and capture the output
-	mpirun -np 2 --map-by ppr:1:node --bind-to core --cpu-set $core_set ${src_path} -i 1000 -x 100 > temp_output.txt
+    # Run the mpirun command and capture the output
+    mpirun -np 2 --map-by ppr:1:node --bind-to core --cpu-set $core_set ${src_path} -x 100 -i 1000 > temp_output.txt
 
-	# Extract and format the relevant data, filter out unwanted lines
-	tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
+    # Extract and format the relevant data, filter out unwanted lines
+    tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
 done
 
 # Clean up the temporary output file
