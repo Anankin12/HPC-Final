@@ -1,4 +1,5 @@
 #!/bin/bash
+#SBATCH --account=DSSC
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=24	# 24 cores per node because we are on the THIN partition, with hyperthreading disabled
 				# The CPU is an Intel Xeon Gold 6126, with 12 cores per socket
