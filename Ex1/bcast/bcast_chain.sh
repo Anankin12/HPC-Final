@@ -5,7 +5,7 @@
 				# The CPU is an Intel Xeon Gold 6126, with 12 cores per socket
 #SBATCH --time=02:00:00
 #SBATCH --partition=THIN
-#SBATCH --job-name=bcast_basic
+#SBATCH --job-name=bcast_chain
 #SBATCH --exclusive
 #SBATCH --exclude=fat[001-002]	# Exclude the fat nodes since they are WRONGLY placed in the THIN partition, but have
 				# a different CPU model (Intel Xeon Gold 6154) and 18 cores per socket, which would
