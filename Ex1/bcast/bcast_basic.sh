@@ -27,7 +27,7 @@ algorithm="default"
 
 
 # Define filepaths
-src_path="/u/dssc/arusso/osu-micro-benchmarks-7.3/c/mpi/collective/blocking"
+src_path="/u/dssc/arusso/osu-micro-benchmarks-7.3/c/mpi/collective/blocking/"
 out_csv="results_${operation}/${operation}_${algorithm}${dt}.csv"
 
 # Create the output directory if it doesn't exist
