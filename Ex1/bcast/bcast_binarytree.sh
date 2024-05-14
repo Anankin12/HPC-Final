@@ -22,7 +22,7 @@ dt=$(date '+%d%m%Y%H%M%S')
 # Define the collective operation to be run
 operation="bcast"
 # Define the algorithm used
-algorithm="default"
+algorithm="binarytree"
 
 
 # Define filepaths
@@ -46,9 +46,9 @@ map_values="core socket node"
 for map in $map_values; do
 	for np in $np_values; do
 		# Run the mpirun command and append the results to the CSV file
-		# Algorithm=0 is the default algorithm
+		# Algorithm=5 is the binary tree algorithm
 		echo "...Benchmarking Default with map=$map and np=$np..."
-		mpirun -np $np -map-by $map --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_bcast_algorithm 0 ${src_path}osu_bcast -x 1000 -i 1000 | tail -n 21 \
+		mpirun -np $np -map-by $map --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_bcast_algorithm 5 ${src_path}osu_bcast -x 1000 -i 1000 | tail -n 21 \
 		| awk -v np="$np" -v map="$map" '{printf "${algorithm},%s,%s,%s,%s\n",map,np,$1, $2}' | sed 's/,$//' >> $out_csv
 	done
 done
