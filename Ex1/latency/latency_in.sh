@@ -39,5 +39,5 @@ mkdir -p "$output_dir"
 for cpu in {1..23}
 do
 	echo "${cpu}:" >> ${out_file}
-	mpirun -np 2 --cpu-list 0,$cpu ${src_path} -i 1000 -x 100 -m 1:1 >> ${out_file}
+	mpirun -np 2 --cpu-list 0,$cpu ${src_path} -i 1000 -x 100 -m >> ${out_file}
 done
