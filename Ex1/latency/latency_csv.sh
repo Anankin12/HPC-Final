@@ -6,11 +6,7 @@
 #SBATCH --nodes=1
 #SBATCH --exclusive
 #SBATCH --time=02:00:00
-#SBATCH --exclude=fat[001-002]	# Exclude the fat nodes since they are WRONGLY placed in the THIN partition, but have
-				# a different CPU model (Intel Xeon Gold 6154) and 18 cores per socket, which would
-				# make the data incomparable and the script would be wrong
-
-
+#SBATCH --exclude=fat[001-002]
 
 # Load the openMPI module
 module load openMPI/4.1.5/gnu
@@ -35,11 +31,12 @@ echo "CPU_Pair,MessageSize,Latency" > $out_file
 # Iterate over all possible CPU pairs starting with core 0
 for cpu in {1..23}
 do
+    echo "Running latency test for CPU pair 0,$cpu..."
     # Run the mpirun command and capture the output
     mpirun -np 2 --cpu-list 0,$cpu ${src_path} -i 1000 -x 100 -m 1:1 > temp_output.txt
 
-    # Extract and format the relevant data
-    tail -n +3 temp_output.txt | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
+    # Extract and format the relevant data, filter out unwanted lines
+    tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
 done
 
 # Clean up the temporary output file
