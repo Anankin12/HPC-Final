@@ -29,6 +29,9 @@ algorithm="default"
 src_path="/u/dssc/arusso/osu-micro-benchmarks-7.3/c/mpi/collective/blocking"
 out_csv="results_${operation}/${operation}_${algorithm}${dt}.csv"
 
+# Create the output directory if it doesn't exist
+output_dir=$(dirname "$out_csv")
+mkdir -p "$output_dir"
 
 # Create the CSV file with header
 echo "Algorithm, Allocation, Processes, MessageSize, Latency" > $out_csv
