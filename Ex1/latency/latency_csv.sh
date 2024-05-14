@@ -3,7 +3,7 @@
 #SBATCH -A dssc
 #SBATCH -p THIN
 #SBATCH --job-name=latency
-#SBATCH --nodes=1
+#SBATCH --nodes=1              # Change this to --nodes=2 to use two nodes
 #SBATCH --exclusive
 #SBATCH --time=02:00:00
 #SBATCH --exclude=fat[001-002]
@@ -33,7 +33,7 @@ for cpu in {1..23}
 do
     echo "Running latency test for CPU pair 0,$cpu..."
     # Run the mpirun command and capture the output
-    mpirun -np 2 --cpu-list 0,$cpu ${src_path} -i 1000 -x 100 -m 1:1 > temp_output.txt
+    mpirun -np 2 --cpu-list 0,$cpu ${src_path} -i 1000 -x 100 > temp_output.txt
 
     # Extract and format the relevant data, filter out unwanted lines
     tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
