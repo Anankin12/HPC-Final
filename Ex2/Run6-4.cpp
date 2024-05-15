@@ -26,6 +26,9 @@ unsigned short compute_pixel(float xl, float yl, float dx, float dy, int max_ite
         z = z * z + c;
         n++;
     }
+    if (n >=  max_iterations) {
+        n = 0;
+    }
     return n;
 }
 
