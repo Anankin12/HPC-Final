@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A dssc
 #SBATCH -p THIN
-#SBATCH --job-name=bcast_basic
+#SBATCH --job-name=barrier_linear
 #SBATCH --nodes=2
 #SBATCH --exclusive
 #SBATCH --ntasks-per-node=24	# 24 cores per node because we are on the THIN partition, with hyperthreading disabled
