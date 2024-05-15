@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#SBATCH --job-name=mandelbrot
+#SBATCH --nodes=1
+#SBATCH --time=0-01:30:00
+#SBATCH -A dssc
+#SBATCH -p THIN -w fat002
+
+>&2 echo "DIR is ${SLURM_SUBMIT_DIR}"
+
+dt=$(date +"%Y%m%d_%H%M%S")
+
+./Runner3.sh FATTiming_Rsults.txt > FAT$dt
