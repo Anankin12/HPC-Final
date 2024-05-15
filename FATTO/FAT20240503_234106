@@ -1,0 +1,80 @@
+Running with 36 threads...
+Execution time: Running with 36 MPI processes.
+Process 34 finished computations at 114.882 seconds.
+Process 22 finished computations at 114.899 seconds.
+Process 32 finished computations at 114.921 seconds.
+Process 31 finished computations at 114.923 seconds.
+Process 29 finished computations at 114.931 seconds.
+Process 27 finished computations at 114.941 seconds.
+Process 30 finished computations at 114.946 seconds.
+Process 19 finished computations at 114.947 seconds.
+Process 35 finished computations at 114.96 seconds.
+Process 24 finished computations at 114.96 seconds.
+Process 26 finished computations at 114.964 seconds.
+Process 23 finished computations at 114.973 seconds.
+Process 28 finished computations at 114.982 seconds.
+Process 18 finished computations at 114.983 seconds.
+Process 33 finished computations at 114.992 seconds.
+Process 20 finished computations at 115.002 seconds.
+Process 25 finished computations at 115.086 seconds.
+Process 21 finished computations at 115.155 seconds.
+Process 2 finished computations at 115.197 seconds.
+Process 9 finished computations at 115.231 seconds.
+Process 1 finished computations at 115.242 seconds.
+Process 5 finished computations at 115.249 seconds.
+Process 3 finished computations at 115.256 seconds.
+Process 12 finished computations at 115.258 seconds.
+Process 10 finished computations at 115.265 seconds.
+Process 14 finished computations at 115.287 seconds.
+Process 4 finished computations at 115.292 seconds.
+Process 17 finished computations at 115.294 seconds.
+Process 16 finished computations at 115.305 seconds.
+Process 11 finished computations at 115.328 seconds.
+Process 7 finished computations at 115.334 seconds.
+Process 13 finished computations at 115.338 seconds.
+Process 15 finished computations at 115.351 seconds.
+Process 0 finished computations at 115.366 seconds.
+Process 6 finished computations at 115.469 seconds.
+Process 8 finished computations at 115.53 seconds.
+Total time taken: 115.765 seconds.
+119.455 seconds
+Running with 35 threads...
+Execution time: Running with 35 MPI processes.
+Process 24 finished computations at 117.198 seconds.
+Process 19 finished computations at 117.583 seconds.
+Process 18 finished computations at 117.611 seconds.
+Process 22 finished computations at 117.633 seconds.
+Process 20 finished computations at 117.677 seconds.
+Process 23 finished computations at 117.73 seconds.
+Process 25 finished computations at 117.775 seconds.
+Process 21 finished computations at 117.809 seconds.
+Process 29 finished computations at 117.853 seconds.
+Process 27 finished computations at 117.857 seconds.
+Process 33 finished computations at 117.873 seconds.
+Process 26 finished computations at 117.878 seconds.
+Process 31 finished computations at 117.881 seconds.
+Process 28 finished computations at 117.887 seconds.
+Process 34 finished computations at 117.899 seconds.
+Process 32 finished computations at 117.975 seconds.
+Process 30 finished computations at 118.019 seconds.
+Process 17 finished computations at 118.235 seconds.
+Process 15 finished computations at 118.309 seconds.
+Process 16 finished computations at 118.349 seconds.
+Process 13 finished computations at 118.357 seconds.
+Process 14 finished computations at 118.443 seconds.
+Process 11 finished computations at 118.458 seconds.
+Process 2 finished computations at 118.476 seconds.
+Process 1 finished computations at 118.49 seconds.
+Process 3 finished computations at 118.494 seconds.
+Process 10 finished computations at 118.512 seconds.
+Process 6 finished computations at 118.534 seconds.
+Process 9 finished computations at 118.535 seconds.
+Process 8 finished computations at 118.558 seconds.
+Process 7 finished computations at 118.565 seconds.
+Process 4 finished computations at 118.595 seconds.
+Process 5 finished computations at 118.602 seconds.
+Process 0 finished computations at 118.623 seconds.
+Process 12 finished computations at 118.645 seconds.
+Total time taken: 118.874 seconds.
+121.877 seconds
+Running with 34 threads...

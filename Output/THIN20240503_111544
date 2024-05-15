@@ -1,0 +1,649 @@
+Running with 24 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.056 seconds
+Running with 23 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.060 seconds
+Running with 22 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 21 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.059 seconds
+Running with 20 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.059 seconds
+Running with 19 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 18 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 17 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.059 seconds
+Running with 16 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.059 seconds
+Running with 15 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 14 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.059 seconds
+Running with 13 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.060 seconds
+Running with 12 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 11 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.061 seconds
+Running with 10 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 9 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.060 seconds
+Running with 8 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 7 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.059 seconds
+Running with 6 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 5 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.061 seconds
+Running with 4 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.060 seconds
+Running with 3 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.058 seconds
+Running with 2 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.057 seconds
+Running with 1 threads...
+Execution time: Unknown option: use-hwthread-cpus
+Unknown option: np
+Usage:
+    mpiexec.slurm args executable pgmargs
+
+    where args are comannd line arguments for mpiexec (see below),
+    executable is the name of the eecutable and pgmargs are command line
+    arguments for the executable. For example the following command will run
+    the MPI program a.out on 4 processes:
+
+            mpiexec.slurm -n 4 a.out
+
+    mpiexec.slurm supports the following options:
+
+             [-n nprocs]
+             [-host hostname]
+             [-verbose]
+             [-nostdin]
+             [-allstdin]
+             [-nostdout]
+             [-pernode]
+             [-config config_file]
+             [-help|-?]
+             [-man]
+
+0.060 seconds
+All runs completed.

@@ -1,0 +1,89 @@
+Threads, Time (seconds)
+24, Running with 24 MPI processes.
+Total time taken before order: 86.738 seconds.
+Total time taken: 86.9397 seconds.
+90.079
+23, Running with 23 MPI processes.
+Total time taken before order: 90.4283 seconds.
+Total time taken: 90.6276 seconds.
+93.175
+22, Running with 22 MPI processes.
+Total time taken before order: 88.5287 seconds.
+Total time taken: 88.7293 seconds.
+91.244
+21, Running with 21 MPI processes.
+Total time taken before order: 91.8605 seconds.
+Total time taken: 92.0546 seconds.
+94.411
+20, Running with 20 MPI processes.
+Total time taken before order: 89.0851 seconds.
+Total time taken: 89.2818 seconds.
+91.794
+19, Running with 19 MPI processes.
+Total time taken before order: 94.7296 seconds.
+Total time taken: 94.9396 seconds.
+97.368
+18, Running with 18 MPI processes.
+Total time taken before order: 91.6513 seconds.
+Total time taken: 91.8431 seconds.
+94.352
+17, Running with 17 MPI processes.
+Total time taken before order: 94.9787 seconds.
+Total time taken: 95.172 seconds.
+98.230
+16, Running with 16 MPI processes.
+Total time taken before order: 92.8239 seconds.
+Total time taken: 93.0111 seconds.
+95.328
+15, Running with 15 MPI processes.
+Total time taken before order: 102.72 seconds.
+Total time taken: 102.898 seconds.
+105.450
+14, Running with 14 MPI processes.
+Total time taken before order: 97.5069 seconds.
+Total time taken: 97.6926 seconds.
+100.667
+13, Running with 13 MPI processes.
+Total time taken before order: 97.7029 seconds.
+Total time taken: 97.9008 seconds.
+100.776
+12, Running with 12 MPI processes.
+Total time taken before order: 86.4414 seconds.
+Total time taken: 86.6116 seconds.
+88.859
+11, Running with 11 MPI processes.
+Total time taken before order: 94.2446 seconds.
+Total time taken: 94.4131 seconds.
+96.670
+10, Running with 10 MPI processes.
+Total time taken before order: 100.841 seconds.
+Total time taken: 101.007 seconds.
+103.278
+9, Running with 9 MPI processes.
+Total time taken before order: 110.959 seconds.
+Total time taken: 111.134 seconds.
+113.492
+8, Running with 8 MPI processes.
+Total time taken before order: 119.759 seconds.
+Total time taken: 119.927 seconds.
+122.217
+7, Running with 7 MPI processes.
+Total time taken before order: 136.819 seconds.
+Total time taken: 136.979 seconds.
+139.145
+6, Running with 6 MPI processes.
+Total time taken before order: 143.186 seconds.
+Total time taken: 143.345 seconds.
+145.650
+5, Running with 5 MPI processes.
+Total time taken before order: 171.794 seconds.
+Total time taken: 171.953 seconds.
+174.802
+4, Running with 4 MPI processes.
+Total time taken before order: 214.587 seconds.
+Total time taken: 214.744 seconds.
+217.614
+3, Running with 3 MPI processes.
+Total time taken before order: 285.976 seconds.
+Total time taken: 286.132 seconds.
+288.709

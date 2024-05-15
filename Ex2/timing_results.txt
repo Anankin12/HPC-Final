@@ -1,1 +1,28 @@
 Threads, Time (seconds)
+, Running with 24 MPI processes.
+Process 22 finished computations at 193.759 seconds.
+Process 8 finished computations at 193.778 seconds.
+Process 20 finished computations at 193.8 seconds.
+Process 19 finished computations at 193.845 seconds.
+Process 17 finished computations at 193.863 seconds.
+Process 3 finished computations at 193.869 seconds.
+Process 10 finished computations at 193.871 seconds.
+Process 18 finished computations at 193.88 seconds.
+Process 12 finished computations at 193.882 seconds.
+Process 11 finished computations at 193.884 seconds.
+Process 15 finished computations at 193.892 seconds.
+Process 4 finished computations at 193.906 seconds.
+Process 14 finished computations at 193.922 seconds.
+Process 13 finished computations at 193.925 seconds.
+Process 2 finished computations at 193.954 seconds.
+Process 23 finished computations at 193.962 seconds.
+Process 9 finished computations at 193.975 seconds.
+Process 5 finished computations at 194.003 seconds.
+Process 6 finished computations at 194.007 seconds.
+Process 7 finished computations at 194.036 seconds.
+Process 1 finished computations at 194.099 seconds.
+Process 0 finished computations at 194.325 seconds.
+Process 16 finished computations at 194.627 seconds.
+Process 21 finished computations at 194.949 seconds.
+Total time taken: 195.164 seconds.
+197.715

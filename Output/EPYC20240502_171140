@@ -1,0 +1,4 @@
+Running with 1 threads...
+Execution time: ./Runner.sh: line 34: mpiexec: command not found
+0.000 seconds
+All runs completed.

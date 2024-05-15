@@ -11,6 +11,7 @@
 				# a different CPU model (Intel Xeon Gold 6154) and 18 cores per socket, which would
 				# make the data incomparable and the script would be wrong
 
+#SBATCH --account=dssc
 # Load the openMPI module
 module load openMPI/4.1.5/gnu
 export OMPI_MCA_pml=ucx
