@@ -1,6 +1,14 @@
 #!/bin/bash
 
-
+#SBATCH -A dssc
+#SBATCH -p THIN
+#SBATCH --job-name=Name_Finding
+#SBATCH --nodes=2
+#SBATCH --exclusive # The CPU is an Intel Xeon Gold 6126, with 12 cores per socket
+#SBATCH --time=00:59:00
+#SBATCH --exclude=fat[001-002]	# Exclude the fat nodes since they are WRONGLY placed in the THIN partition, but have
+                # a different CPU model (Intel Xeon Gold 6154) and 18 cores per socket, which would
+				# make the data incomparable and the script would be wrong
 
 # Define the output file for timing results
 output_file="timing_results.txt"
@@ -25,7 +33,7 @@ max_threads=$(nproc)
 echo "Threads, Time (seconds)" >> "$output_file"
 
 # Loop from the maximum number of threads down to 1
-    echo "Running with $i threads..."
+    echo "Running with 8 threads..."
 
     # Adjust MPI command to handle oversubscription gracefully
     # export OMP_NUM_THREADS=1
