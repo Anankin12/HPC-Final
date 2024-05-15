@@ -9,29 +9,29 @@ using namespace std;
 
 // Functoin to write the PGM image
 void write_pgm(const char* filename, vector<unsigned short>& buffer, int width, int height) {
-    
-    ofstream file(filename, ios::binary | ios::out);
-    if (!file) {
-        cerr << "Cannot open file: " << filename << endl;
-        return;
-    }
-    file << "P5\n" << width << " " << height << "\n65535\n";
-    file.write(reinterpret_cast<char*>(buffer.data()), buffer.size() * sizeof(unsigned short));
-    file.close();
+
+	ofstream file(filename, ios::binary | ios::out);
+	if (!file) {
+		cerr << "Cannot open file: " << filename << endl;
+		return;
+	}
+	file << "P5\n" << width << " " << height << "\n65535\n";
+	file.write(reinterpret_cast<char*>(buffer.data()), buffer.size() * sizeof(unsigned short));
+	file.close();
 }
 
 unsigned short compute_pixel(float xl, float yl, float dx, float dy, int max_iterations, int i, int j) {
-    complex<double> c(xl + i * dx, yl + j * dy);
-    complex<double> z = 0;
-    unsigned short n = 0;
-    while (abs(z) < 2 && n < max_iterations) {
-        z = z * z + c;
-        n++;
-    }
-    if (n >=  max_iterations) {
-        n = 0;
-    }
-    return n;
+	complex<double> c(xl + i * dx, yl + j * dy);
+	complex<double> z = 0;
+	unsigned short n = 0;
+	while (abs(z) < 2 && n < max_iterations) {
+		z = z * z + c;
+		n++;
+	}
+	if (n >=  max_iterations) {
+		n = 0;
+	}
+	return n;
 }
 
 int main(int argc, char *argv[]) {
@@ -49,11 +49,13 @@ int main(int argc, char *argv[]) {
     const int height = stoi(argv[6]);
     const int max_iterations = stoi(argv[7]);
 
+    // Initialize MPI
     MPI_Init(&argc, &argv);
     int rank, size;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
+    // Start timer
     double start_time;
     start_time = MPI_Wtime();
     
@@ -83,42 +85,41 @@ int main(int argc, char *argv[]) {
         final_image.resize(total_pixels);
     }
 
-    int *recvcounts = new int[size];
-    int *displs = new int[size];
-    int sum = 0;
-    for (int i = 0; i < size; ++i) 
-    {
-        recvcounts[i] = (total_pixels / size) + (i < leftover ? 1 : 0);
-        displs[i] = sum;
-        sum += recvcounts[i];
-    }
+	int *recvcounts = new int[size];
+	int *displs = new int[size];
+	int sum = 0;
+	for (int i = 0; i < size; ++i) 
+	{
+		recvcounts[i] = (total_pixels / size) + (i < leftover ? 1 : 0);
+		displs[i] = sum;
+		sum += recvcounts[i];
+	}
 
-    double finish_time = MPI_Wtime();
-    cout << "Process " << rank << " finished computations at " << finish_time - start_time << " seconds." << endl;
+	double finish_time = MPI_Wtime();
+	cout << "Process " << rank << " finished computations at " << finish_time - start_time << " seconds." << endl;
 
 
-    MPI_Gatherv(buffer.data(), buffer.size(), MPI_UNSIGNED_SHORT,
-                final_image.data(), recvcounts, displs, MPI_UNSIGNED_SHORT, 0, MPI_COMM_WORLD);
+	MPI_Gatherv(buffer.data(), buffer.size(), MPI_UNSIGNED_SHORT,
+				final_image.data(), recvcounts, displs, MPI_UNSIGNED_SHORT, 0, MPI_COMM_WORLD);
 
-    vector<unsigned short> ordered_image;
+	vector<unsigned short> ordered_image;
 
-    if (rank == 0) {
-        // cout << "Total time taken before order: " << MPI_Wtime() - start_time << " seconds." << endl;
-        ordered_image.resize(total_pixels);
-        int offset = 0;
-	int next_offset = 0;
-	int total_pixels = width * height;
-        int pixels_per_process = total_pixels / size;
-    	int leftover = total_pixels % size;
+	if (rank == 0) {
+		ordered_image.resize(total_pixels);
+		int offset = 0;
+		int next_offset = 0;
+		int total_pixels = width * height;
+		int pixels_per_process = total_pixels / size;
+		int leftover = total_pixels % size;
 
-        for (int rank = 0; rank < size; ++rank) {
-            next_offset = offset + ((rank < leftover) ? pixels_per_process + 1 : pixels_per_process);
-            for (int i = offset; i < next_offset; ++i) {
-                ordered_image[size * (i-offset) + rank] = final_image[i];
-            }
-	    offset = next_offset;
-        }
-    }
+		for (int rank = 0; rank < size; ++rank) {
+			next_offset = offset + ((rank < leftover) ? pixels_per_process + 1 : pixels_per_process);
+			for (int i = offset; i < next_offset; ++i) {
+				ordered_image[size * (i-offset) + rank] = final_image[i];
+			}
+		offset = next_offset;
+		}
+	}
 
     if (rank == 0) {
         cout << "Total time taken: " << MPI_Wtime() - start_time << " seconds." << endl;

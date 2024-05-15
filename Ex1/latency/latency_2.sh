@@ -37,7 +37,7 @@ echo "Running latency test for CPU pair 0,$cpu..."
 mpirun -np 2 --map-by ppr:1:node --bind-to core ${src_path} -i 1000 -x 100 > temp_output.txt
 
 # Extract and format the relevant data, filter out unwanted lines
-tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,$cpu" '{print cpu_pair "," $1 "," $2}' >> $out_file
+tail -n +3 temp_output.txt | grep -v '^#' | awk -v cpu_pair="0,1" '{print cpu_pair "," $1 "," $2}' >> $out_file
 
 
 # Clean up the temporary output file
