@@ -37,7 +37,7 @@ echo "Threads, Time (seconds)" >> "$output_file"
 
     # Adjust MPI command to handle oversubscription gracefully
     # export OMP_NUM_THREADS=1
-    command="mpiexec --use-hwthread-cpus --oversubscribe --bind-to hwthread --map-by ppr:1:hwthread -np 8 $program_name $xl $yl $xr $yr $width $height $max_iterations"
+    command="mpiexec --use-hwthread-cpus --oversubscribe --map-by ppr:1:hwthread -np 8 $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
     # Execute the MPI program and measure the time
     TIMEFORMAT=%R
