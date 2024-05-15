@@ -11,5 +11,9 @@
 				# a different CPU model (Intel Xeon Gold 6154) and 18 cores per socket, which would
 				# make the data incomparable and the script would be wrong
 
+# Load the openMPI module
+module load openMPI/4.1.5/gnu
+export OMPI_MCA_pml=ucx
+module load hwloc
 
 mpirun --bind-to core ./core_info >> core_info.txt
