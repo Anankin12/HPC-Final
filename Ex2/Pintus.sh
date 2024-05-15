@@ -17,7 +17,7 @@ output_file="timing_results.txt"
 > "$output_file"
 
 # Define the program name and parameters
-program_name="./Run6-5"  # Adjust this to your executable's path
+program_name="./Run6-4"  # Adjust this to your executable's path
 xl="-2"
 yl="-2"
 xr="2"
