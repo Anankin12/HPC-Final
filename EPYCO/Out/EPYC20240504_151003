@@ -1,0 +1,5 @@
+Running with 256 threads...
+Execution time: mpiexec: Error: unknown option "--bind-by"
+Type 'mpiexec --help' for usage.
+0.009 seconds
+All runs completed.
