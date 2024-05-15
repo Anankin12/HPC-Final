@@ -7,7 +7,9 @@
 
 using namespace std;
 
+// Functoin to write the PGM image
 void write_pgm(const char* filename, vector<unsigned short>& buffer, int width, int height) {
+    
     ofstream file(filename, ios::binary | ios::out);
     if (!file) {
         cerr << "Cannot open file: " << filename << endl;
@@ -68,7 +70,7 @@ int main(int argc, char *argv[]) {
 
     vector<unsigned short> buffer((rank < leftover) ? pixels_per_process + 1 : pixels_per_process);
 
-    #pragma omp parallel for
+    #pragma omp parallel for schedule(dynamic)
     for (int index = rank; index < total_pixels; index += size) {
         int i = index % width;
         int j = index / width;
