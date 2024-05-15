@@ -24,7 +24,7 @@ dt=$(date '+%d%m%Y%H%M%S')
 # Define the collective operation to be run
 operation="barrier"
 # Define the algorithm used
-algorithm="default"
+algorithm="linear"
 
 # Define the range of np values
 np_values=$(seq 2 2 48)
