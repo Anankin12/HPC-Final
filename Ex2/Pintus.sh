@@ -3,7 +3,7 @@
 #SBATCH -A dssc
 #SBATCH -p THIN
 #SBATCH --job-name=Raceya
-#SBATCH --nodes=2
+#SBATCH --nodes=1
 #SBATCH --exclusive # The CPU is an Intel Xeon Gold 6126, with 12 cores per socket
 #SBATCH --time=00:59:00
 #SBATCH --exclude=fat[001-002]	# Exclude the fat nodes since they are WRONGLY placed in the THIN partition, but have
