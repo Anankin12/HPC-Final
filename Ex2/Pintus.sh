@@ -2,7 +2,7 @@
 
 #SBATCH -A dssc
 #SBATCH -p THIN
-#SBATCH --job-name=Name_Finding
+#SBATCH --job-name=Raceya
 #SBATCH --nodes=2
 #SBATCH --exclusive # The CPU is an Intel Xeon Gold 6126, with 12 cores per socket
 #SBATCH --time=00:59:00
