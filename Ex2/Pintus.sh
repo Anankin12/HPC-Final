@@ -33,18 +33,18 @@ max_threads=$(nproc)
 echo "Threads, Time (seconds)" >> "$output_file"
 
 # Loop from the maximum number of threads down to 1
-    echo "Running with NO -NP threads..."
+echo "Running with NO -NP threads..."
 
-    # Adjust MPI command to handle oversubscription gracefully
-    # export OMP_NUM_THREADS=1
-    command="mpiexec $program_name $xl $yl $xr $yr $width $height $max_iterations"
+# Adjust MPI command to handle oversubscription gracefully
+# export OMP_NUM_THREADS=1
+command="mpiexec $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
-    # Execute the MPI program and measure the time
-    TIMEFORMAT=%R
-    time_taken=$( { time $command; } 2>&1 )
+# Execute the MPI program and measure the time
+TIMEFORMAT=%R
+time_taken=$( { time $command; } 2>&1 )
 
-    # Save the result
-    echo "$i, $time_taken" >> "$output_file"
-    echo "Execution time: $time_taken seconds"
+# Save the result
+echo "$i, $time_taken" >> "$output_file"
+echo "Execution time: $time_taken seconds"
 
 echo "All runs completed."
