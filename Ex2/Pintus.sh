@@ -33,11 +33,11 @@ max_threads=$(nproc)
 echo "Threads, Time (seconds)" >> "$output_file"
 
 # Loop from the maximum number of threads down to 1
-    echo "Running with 8 threads..."
+    echo "Running with NO -NP threads..."
 
     # Adjust MPI command to handle oversubscription gracefully
     # export OMP_NUM_THREADS=1
-    command="mpiexec --use-hwthread-cpus --oversubscribe --map-by ppr:1:hwthread -np 8 $program_name $xl $yl $xr $yr $width $height $max_iterations"
+    command="mpiexec $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
     # Execute the MPI program and measure the time
     TIMEFORMAT=%R
