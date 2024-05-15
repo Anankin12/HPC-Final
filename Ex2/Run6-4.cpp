@@ -35,55 +35,55 @@ unsigned short compute_pixel(float xl, float yl, float dx, float dy, int max_ite
 }
 
 int main(int argc, char *argv[]) {
-    if (argc < 8) {
-        cerr << "Usage: " << argv[0] << " <xl> <yl> <xr> <yr> <width> <height> <max_iterations>" << endl;
-        return 1;
-    }
+	if (argc < 8) {
+		cerr << "Usage: " << argv[0] << " <xl> <yl> <xr> <yr> <width> <height> <max_iterations>" << endl;
+		return 1;
+	}
 
-    // Parse command line arguments
-    const float xl = stof(argv[1]);
-    const float yl = stof(argv[2]);
-    const float xr = stof(argv[3]);
-    const float yr = stof(argv[4]);
-    const int width = stoi(argv[5]);
-    const int height = stoi(argv[6]);
-    const int max_iterations = stoi(argv[7]);
+	// Parse command line arguments
+	const float xl = stof(argv[1]);
+	const float yl = stof(argv[2]);
+	const float xr = stof(argv[3]);
+	const float yr = stof(argv[4]);
+	const int width = stoi(argv[5]);
+	const int height = stoi(argv[6]);
+	const int max_iterations = stoi(argv[7]);
 
-    // Initialize MPI
-    MPI_Init(&argc, &argv);
-    int rank, size;
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
+	// Initialize MPI
+	MPI_Init(&argc, &argv);
+	int rank, size;
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    // Start timer
-    double start_time;
-    start_time = MPI_Wtime();
+	// Start timer
+	double start_time;
+	start_time = MPI_Wtime();
     
-    if (rank == 0) {
-        cout << "Running with " << size << " MPI processes." << endl;
-    }
+	if (rank == 0) {
+		cout << "Running with " << size << " MPI processes." << endl;
+	}
 
-    const float dx = (xr - xl) / (width - 1);
-    const float dy = (yr - yl) / (height - 1);
+	const float dx = (xr - xl) / (width - 1);
+	const float dy = (yr - yl) / (height - 1);
 
-    int total_pixels = width * height;
-    int pixels_per_process = total_pixels / size;
-    int leftover = total_pixels % size;
+	int total_pixels = width * height;
+	int pixels_per_process = total_pixels / size;
+	int leftover = total_pixels % size;
 
-    vector<unsigned short> buffer((rank < leftover) ? pixels_per_process + 1 : pixels_per_process);
+	vector<unsigned short> buffer((rank < leftover) ? pixels_per_process + 1 : pixels_per_process);
 
-    #pragma omp parallel for schedule(dynamic)
-    for (int index = rank; index < total_pixels; index += size) {
-        int i = index % width;
-        int j = index / width;
-        buffer[(index - rank) / size] = compute_pixel(xl, yl, dx, dy, max_iterations, i, j);
-    }
+	#pragma omp parallel for schedule(dynamic)
+	for (int index = rank; index < total_pixels; index += size) {
+		int i = index % width;
+		int j = index / width;
+		buffer[(index - rank) / size] = compute_pixel(xl, yl, dx, dy, max_iterations, i, j);
+	}
 
-    vector<unsigned short> final_image;
-    
-    if (rank == 0) {
-        final_image.resize(total_pixels);
-    }
+	vector<unsigned short> final_image;
+	
+	if (rank == 0) {
+		final_image.resize(total_pixels);
+	}
 
 	int *recvcounts = new int[size];
 	int *displs = new int[size];
@@ -99,8 +99,13 @@ int main(int argc, char *argv[]) {
 	cout << "Process " << rank << " finished computations at " << finish_time - start_time << " seconds." << endl;
 
 
-	MPI_Gatherv(buffer.data(), buffer.size(), MPI_UNSIGNED_SHORT,
-				final_image.data(), recvcounts, displs, MPI_UNSIGNED_SHORT, 0, MPI_COMM_WORLD);
+	MPI_Gatherv(buffer.data(), 
+			buffer.size(), 
+			MPI_UNSIGNED_SHORT,
+			final_image.data(), 
+			recvcounts, 
+			displs,
+			MPI_UNSIGNED_SHORT, 0, MPI_COMM_WORLD);
 
 	vector<unsigned short> ordered_image;
 
