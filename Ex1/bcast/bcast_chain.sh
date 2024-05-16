@@ -37,7 +37,7 @@ mkdir -p "$output_dir"
 
 
 # Create the CSV file with header
-echo "Algorithm, Allocation, Processes, MessageSize, Latency" > $out_csv
+echo "Algorithm,Allocation,Processes,MessageSize,Latency" > $out_csv
 
 
 # Create the iteration variables

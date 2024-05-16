@@ -1,4 +1,4 @@
-Algorithm, Allocation, Processes, MessageSize, Latency
+Algorithm,Allocation,Processes,MessageSize,Latency
 default,core,2,1,0.22
 default,core,2,2,0.22
 default,core,2,4,0.22

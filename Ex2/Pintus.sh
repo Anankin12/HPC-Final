@@ -22,8 +22,8 @@ xl="-2"
 yl="-2"
 xr="2"
 yr="2"
-width="32738"
-height="32738"
+width="512"
+height="1024"
 max_iterations="65535"
 
 # Dynamically determine the number of logical processors (threads)
@@ -37,7 +37,7 @@ echo "Running with NO -NP threads..."
 
 # Adjust MPI command to handle oversubscription gracefully
 # export OMP_NUM_THREADS=1
-command="mpiexec -np 384  $program_name $xl $yl $xr $yr $width $height $max_iterations"
+command="mpiexec $program_name $xl $yl $xr $yr $width $height $max_iterations"
 
 # Execute the MPI program and measure the time
 TIMEFORMAT=%R
