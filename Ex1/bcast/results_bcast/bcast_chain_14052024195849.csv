@@ -1,4 +1,4 @@
-Algorithm, Allocation, Processes, MessageSize, Latency
+Algorithm,Allocation,Processes,MessageSize,Latency
 chain,core,2,1,0.21
 chain,core,2,2,0.22
 chain,core,2,4,0.22
