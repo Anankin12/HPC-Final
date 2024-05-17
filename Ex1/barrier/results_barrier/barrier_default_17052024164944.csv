@@ -1,1 +1,15 @@
 Algorithm,Allocation,Processes,Latency
+default,core,2,0.26
+default,core,4,0.73
+default,core,6,1.01
+default,core,8,1.15
+default,core,10,1.45
+default,core,12,1.68
+default,core,14,2.75
+default,core,16,2.38
+default,core,18,3.24
+default,core,20,4.16
+default,core,22,3.87
+default,core,24,3.65
+default,core,26,4.37
+default,core,28,4.28
