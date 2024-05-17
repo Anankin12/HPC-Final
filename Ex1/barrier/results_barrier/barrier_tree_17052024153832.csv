@@ -1,0 +1,16 @@
+Algorithm,Allocation,Processes,Latency
+tree,core,2,0.35
+tree,core,4,0.95
+tree,core,6,1.10
+tree,core,8,1.42
+tree,core,10,1.58
+tree,core,12,1.57
+tree,core,14,2.53
+tree,core,16,2.86
+tree,core,18,2.99
+tree,core,20,3.72
+tree,core,22,3.20
+tree,core,24,3.42
+tree,core,26,3.81
+tree,core,28,4.32
+tree,core,30,4.41
