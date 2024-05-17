@@ -1,4 +1,4 @@
-CPU_Pair,MessageSize,Latency
+Start_CPU,End_CPU,MessageSize,Latency
 0,2,1,0.19
 0,2,2,0.19
 0,2,4,0.19
