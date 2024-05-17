@@ -1,0 +1,4 @@
+Algorithm,Allocation,Processes,Latency
+linear,core,2,0.39
+linear,core,4,0.78
+linear,core,6,0.91
