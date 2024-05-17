@@ -4,7 +4,37 @@
 #SBATCH --ntasks-per-node=24	# 24 cores per node because we are on the THIN partition, with hyperthreading disabled
 				# The CPU is an Intel Xeon Gold 6126, with 12 cores per socket
 #SBATCH --time=02:00:00
-#SBATCH --partition=THIN
+#SBATCH --partition=THIN	# I won't be using the EPYC because each CPU has an extremely complicated topology:
+				# 8 software NUMA regions, 2 CCDs per region, each divided in 2 CCXs with 4 cores each.
+				#
+				# There are 4 physical memory controllers, each one connected to 2 CCDs. They are interconnected
+				# via Infiniband themselves, in a "square" topology with the controllers at the corners (at least 
+				# according to the schematics I found on the internet, again, although I am not sure about the 
+				# reliability of this information since I couldn't find a statistically significant difference
+				# between access times of "adjacent" NUMAs and "corner" NUMAs).
+				#
+				# The problem in handling this topology in its current configuration is that the logical NUMA
+				# regions are not matched by the physical topology:
+				# 1) CCXs within the same CCD are connected to each other (at least according to the schematics 
+				#    I found on the internet) via Infiniband, while each CCD has its own link to the memory controller.
+				#
+				# 2) The L3 cache is physically shared by the CCXs in the same CCD, but not by the CCXs in different CCDs.
+				# 
+				# The memory access pattern is thus very important in this CPU, but given the physical topology
+				# does not entirely reflect the logical topology, the performance of the CPU is very hard to predict.
+				#
+				# The "time rankings" I found were within CCX, then within CCD, then within NUMA, then within 32 cores 
+				# (I have no idea why: if it was the aforementioned "square" topology, the time rankings should have been
+				# off for 16 cores (i.e. 32-48) and then go back to normal for the remaining cores, but this is not the case.)
+				#
+				# For this reason, the experimental data collected on experimental runs are very hard to theroetically model
+				# in a decent way, and given the poor availability of the EPYC nodes, I decided to use the THIN partition which
+				# has a simpler topology (2 sockets, 12 cores per socket, 1 memory controller per socket) and is way more
+				# available.
+				#
+				# These experiments were performed in the last days of February to the first days of March 2024, so the
+				# information might be outdated seen how often the nodes are updated. But I can't afford to spend a month
+				# to collect data on the EPYC nodes, so I will stick with the THIN partition.
 #SBATCH --job-name=bcast_chain
 #SBATCH --exclusive
 #SBATCH --exclude=fat[001-002]	# Exclude the fat nodes since they are WRONGLY placed in the THIN partition, but have
