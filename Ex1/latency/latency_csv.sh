@@ -26,10 +26,10 @@ output_dir=$(dirname "$out_file")
 mkdir -p "$output_dir"
 
 # Create the CSV file with header
-echo "CPU_Pair,MessageSize,Latency" > $out_file
+echo "Start_CPU,End_CPU,MessageSize,Latency" > $out_file
 
 # Iterate over all possible CPU pairs starting with core 0
-for cpu in {1..23}
+for cpu in {1,12}
 do
     echo "Running latency test for CPU pair 0,$cpu..."
     # Run the mpirun command and capture the output
