@@ -1735,3 +1735,4 @@ Total time taken: 1154.82 seconds.
 1158.311
 Running with 2 threads...
 Resolution of 4096 x 4096
+slurmstepd: error: *** JOB 425253 ON epyc002 CANCELLED AT 2024-05-20T16:52:46 ***
