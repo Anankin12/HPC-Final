@@ -1,0 +1,57 @@
+Running with 128 threads...
+Resolution of 4096 x 4096
+128, Running with 1 MPI processes.
+Process 0 finished computations at 39.0908 seconds.
+Total time taken: 39.1998 seconds.
+42.984
+Running with 96 threads...
+Resolution of 4096 x 4096
+96, Running with 1 MPI processes.
+Process 0 finished computations at 48.4921 seconds.
+Total time taken: 48.6021 seconds.
+50.611
+Running with 64 threads...
+Resolution of 4096 x 4096
+64, Running with 1 MPI processes.
+Process 0 finished computations at 72.5991 seconds.
+Total time taken: 72.7223 seconds.
+74.717
+Running with 32 threads...
+Resolution of 4096 x 4096
+32, Running with 1 MPI processes.
+Process 0 finished computations at 144.672 seconds.
+Total time taken: 144.785 seconds.
+146.778
+Running with 128 threads...
+Resolution of 4096 x 4096
+128, Running with 1 MPI processes.
+Process 0 finished computations at 39.5957 seconds.
+Total time taken: 39.705 seconds.
+41.701
+Running with 64 threads...
+Resolution of 4096 x 4096
+64, Running with 1 MPI processes.
+Process 0 finished computations at 72.5918 seconds.
+Total time taken: 72.7025 seconds.
+74.734
+Running with 32 threads...
+Resolution of 4096 x 4096
+32, Running with 1 MPI processes.
+Process 0 finished computations at 144.726 seconds.
+Total time taken: 144.839 seconds.
+148.552
+Running with 16 threads...
+Resolution of 4096 x 4096
+16, Running with 1 MPI processes.
+Process 0 finished computations at 287.493 seconds.
+Total time taken: 287.607 seconds.
+289.630
+Running with 8 threads...
+Resolution of 4096 x 4096
+8, Running with 1 MPI processes.
+Process 0 finished computations at 573.303 seconds.
+Total time taken: 573.418 seconds.
+575.440
+Running with 4 threads...
+Resolution of 4096 x 4096
+slurmstepd: error: *** JOB 425247 ON epyc003 CANCELLED AT 2024-05-20T15:50:58 ***

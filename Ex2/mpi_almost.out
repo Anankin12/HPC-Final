@@ -1,5 +1,5 @@
-Threads, Time (seconds)
-With OMP off...
+Running with 256 threads...
+Resolution of 4096 x 4096
 256, Running with 256 MPI processes.
 Process 236 finished computations at 16.7045 seconds.
 Process 255 finished computations at 16.7239 seconds.
@@ -259,7 +259,8 @@ Process 125 finished computations at 19.6218 seconds.
 Process 118 finished computations at 19.6392 seconds.
 Total time taken: 19.9069 seconds.
 32.689
-With OMP off...
+Running with 224 threads...
+Resolution of 4096 x 4096
 224, Running with 224 MPI processes.
 Process 197 finished computations at 20.2645 seconds.
 Process 131 finished computations at 20.2997 seconds.
@@ -487,7 +488,8 @@ Process 110 finished computations at 21.4946 seconds.
 Process 15 finished computations at 21.818 seconds.
 Total time taken: 21.9453 seconds.
 35.106
-With OMP off...
+Running with 192 threads...
+Resolution of 4096 x 4096
 192, Running with 192 MPI processes.
 Process 170 finished computations at 23.6041 seconds.
 Process 171 finished computations at 23.6314 seconds.
@@ -683,12 +685,8 @@ Process 12 finished computations at 25.3832 seconds.
 Process 76 finished computations at 25.3895 seconds.
 Total time taken: 25.5177 seconds.
 38.013
-With OMP off...
-32, Running with 1 MPI processes.
-Process 0 finished computations at 144.726 seconds.
-Total time taken: 144.839 seconds.
-148.552
-With OMP off...
+Running with 160 threads...
+Resolution of 4096 x 4096
 160, Running with 160 MPI processes.
 Process 149 finished computations at 28.5501 seconds.
 Process 143 finished computations at 28.551 seconds.
@@ -852,7 +850,8 @@ Process 55 finished computations at 30.3973 seconds.
 Process 119 finished computations at 30.4038 seconds.
 Total time taken: 30.533 seconds.
 42.755
-With OMP off...
+Running with 128 threads...
+Resolution of 4096 x 4096
 128, Running with 128 MPI processes.
 Process 105 finished computations at 36.573 seconds.
 Process 107 finished computations at 36.7001 seconds.
@@ -984,7 +983,8 @@ Process 47 finished computations at 38.3388 seconds.
 Process 46 finished computations at 38.3844 seconds.
 Total time taken: 38.6247 seconds.
 51.174
-With OMP off...
+Running with 96 threads...
+Resolution of 4096 x 4096
 96, Running with 96 MPI processes.
 Process 65 finished computations at 47.4908 seconds.
 Process 7 finished computations at 47.491 seconds.
@@ -1084,7 +1084,8 @@ Process 56 finished computations at 47.9837 seconds.
 Process 15 finished computations at 47.9848 seconds.
 Total time taken: 48.1286 seconds.
 59.749
-With OMP off...
+Running with 64 threads...
+Resolution of 4096 x 4096
 64, Running with 64 MPI processes.
 Process 37 finished computations at 70.79 seconds.
 Process 41 finished computations at 70.8035 seconds.
@@ -1152,12 +1153,8 @@ Process 9 finished computations at 72.2475 seconds.
 Process 11 finished computations at 72.4269 seconds.
 Total time taken: 72.6445 seconds.
 109.403
-With OMP off...
-16, Running with 1 MPI processes.
-Process 0 finished computations at 287.493 seconds.
-Total time taken: 287.607 seconds.
-289.630
-With OMP off...
+Running with 32 threads...
+Resolution of 4096 x 4096
 32, Running with 32 MPI processes.
 Process 6 finished computations at 142.252 seconds.
 Process 31 finished computations at 142.277 seconds.
@@ -1193,7 +1190,8 @@ Process 25 finished computations at 144.037 seconds.
 Process 24 finished computations at 144.163 seconds.
 Total time taken: 144.302 seconds.
 151.797
-With OMP off...
+Running with 256 threads...
+Resolution of 4096 x 4096
 256, Running with 256 MPI processes.
 Process 235 finished computations at 16.6762 seconds.
 Process 240 finished computations at 16.7758 seconds.
@@ -1453,7 +1451,8 @@ Process 125 finished computations at 19.9714 seconds.
 Process 118 finished computations at 19.989 seconds.
 Total time taken: 20.2562 seconds.
 41.063
-With OMP off...
+Running with 128 threads...
+Resolution of 4096 x 4096
 128, Running with 128 MPI processes.
 Process 107 finished computations at 36.6124 seconds.
 Process 105 finished computations at 36.6541 seconds.
@@ -1585,7 +1584,8 @@ Process 47 finished computations at 38.5378 seconds.
 Process 46 finished computations at 38.5766 seconds.
 Total time taken: 38.8193 seconds.
 51.533
-With OMP off...
+Running with 64 threads...
+Resolution of 4096 x 4096
 64, Running with 64 MPI processes.
 Process 41 finished computations at 70.9422 seconds.
 Process 38 finished computations at 70.9628 seconds.
@@ -1653,7 +1653,8 @@ Process 10 finished computations at 72.4317 seconds.
 Process 11 finished computations at 72.5483 seconds.
 Total time taken: 72.7657 seconds.
 83.365
-With OMP off...
+Running with 32 threads...
+Resolution of 4096 x 4096
 32, Running with 32 MPI processes.
 Process 28 finished computations at 142.708 seconds.
 Process 31 finished computations at 142.754 seconds.
@@ -1689,12 +1690,8 @@ Process 24 finished computations at 144.146 seconds.
 Process 25 finished computations at 144.235 seconds.
 Total time taken: 144.377 seconds.
 149.802
-With OMP off...
-8, Running with 1 MPI processes.
-Process 0 finished computations at 573.303 seconds.
-Total time taken: 573.418 seconds.
-575.440
-With OMP off...
+Running with 16 threads...
+Resolution of 4096 x 4096
 16, Running with 16 MPI processes.
 Process 12 finished computations at 286.204 seconds.
 Process 6 finished computations at 286.659 seconds.
@@ -1714,7 +1711,8 @@ Process 8 finished computations at 289.023 seconds.
 Process 10 finished computations at 289.162 seconds.
 Total time taken: 289.295 seconds.
 295.439
-With OMP off...
+Running with 8 threads...
+Resolution of 4096 x 4096
 8, Running with 8 MPI processes.
 Process 4 finished computations at 575.213 seconds.
 Process 3 finished computations at 577.074 seconds.
@@ -1726,7 +1724,8 @@ Process 2 finished computations at 578.914 seconds.
 Process 0 finished computations at 578.94 seconds.
 Total time taken: 579.056 seconds.
 583.450
-With OMP off...
+Running with 4 threads...
+Resolution of 4096 x 4096
 4, Running with 4 MPI processes.
 Process 2 finished computations at 1148.41 seconds.
 Process 3 finished computations at 1151.91 seconds.
@@ -1734,4 +1733,5 @@ Process 1 finished computations at 1154.22 seconds.
 Process 0 finished computations at 1154.7 seconds.
 Total time taken: 1154.82 seconds.
 1158.311
-With OMP off...
+Running with 2 threads...
+Resolution of 4096 x 4096

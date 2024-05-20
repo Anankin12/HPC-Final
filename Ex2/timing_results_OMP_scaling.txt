@@ -81,3 +81,20 @@ Process 0 finished computations at 571.163 seconds.
 Total time taken: 571.279 seconds.
 573.461
 With OMP off...
+4, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 1139.76 seconds.
+Total time taken: 1139.87 seconds.
+1141.999
+With OMP off...
