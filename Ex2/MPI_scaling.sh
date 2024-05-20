@@ -39,7 +39,6 @@ do
 	width_weak=$height
 	height_weak=$height
 
-	echo "Resolution of $width_weak x $height_weak"
 	# Adjust MPI command to handle oversubscription gracefully
 	echo "With OMP off..." >> "$output_file"
 	command="mpiexec --use-hwthread-cpus --oversubscribe -np $i $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
