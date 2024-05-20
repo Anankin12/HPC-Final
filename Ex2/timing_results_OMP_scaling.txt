@@ -1,0 +1,51 @@
+Threads, Time (seconds)
+With OMP off...
+128, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 38.4247 seconds.
+Total time taken: 38.5372 seconds.
+42.477
+With OMP off...
+96, Running with 1 MPI processes.
+Process 0 finished computations at 48.517 seconds.
+Total time taken: 48.6305 seconds.
+50.720
+With OMP off...
+64, Running with 1 MPI processes.
+Process 0 finished computations at 72.9487 seconds.
+Total time taken: 73.0618 seconds.
+75.281
+With OMP off...
+32, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 145.752 seconds.
+Total time taken: 145.863 seconds.
+147.970
+With OMP off...
+128, Running with 1 MPI processes.
+Process 0 finished computations at 39.151 seconds.
+Total time taken: 39.2667 seconds.
+42.605
+With OMP off...
