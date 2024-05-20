@@ -12,7 +12,7 @@
 module load openMPI/4.1.5/gnu
 
 # Define the output file for timing results
-output_file="timing_results.txt"
+output_file="timing_results_MPI_scaling.txt"
 
 # Ensure the output file is empty
 > "$output_file"
