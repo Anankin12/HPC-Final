@@ -23,7 +23,7 @@ xl="-2"
 yl="-2"
 xr="2"
 yr="2"
-height="3096" 
+height="4096" 
 max_iterations="65535"
 
 # Dynamically determine the number of logical processors (threads)
