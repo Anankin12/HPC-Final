@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -A dssc
 #SBATCH -p EPYC
-#SBATCH --job-name=OMP_scaling
-#SBATCH --nodes=1
+#SBATCH --job-name=MPI_scaling
+#SBATCH --nodes=2
 #SBATCH --exclusive
 #SBATCH --time=02:00:00
 #SBATCH --exclude=fat[001-002]
@@ -18,7 +18,7 @@ output_file="timing_results.txt"
 > "$output_file"
 
 # Define the program name and parameters
-program_name="./Run6-4"  # Adjust this to your executable's path
+program_name="./Run6-5"  # Adjust this to your executable's path
 xl="-2"
 yl="-2"
 xr="2"
@@ -27,7 +27,7 @@ height="4096"
 max_iterations="65535"
 
 # Dynamically determine the number of logical processors (threads)
-max_threads=128
+max_threads=256
 
 # Header for the timing results
 echo "Threads, Time (seconds)" >> "$output_file"
@@ -40,12 +40,10 @@ do
 	width_weak=$height
 	height_weak=$height
 
-	export OMP_NUM_THREADS=$i
-
 	echo "Resolution of $width_weak x $height_weak"
 	# Adjust MPI command to handle oversubscription gracefully
 	echo "With OMP off..." >> "$output_file"
-	command="mpiexec -np 1 --bind-to none $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
+	command="mpiexec --use-hwthread-cpus --oversubscribe -np $i $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
 
 	# Execute the MPI program and measure the time
 	TIMEFORMAT=%R
@@ -63,12 +61,10 @@ do
 	width_weak=$height
 	height_weak=$height
 
-	export OMP_NUM_THREADS=$i
-
 	echo "Resolution of $width_weak x $height_weak"
 	# Adjust MPI command to handle oversubscription gracefully
 	echo "With OMP off..." >> "$output_file"
-	command="mpiexec -np 1 --bind-to none $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
+	command="mpiexec --use-hwthread-cpus --oversubscribe -np $i $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
 
 	# Execute the MPI program and measure the time
 	TIMEFORMAT=%R
