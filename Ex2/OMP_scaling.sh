@@ -54,7 +54,7 @@ do
         echo "$i, $time_taken" >> "$output_file"
 done
 
-for (( i=max_threads; i>=2; i = i / 2))
+for (( i=max_threads; i>=2; i = i - 32))
 do
 	echo "Running with $i threads..."
 
@@ -63,9 +63,27 @@ do
 
 	export OMP_NUM_THREADS=$i
 
-	echo "Resolution of $width_weak x $height_weak"
 	# Adjust MPI command to handle oversubscription gracefully
-	echo "With OMP off..." >> "$output_file"
+	command="mpiexec -np 1 --bind-to none $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
+
+	# Execute the MPI program and measure the time
+	TIMEFORMAT=%R
+	time_taken=$( { time $command; } 2>&1 )
+
+        # Save the result
+	echo "$i, $time_taken"
+        echo "$i, $time_taken" >> "$output_file"
+done
+for (( i=16; i>=2; i = i/2))
+do
+	echo "Running with $i threads..."
+
+	width_weak=$height
+	height_weak=$height
+
+	export OMP_NUM_THREADS=$i
+
+	# Adjust MPI command to handle oversubscription gracefully
 	command="mpiexec -np 1 --bind-to none $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
 
 	# Execute the MPI program and measure the time
