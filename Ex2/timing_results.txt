@@ -1715,3 +1715,15 @@ Process 10 finished computations at 289.162 seconds.
 Total time taken: 289.295 seconds.
 295.439
 With OMP off...
+8, Running with 8 MPI processes.
+Process 4 finished computations at 575.213 seconds.
+Process 3 finished computations at 577.074 seconds.
+Process 6 finished computations at 577.176 seconds.
+Process 7 finished computations at 577.749 seconds.
+Process 1 finished computations at 578.308 seconds.
+Process 5 finished computations at 578.401 seconds.
+Process 2 finished computations at 578.914 seconds.
+Process 0 finished computations at 578.94 seconds.
+Total time taken: 579.056 seconds.
+583.450
+With OMP off...

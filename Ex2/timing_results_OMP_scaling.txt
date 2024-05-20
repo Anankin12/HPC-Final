@@ -76,3 +76,8 @@ Process 0 finished computations at 288.113 seconds.
 Total time taken: 288.227 seconds.
 291.137
 With OMP off...
+8, Running with 1 MPI processes.
+Process 0 finished computations at 571.163 seconds.
+Total time taken: 571.279 seconds.
+573.461
+With OMP off...
