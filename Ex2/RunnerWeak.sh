@@ -31,8 +31,38 @@ max_threads=256
 # Header for the timing results
 echo "Threads, Time (seconds)" >> "$output_file"
 
-# Loop from the maximum number of threads down to 1
-for (( i=max_threads; i>=1; i = i / 2))
+for (( i=max_threads; i>=32; i = i - 32))
+do
+	echo "Running with $i threads..."
+
+
+	export OMP_NUM_THREADS=$i
+
+	width_weak=$(($i*$height/$max_threads))
+	height_weak=$(($height))
+
+	echo "Resolution of $width_weak x $height_weak"
+	# Adjust MPI command to handle oversubscription gracefully
+	echo "With OMP off..." >> "$output_file"
+	command="mpiexec -np 1 $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
+
+	# Execute the MPI program and measure the time
+	TIMEFORMAT=%R
+	time_taken=$( { time $command; } 2>&1 )
+
+        # Save the result
+	echo "$i, $time_taken"
+        echo "$i, $time_taken" >> "$output_file"
+
+	TIMEFORMAT=%R
+	time_taken1=$( { time $command2; } 2>&1 )
+
+
+	# Save the result
+	echo "$i, $time_taken1 " >> "$output_file"
+done	
+
+for (( i=16; i>=1; i = i / 2))
 do
 	echo "Running with $i threads..."
 
