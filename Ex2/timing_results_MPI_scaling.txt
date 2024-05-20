@@ -1720,3 +1720,9 @@ Process 2 finished computations at 1153.67 seconds.
 Total time taken: 1153.77 seconds.
 1156.578
 With OMP off...
+2, Running with 2 MPI processes.
+Process 1 finished computations at 2326.53 seconds.
+Process 0 finished computations at 2329.9 seconds.
+Total time taken: 2330 seconds.
+2332.443
+With OMP off...
