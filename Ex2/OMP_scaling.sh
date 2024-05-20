@@ -2,7 +2,7 @@
 #SBATCH -A dssc
 #SBATCH -p EPYC
 #SBATCH --job-name=weak_mandelbrot
-#SBATCH --nodes=
+#SBATCH --nodes=1
 #SBATCH --exclusive
 #SBATCH --time=02:00:00
 #SBATCH --exclude=fat[001-002]
