@@ -1,1617 +1,1095 @@
 Threads, Time (seconds)
 With OMP off...
-256, epyc008.hpc.rd.areasciencepark.it:rank130.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank130.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank130.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank135.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank129.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank135.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank135.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank129.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank129.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank134.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank138.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank134.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank133.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank131.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank138.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank134.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank139.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank138.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank133.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank131.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank143.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank128.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank132.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank133.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank137.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank131.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank139.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank143.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank139.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank137.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank128.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank132.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank143.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank140.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank137.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank132.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank128.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank140.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank136.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank147.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank142.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank141.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank140.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank147.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank136.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank142.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank141.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank147.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank136.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank142.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank141.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank146.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank146.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank149.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank146.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank165.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank149.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank162.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank149.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank165.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank162.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank151.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank167.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank155.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank165.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank162.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank151.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank157.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank167.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank159.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank155.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank151.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank157.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank167.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank155.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank159.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank157.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank159.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank153.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank154.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank161.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank170.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank153.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank163.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank154.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank153.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank161.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank170.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank163.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank154.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank170.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank161.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank163.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank173.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank145.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank174.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank169.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank173.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank158.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank173.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank174.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank145.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank169.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank158.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank174.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank145.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank169.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank158.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank171.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank171.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank171.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank177.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank177.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank177.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank150.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank179.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank150.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank179.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank179.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank150.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank191.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank175.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank191.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank175.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank191.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank175.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank178.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank166.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank178.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank166.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank178.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank166.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank187.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank186.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank187.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank185.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank187.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank186.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank185.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank182.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank186.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank185.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank182.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank198.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank182.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank183.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank181.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank198.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank190.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank183.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank198.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank181.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank183.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank181.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank190.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank189.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank190.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank189.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank189.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank245.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank245.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank245.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank194.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank194.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank194.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank210.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank254.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank210.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank210.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank254.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank254.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank238.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank237.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank238.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank237.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank238.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank135.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank237.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
---------------------------------------------------------------------------
-Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
-unusual; your job may behave unpredictably (and/or abort) after this.
-
-  Local host: epyc008
-  Location: mtl_ofi_component.c:509
-  Error: Invalid argument (22)
---------------------------------------------------------------------------
-epyc008.hpc.rd.areasciencepark.it:rank176.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank176.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank130.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank129.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank176.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank141.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank137.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank134.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank133.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank193.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank128.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank193.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank193.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank213.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank131.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank213.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank213.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank142.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank240.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank132.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank205.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank138.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank240.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank197.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank143.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank205.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank240.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank197.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank205.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank197.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank147.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank140.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank222.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank167.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank222.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank152.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank222.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank152.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank139.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank152.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank165.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank136.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank148.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank239.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank148.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank239.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank159.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank148.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank239.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank151.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank157.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank149.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank173.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank144.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank144.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank146.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank144.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank188.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank164.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank188.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank153.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank164.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank172.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank188.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank164.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank195.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank172.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank207.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank172.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank195.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank242.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank162.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank207.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank178.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank195.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank244.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank207.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank242.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank242.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank244.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank200.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank244.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank200.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank199.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank210.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank161.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank200.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank160.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank237.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank209.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank177.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank199.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank192.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank160.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank231.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank174.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank199.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank215.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank209.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank192.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank160.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank201.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank209.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank231.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank215.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank192.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank231.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank201.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank223.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank215.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank203.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank206.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank219.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank228.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank201.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank180.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank223.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank206.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank203.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank211.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank228.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank219.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank163.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank202.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank223.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank206.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank180.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank203.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank228.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank219.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank211.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank235.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank180.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank233.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank241.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank251.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank217.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank202.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank168.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank204.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank156.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank211.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank250.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank202.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank255.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank252.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank236.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank235.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank251.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank233.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank241.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank217.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank168.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank156.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank243.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank249.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank224.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank226.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank204.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank227.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank212.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank196.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank235.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank232.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank250.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank251.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank217.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank241.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank168.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank233.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank255.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank156.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank234.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank204.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank225.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank247.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank221.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank236.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank252.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank243.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank249.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank224.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank226.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank227.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank250.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank212.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank208.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank255.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank196.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank232.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank214.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank253.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank218.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank220.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank252.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank236.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank234.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank243.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank249.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank226.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank225.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank247.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank227.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank224.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank230.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank246.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank212.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank221.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank229.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank196.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank248.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank184.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank216.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank232.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank234.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank208.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank225.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank247.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank221.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank214.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank253.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank218.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank220.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank246.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank230.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank229.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank208.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank216.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank184.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank248.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank253.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank214.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank220.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank218.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank246.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank229.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank230.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank248.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank184.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank216.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank169.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank155.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank189.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank154.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank179.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank145.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank191.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank170.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank194.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank175.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank190.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank187.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank185.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank150.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank158.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank213.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank171.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank198.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank183.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank182.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank166.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank181.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank176.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank186.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank254.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank245.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank193.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank205.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank238.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank197.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank240.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank222.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank164.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank152.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank148.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank255.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank207.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank195.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank144.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank211.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank218.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank217.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank180.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank188.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank216.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank234.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank212.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank160.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank247.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank209.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank204.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank252.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank239.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank202.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank224.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank220.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank235.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank196.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank200.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank233.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank214.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank242.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank232.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank184.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank231.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank244.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank236.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank243.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank201.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank223.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank206.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank225.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank251.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank248.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank250.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank228.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank215.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank172.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank199.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank168.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank203.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank156.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank226.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank241.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank249.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank192.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank230.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank229.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank221.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank246.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank253.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank227.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank208.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-epyc008.hpc.rd.areasciencepark.it:rank219.Run6-5: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
-Running with 256 MPI processes.
-[epyc006.hpc.rd.areasciencepark.it:4109297] 127 more processes have sent help message help-mtl-ofi.txt / OFI call fail
-[epyc006.hpc.rd.areasciencepark.it:4109297] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-Process 64 finished computations at 10.3609 seconds.
-Process 12 finished computations at 10.3731 seconds.
-Process 89 finished computations at 10.3941 seconds.
-Process 88 finished computations at 10.4059 seconds.
-Process 113 finished computations at 10.4143 seconds.
-Process 104 finished computations at 10.4198 seconds.
-Process 56 finished computations at 10.4182 seconds.
-Process 112 finished computations at 10.4236 seconds.
-Process 125 finished computations at 10.4292 seconds.
-Process 82 finished computations at 10.4299 seconds.
-Process 103 finished computations at 10.4288 seconds.
-Process 65 finished computations at 10.4355 seconds.
-Process 57 finished computations at 10.4347 seconds.
-Process 105 finished computations at 10.4375 seconds.
-Process 49 finished computations at 10.4379 seconds.
-Process 81 finished computations at 10.4432 seconds.
-Process 62 finished computations at 10.4401 seconds.
-Process 16 finished computations at 10.4443 seconds.
-Process 107 finished computations at 10.4418 seconds.
-Process 111 finished computations at 10.4462 seconds.
-Process 124 finished computations at 10.4465 seconds.
-Process 28 finished computations at 10.4474 seconds.
-Process 80 finished computations at 10.4464 seconds.
-Process 32 finished computations at 10.4478 seconds.
-Process 33 finished computations at 10.4516 seconds.
-Process 106 finished computations at 10.4513 seconds.
-Process 63 finished computations at 10.454 seconds.
-Process 35 finished computations at 10.4548 seconds.
-Process 17 finished computations at 10.4588 seconds.
-Process 27 finished computations at 10.4574 seconds.
-Process 66 finished computations at 10.4556 seconds.
-Process 126 finished computations at 10.4586 seconds.
-Process 120 finished computations at 10.4623 seconds.
-Process 75 finished computations at 10.4605 seconds.
-Process 79 finished computations at 10.4625 seconds.
-Process 19 finished computations at 10.4643 seconds.
-Process 34 finished computations at 10.4682 seconds.
-Process 8 finished computations at 10.4666 seconds.
-Process 13 finished computations at 10.4674 seconds.
-Process 2 finished computations at 10.4675 seconds.
-Process 59 finished computations at 10.4685 seconds.
-Process 78 finished computations at 10.4687 seconds.
-Process 4 finished computations at 10.4715 seconds.
-Process 122 finished computations at 10.4684 seconds.
-Process 58 finished computations at 10.4704 seconds.
-Process 72 finished computations at 10.466 seconds.
-Process 73 finished computations at 10.4725 seconds.
-Process 7 finished computations at 10.4694 seconds.
-Process 21 finished computations at 10.4733 seconds.
-Process 83 finished computations at 10.4734 seconds.
-Process 31 finished computations at 10.4735 seconds.
-Process 95 finished computations at 10.4743 seconds.
-Process 67 finished computations at 10.4758 seconds.
-Process 39 finished computations at 10.476 seconds.
-Process 26 finished computations at 10.4776 seconds.
-Process 90 finished computations at 10.4784 seconds.
-Process 9 finished computations at 10.4776 seconds.
-Process 25 finished computations at 10.47 seconds.
-Process 51 finished computations at 10.4788 seconds.
-Process 15 finished computations at 10.4816 seconds.
-Process 85 finished computations at 10.4809 seconds.
-Process 102 finished computations at 10.4806 seconds.
-Process 55 finished computations at 10.482 seconds.
-Process 93 finished computations at 10.4822 seconds.
-Process 18 finished computations at 10.471 seconds.
-Process 127 finished computations at 10.4825 seconds.
-Process 114 finished computations at 10.482 seconds.
-Process 3 finished computations at 10.4824 seconds.
-Process 84 finished computations at 10.4833 seconds.
-Process 98 finished computations at 10.4855 seconds.
-Process 42 finished computations at 10.4874 seconds.
-Process 121 finished computations at 10.4876 seconds.
-Process 5 finished computations at 10.4896 seconds.
-Process 24 finished computations at 10.489 seconds.
-Process 99 finished computations at 10.477 seconds.
-Process 123 finished computations at 10.4836 seconds.
-Process 60 finished computations at 10.4937 seconds.
-Process 48 finished computations at 10.4927 seconds.
-Process 10 finished computations at 10.4955 seconds.
-Process 91 finished computations at 10.494 seconds.
-Process 41 finished computations at 10.4965 seconds.
-Process 86 finished computations at 10.4988 seconds.
-Process 40 finished computations at 10.4986 seconds.
-Process 97 finished computations at 10.4934 seconds.
-Process 115 finished computations at 10.4993 seconds.
-Process 37 finished computations at 10.4997 seconds.
-Process 96 finished computations at 10.4992 seconds.
-Process 6 finished computations at 10.4926 seconds.
-Process 50 finished computations at 10.5011 seconds.
-Process 70 finished computations at 10.5018 seconds.
-Process 1 finished computations at 10.5013 seconds.
-Process 43 finished computations at 10.5015 seconds.
-Process 101 finished computations at 10.5037 seconds.
-Process 0 finished computations at 10.5037 seconds.
-Process 71 finished computations at 10.5054 seconds.
-Process 14 finished computations at 10.5083 seconds.
-Process 87 finished computations at 10.5075 seconds.
-Process 108 finished computations at 10.508 seconds.
-Process 29 finished computations at 10.5086 seconds.
-Process 44 finished computations at 10.508 seconds.
-Process 45 finished computations at 10.5079 seconds.
-Process 11 finished computations at 10.5117 seconds.
-Process 119 finished computations at 10.5109 seconds.
-Process 74 finished computations at 10.5123 seconds.
-Process 20 finished computations at 10.5157 seconds.
-Process 116 finished computations at 10.5168 seconds.
-Process 69 finished computations at 10.5229 seconds.
-Process 77 finished computations at 10.5242 seconds.
-Process 54 finished computations at 10.5265 seconds.
-Process 100 finished computations at 10.5273 seconds.
-Process 36 finished computations at 10.5303 seconds.
-Process 68 finished computations at 10.5315 seconds.
-Process 61 finished computations at 10.531 seconds.
-Process 22 finished computations at 10.5332 seconds.
-Process 76 finished computations at 10.5336 seconds.
-Process 38 finished computations at 10.533 seconds.
-Process 46 finished computations at 10.5356 seconds.
-Process 117 finished computations at 10.536 seconds.
-Process 30 finished computations at 10.5351 seconds.
-Process 53 finished computations at 10.5365 seconds.
-Process 109 finished computations at 10.535 seconds.
-Process 110 finished computations at 10.5358 seconds.
-Process 94 finished computations at 10.5377 seconds.
-Process 92 finished computations at 10.5359 seconds.
-Process 52 finished computations at 10.5443 seconds.
-Process 23 finished computations at 10.5541 seconds.
-Process 118 finished computations at 10.5542 seconds.
-Process 47 finished computations at 10.5644 seconds.
-Process 188 finished computations at 10.6084 seconds.
-Process 229 finished computations at 10.6342 seconds.
-Process 182 finished computations at 10.6385 seconds.
-Process 198 finished computations at 10.6479 seconds.
-Process 207 finished computations at 10.6517 seconds.
-Process 181 finished computations at 10.6524 seconds.
-Process 239 finished computations at 10.6566 seconds.
-Process 199 finished computations at 10.6597 seconds.
-Process 135 finished computations at 10.6612 seconds.
-Process 172 finished computations at 10.6594 seconds.
-Process 231 finished computations at 10.6619 seconds.
-Process 161 finished computations at 10.6632 seconds.
-Process 246 finished computations at 10.6631 seconds.
-Process 238 finished computations at 10.6622 seconds.
-Process 134 finished computations at 10.6621 seconds.
-Process 228 finished computations at 10.6623 seconds.
-Process 191 finished computations at 10.6646 seconds.
-Process 197 finished computations at 10.665 seconds.
-Process 254 finished computations at 10.6644 seconds.
-Process 158 finished computations at 10.6674 seconds.
-Process 143 finished computations at 10.6681 seconds.
-Process 175 finished computations at 10.675 seconds.
-Process 183 finished computations at 10.6741 seconds.
-Process 128 finished computations at 10.6766 seconds.
-Process 159 finished computations at 10.6777 seconds.
-Process 214 finished computations at 10.6774 seconds.
-Process 154 finished computations at 10.6766 seconds.
-Process 223 finished computations at 10.6833 seconds.
-Process 152 finished computations at 10.6856 seconds.
-Process 164 finished computations at 10.6858 seconds.
-Process 133 finished computations at 10.681 seconds.
-Process 153 finished computations at 10.6868 seconds.
-Process 180 finished computations at 10.6874 seconds.
-Process 253 finished computations at 10.6888 seconds.
-Process 206 finished computations at 10.6852 seconds.
-Process 205 finished computations at 10.691 seconds.
-Process 137 finished computations at 10.6919 seconds.
-Process 222 finished computations at 10.6911 seconds.
-Process 237 finished computations at 10.6918 seconds.
-Process 215 finished computations at 10.694 seconds.
-Process 149 finished computations at 10.6952 seconds.
-Process 230 finished computations at 10.6934 seconds.
-Process 219 finished computations at 10.6968 seconds.
-Process 190 finished computations at 10.6946 seconds.
-Process 132 finished computations at 10.6953 seconds.
-Process 210 finished computations at 10.6966 seconds.
-Process 245 finished computations at 10.6978 seconds.
-Process 247 finished computations at 10.6975 seconds.
-Process 204 finished computations at 10.6974 seconds.
-Process 156 finished computations at 10.6995 seconds.
-Process 151 finished computations at 10.6981 seconds.
-Process 196 finished computations at 10.6996 seconds.
-Process 213 finished computations at 10.6986 seconds.
-Process 165 finished computations at 10.6988 seconds.
-Process 178 finished computations at 10.6994 seconds.
-Process 148 finished computations at 10.6996 seconds.
-Process 130 finished computations at 10.7004 seconds.
-Process 160 finished computations at 10.702 seconds.
-Process 150 finished computations at 10.7011 seconds.
-Process 244 finished computations at 10.7028 seconds.
-Process 167 finished computations at 10.7025 seconds.
-Process 189 finished computations at 10.7053 seconds.
-Process 212 finished computations at 10.7062 seconds.
-Process 203 finished computations at 10.7091 seconds.
-Process 169 finished computations at 10.7065 seconds.
-Process 142 finished computations at 10.7101 seconds.
-Process 185 finished computations at 10.7122 seconds.
-Process 140 finished computations at 10.711 seconds.
-Process 176 finished computations at 10.7105 seconds.
-Process 177 finished computations at 10.7112 seconds.
-Process 251 finished computations at 10.7138 seconds.
-Process 201 finished computations at 10.7117 seconds.
-Process 173 finished computations at 10.7142 seconds.
-Process 234 finished computations at 10.715 seconds.
-Process 129 finished computations at 10.7161 seconds.
-Process 217 finished computations at 10.7172 seconds.
-Process 221 finished computations at 10.717 seconds.
-Process 166 finished computations at 10.7175 seconds.
-Process 225 finished computations at 10.7172 seconds.
-Process 194 finished computations at 10.7187 seconds.
-Process 179 finished computations at 10.7231 seconds.
-Process 184 finished computations at 10.7235 seconds.
-Process 147 finished computations at 10.7239 seconds.
-Process 174 finished computations at 10.7231 seconds.
-Process 145 finished computations at 10.7247 seconds.
-Process 157 finished computations at 10.7261 seconds.
-Process 171 finished computations at 10.721 seconds.
-Process 146 finished computations at 10.7275 seconds.
-Process 131 finished computations at 10.7265 seconds.
-Process 200 finished computations at 10.7282 seconds.
-Process 155 finished computations at 10.7286 seconds.
-Process 168 finished computations at 10.7291 seconds.
-Process 209 finished computations at 10.7262 seconds.
-Process 242 finished computations at 10.7313 seconds.
-Process 186 finished computations at 10.7329 seconds.
-Process 141 finished computations at 10.7311 seconds.
-Process 255 finished computations at 10.7336 seconds.
-Process 226 finished computations at 10.7348 seconds.
-Process 227 finished computations at 10.7357 seconds.
-Process 220 finished computations at 10.7353 seconds.
-Process 232 finished computations at 10.7367 seconds.
-Process 136 finished computations at 10.7394 seconds.
-Process 235 finished computations at 10.7421 seconds.
-Process 162 finished computations at 10.7428 seconds.
-Process 139 finished computations at 10.7455 seconds.
-Process 202 finished computations at 10.7463 seconds.
-Process 252 finished computations at 10.7455 seconds.
-Process 241 finished computations at 10.7492 seconds.
-Process 138 finished computations at 10.7483 seconds.
-Process 216 finished computations at 10.749 seconds.
-Process 240 finished computations at 10.7498 seconds.
-Process 243 finished computations at 10.7512 seconds.
-Process 236 finished computations at 10.7522 seconds.
-Process 144 finished computations at 10.7515 seconds.
-Process 187 finished computations at 10.7527 seconds.
-Process 193 finished computations at 10.7522 seconds.
-Process 250 finished computations at 10.755 seconds.
-Process 163 finished computations at 10.7559 seconds.
-Process 249 finished computations at 10.7561 seconds.
-Process 208 finished computations at 10.7585 seconds.
-Process 192 finished computations at 10.7562 seconds.
-Process 170 finished computations at 10.7601 seconds.
-Process 248 finished computations at 10.7619 seconds.
-Process 218 finished computations at 10.7641 seconds.
-Process 224 finished computations at 10.7706 seconds.
-Process 233 finished computations at 10.7724 seconds.
-Process 195 finished computations at 10.7813 seconds.
-Process 211 finished computations at 11.5963 seconds.
-Total time taken: 11.7022 seconds.
-22.454
+256, Running with 256 MPI processes.
+Process 237 finished computations at 16.6948 seconds.
+Process 239 finished computations at 16.696 seconds.
+Process 240 finished computations at 16.7471 seconds.
+Process 236 finished computations at 16.7687 seconds.
+Process 238 finished computations at 16.794 seconds.
+Process 235 finished computations at 16.7999 seconds.
+Process 255 finished computations at 16.8008 seconds.
+Process 254 finished computations at 16.8399 seconds.
+Process 233 finished computations at 16.8413 seconds.
+Process 241 finished computations at 16.8663 seconds.
+Process 234 finished computations at 16.8642 seconds.
+Process 242 finished computations at 16.8675 seconds.
+Process 232 finished computations at 16.9582 seconds.
+Process 243 finished computations at 16.958 seconds.
+Process 253 finished computations at 16.9738 seconds.
+Process 249 finished computations at 16.9824 seconds.
+Process 252 finished computations at 17.0034 seconds.
+Process 244 finished computations at 17.009 seconds.
+Process 250 finished computations at 17.0236 seconds.
+Process 230 finished computations at 17.0482 seconds.
+Process 251 finished computations at 17.0503 seconds.
+Process 0 finished computations at 17.0549 seconds.
+Process 226 finished computations at 17.0701 seconds.
+Process 231 finished computations at 17.0727 seconds.
+Process 245 finished computations at 17.0821 seconds.
+Process 246 finished computations at 17.0917 seconds.
+Process 227 finished computations at 17.1049 seconds.
+Process 229 finished computations at 17.1464 seconds.
+Process 248 finished computations at 17.1461 seconds.
+Process 228 finished computations at 17.1809 seconds.
+Process 225 finished computations at 17.1809 seconds.
+Process 247 finished computations at 17.1838 seconds.
+Process 1 finished computations at 17.227 seconds.
+Process 2 finished computations at 17.2649 seconds.
+Process 224 finished computations at 17.3067 seconds.
+Process 209 finished computations at 17.344 seconds.
+Process 203 finished computations at 17.3812 seconds.
+Process 210 finished computations at 17.4005 seconds.
+Process 211 finished computations at 17.4072 seconds.
+Process 208 finished computations at 17.4089 seconds.
+Process 3 finished computations at 17.427 seconds.
+Process 221 finished computations at 17.4307 seconds.
+Process 223 finished computations at 17.4399 seconds.
+Process 205 finished computations at 17.4431 seconds.
+Process 222 finished computations at 17.4568 seconds.
+Process 200 finished computations at 17.4612 seconds.
+Process 199 finished computations at 17.4769 seconds.
+Process 206 finished computations at 17.4955 seconds.
+Process 202 finished computations at 17.4998 seconds.
+Process 220 finished computations at 17.5117 seconds.
+Process 219 finished computations at 17.522 seconds.
+Process 204 finished computations at 17.524 seconds.
+Process 201 finished computations at 17.5267 seconds.
+Process 207 finished computations at 17.5379 seconds.
+Process 212 finished computations at 17.5451 seconds.
+Process 216 finished computations at 17.5796 seconds.
+Process 218 finished computations at 17.5859 seconds.
+Process 217 finished computations at 17.5959 seconds.
+Process 4 finished computations at 17.6065 seconds.
+Process 193 finished computations at 17.6108 seconds.
+Process 214 finished computations at 17.6384 seconds.
+Process 179 finished computations at 17.6472 seconds.
+Process 198 finished computations at 17.6478 seconds.
+Process 168 finished computations at 17.6531 seconds.
+Process 197 finished computations at 17.6627 seconds.
+Process 169 finished computations at 17.6608 seconds.
+Process 192 finished computations at 17.6642 seconds.
+Process 213 finished computations at 17.6679 seconds.
+Process 215 finished computations at 17.6746 seconds.
+Process 170 finished computations at 17.676 seconds.
+Process 171 finished computations at 17.6833 seconds.
+Process 188 finished computations at 17.6845 seconds.
+Process 194 finished computations at 17.6843 seconds.
+Process 195 finished computations at 17.6915 seconds.
+Process 189 finished computations at 17.6978 seconds.
+Process 187 finished computations at 17.7089 seconds.
+Process 184 finished computations at 17.7099 seconds.
+Process 5 finished computations at 17.7259 seconds.
+Process 185 finished computations at 17.7291 seconds.
+Process 165 finished computations at 17.7347 seconds.
+Process 186 finished computations at 17.7386 seconds.
+Process 191 finished computations at 17.7397 seconds.
+Process 167 finished computations at 17.7419 seconds.
+Process 190 finished computations at 17.7418 seconds.
+Process 182 finished computations at 17.7423 seconds.
+Process 178 finished computations at 17.7423 seconds.
+Process 177 finished computations at 17.7636 seconds.
+Process 173 finished computations at 17.7723 seconds.
+Process 172 finished computations at 17.7738 seconds.
+Process 176 finished computations at 17.7739 seconds.
+Process 180 finished computations at 17.7781 seconds.
+Process 181 finished computations at 17.7826 seconds.
+Process 166 finished computations at 17.7867 seconds.
+Process 196 finished computations at 17.7971 seconds.
+Process 8 finished computations at 17.8098 seconds.
+Process 183 finished computations at 17.8151 seconds.
+Process 163 finished computations at 17.8158 seconds.
+Process 175 finished computations at 17.8286 seconds.
+Process 6 finished computations at 17.8335 seconds.
+Process 174 finished computations at 17.8379 seconds.
+Process 7 finished computations at 17.847 seconds.
+Process 9 finished computations at 17.8753 seconds.
+Process 162 finished computations at 17.8984 seconds.
+Process 164 finished computations at 17.9368 seconds.
+Process 161 finished computations at 17.9448 seconds.
+Process 10 finished computations at 17.9598 seconds.
+Process 160 finished computations at 18 seconds.
+Process 19 finished computations at 18.0351 seconds.
+Process 11 finished computations at 18.0502 seconds.
+Process 18 finished computations at 18.06 seconds.
+Process 157 finished computations at 18.0753 seconds.
+Process 159 finished computations at 18.0828 seconds.
+Process 12 finished computations at 18.0916 seconds.
+Process 17 finished computations at 18.1021 seconds.
+Process 158 finished computations at 18.1186 seconds.
+Process 16 finished computations at 18.1265 seconds.
+Process 156 finished computations at 18.1418 seconds.
+Process 26 finished computations at 18.1665 seconds.
+Process 154 finished computations at 18.1761 seconds.
+Process 155 finished computations at 18.1807 seconds.
+Process 14 finished computations at 18.2101 seconds.
+Process 153 finished computations at 18.2373 seconds.
+Process 13 finished computations at 18.2411 seconds.
+Process 152 finished computations at 18.2579 seconds.
+Process 15 finished computations at 18.2991 seconds.
+Process 25 finished computations at 18.3181 seconds.
+Process 24 finished computations at 18.3219 seconds.
+Process 20 finished computations at 18.3486 seconds.
+Process 21 finished computations at 18.3839 seconds.
+Process 27 finished computations at 18.3894 seconds.
+Process 22 finished computations at 18.4531 seconds.
+Process 23 finished computations at 18.4798 seconds.
+Process 151 finished computations at 18.4803 seconds.
+Process 28 finished computations at 18.4847 seconds.
+Process 146 finished computations at 18.4964 seconds.
+Process 150 finished computations at 18.5008 seconds.
+Process 149 finished computations at 18.526 seconds.
+Process 148 finished computations at 18.5362 seconds.
+Process 29 finished computations at 18.5424 seconds.
+Process 147 finished computations at 18.5785 seconds.
+Process 145 finished computations at 18.5823 seconds.
+Process 144 finished computations at 18.5951 seconds.
+Process 31 finished computations at 18.61 seconds.
+Process 30 finished computations at 18.6484 seconds.
+Process 33 finished computations at 18.6873 seconds.
+Process 32 finished computations at 18.7026 seconds.
+Process 35 finished computations at 18.7022 seconds.
+Process 34 finished computations at 18.7073 seconds.
+Process 36 finished computations at 18.7425 seconds.
+Process 142 finished computations at 18.7843 seconds.
+Process 141 finished computations at 18.7879 seconds.
+Process 143 finished computations at 18.7888 seconds.
+Process 40 finished computations at 18.879 seconds.
+Process 139 finished computations at 18.9444 seconds.
+Process 38 finished computations at 18.9519 seconds.
+Process 140 finished computations at 18.9716 seconds.
+Process 64 finished computations at 18.9726 seconds.
+Process 37 finished computations at 18.979 seconds.
+Process 105 finished computations at 18.9878 seconds.
+Process 41 finished computations at 18.9906 seconds.
+Process 39 finished computations at 18.9983 seconds.
+Process 43 finished computations at 19.0018 seconds.
+Process 42 finished computations at 19.0145 seconds.
+Process 138 finished computations at 19.0199 seconds.
+Process 104 finished computations at 19.0305 seconds.
+Process 65 finished computations at 19.0377 seconds.
+Process 103 finished computations at 19.0567 seconds.
+Process 106 finished computations at 19.0614 seconds.
+Process 97 finished computations at 19.0636 seconds.
+Process 136 finished computations at 19.0653 seconds.
+Process 137 finished computations at 19.0682 seconds.
+Process 107 finished computations at 19.0708 seconds.
+Process 51 finished computations at 19.0838 seconds.
+Process 50 finished computations at 19.1031 seconds.
+Process 66 finished computations at 19.109 seconds.
+Process 129 finished computations at 19.1133 seconds.
+Process 56 finished computations at 19.1217 seconds.
+Process 128 finished computations at 19.1228 seconds.
+Process 58 finished computations at 19.1241 seconds.
+Process 135 finished computations at 19.1341 seconds.
+Process 67 finished computations at 19.1353 seconds.
+Process 132 finished computations at 19.1365 seconds.
+Process 99 finished computations at 19.1339 seconds.
+Process 59 finished computations at 19.1363 seconds.
+Process 131 finished computations at 19.1352 seconds.
+Process 102 finished computations at 19.139 seconds.
+Process 101 finished computations at 19.1498 seconds.
+Process 130 finished computations at 19.1486 seconds.
+Process 134 finished computations at 19.1556 seconds.
+Process 98 finished computations at 19.1562 seconds.
+Process 100 finished computations at 19.1632 seconds.
+Process 49 finished computations at 19.1667 seconds.
+Process 57 finished computations at 19.1866 seconds.
+Process 133 finished computations at 19.1909 seconds.
+Process 89 finished computations at 19.1986 seconds.
+Process 88 finished computations at 19.208 seconds.
+Process 96 finished computations at 19.2137 seconds.
+Process 91 finished computations at 19.2201 seconds.
+Process 48 finished computations at 19.2234 seconds.
+Process 52 finished computations at 19.2272 seconds.
+Process 90 finished computations at 19.2277 seconds.
+Process 62 finished computations at 19.2299 seconds.
+Process 61 finished computations at 19.2359 seconds.
+Process 63 finished computations at 19.2532 seconds.
+Process 94 finished computations at 19.2564 seconds.
+Process 87 finished computations at 19.2765 seconds.
+Process 60 finished computations at 19.2759 seconds.
+Process 93 finished computations at 19.2802 seconds.
+Process 83 finished computations at 19.2803 seconds.
+Process 55 finished computations at 19.2836 seconds.
+Process 92 finished computations at 19.2843 seconds.
+Process 54 finished computations at 19.3011 seconds.
+Process 82 finished computations at 19.2937 seconds.
+Process 53 finished computations at 19.3018 seconds.
+Process 95 finished computations at 19.3086 seconds.
+Process 86 finished computations at 19.3285 seconds.
+Process 47 finished computations at 19.3295 seconds.
+Process 45 finished computations at 19.3395 seconds.
+Process 81 finished computations at 19.3388 seconds.
+Process 108 finished computations at 19.3554 seconds.
+Process 72 finished computations at 19.3733 seconds.
+Process 113 finished computations at 19.3814 seconds.
+Process 73 finished computations at 19.3853 seconds.
+Process 122 finished computations at 19.3885 seconds.
+Process 70 finished computations at 19.392 seconds.
+Process 46 finished computations at 19.3939 seconds.
+Process 68 finished computations at 19.3972 seconds.
+Process 85 finished computations at 19.4024 seconds.
+Process 115 finished computations at 19.4089 seconds.
+Process 84 finished computations at 19.4123 seconds.
+Process 71 finished computations at 19.4264 seconds.
+Process 69 finished computations at 19.4327 seconds.
+Process 112 finished computations at 19.4307 seconds.
+Process 80 finished computations at 19.4433 seconds.
+Process 74 finished computations at 19.4557 seconds.
+Process 76 finished computations at 19.456 seconds.
+Process 120 finished computations at 19.4651 seconds.
+Process 114 finished computations at 19.47 seconds.
+Process 121 finished computations at 19.4713 seconds.
+Process 109 finished computations at 19.4758 seconds.
+Process 116 finished computations at 19.4781 seconds.
+Process 127 finished computations at 19.4747 seconds.
+Process 123 finished computations at 19.4912 seconds.
+Process 75 finished computations at 19.4955 seconds.
+Process 77 finished computations at 19.5062 seconds.
+Process 110 finished computations at 19.528 seconds.
+Process 78 finished computations at 19.5314 seconds.
+Process 124 finished computations at 19.5323 seconds.
+Process 79 finished computations at 19.5649 seconds.
+Process 126 finished computations at 19.5899 seconds.
+Process 119 finished computations at 19.5962 seconds.
+Process 117 finished computations at 19.597 seconds.
+Process 111 finished computations at 19.5987 seconds.
+Process 125 finished computations at 19.6155 seconds.
+Process 118 finished computations at 19.6326 seconds.
+Process 44 finished computations at 19.6491 seconds.
+Total time taken: 19.9164 seconds.
+34.585
 With OMP on...
 256, Running with 256 MPI processes.
-Process 113 finished computations at 10.3867 seconds.
-Process 56 finished computations at 10.3999 seconds.
-Process 104 finished computations at 10.413 seconds.
-Process 78 finished computations at 10.4337 seconds.
-Process 91 finished computations at 10.4493 seconds.
-Process 57 finished computations at 10.4533 seconds.
-Process 112 finished computations at 10.4554 seconds.
-Process 88 finished computations at 10.4589 seconds.
-Process 83 finished computations at 10.4625 seconds.
-Process 62 finished computations at 10.4612 seconds.
-Process 80 finished computations at 10.4607 seconds.
-Process 29 finished computations at 10.4622 seconds.
-Process 87 finished computations at 10.467 seconds.
-Process 81 finished computations at 10.4689 seconds.
-Process 89 finished computations at 10.4696 seconds.
-Process 65 finished computations at 10.4703 seconds.
-Process 33 finished computations at 10.4722 seconds.
-Process 32 finished computations at 10.4763 seconds.
-Process 7 finished computations at 10.4748 seconds.
-Process 97 finished computations at 10.4769 seconds.
-Process 103 finished computations at 10.479 seconds.
-Process 66 finished computations at 10.4803 seconds.
-Process 8 finished computations at 10.4854 seconds.
-Process 120 finished computations at 10.4849 seconds.
-Process 105 finished computations at 10.4863 seconds.
-Process 35 finished computations at 10.4867 seconds.
-Process 64 finished computations at 10.4875 seconds.
-Process 59 finished computations at 10.4887 seconds.
-Process 51 finished computations at 10.4915 seconds.
-Process 55 finished computations at 10.4912 seconds.
-Process 106 finished computations at 10.4916 seconds.
-Process 79 finished computations at 10.4914 seconds.
-Process 11 finished computations at 10.4945 seconds.
-Process 16 finished computations at 10.4952 seconds.
-Process 2 finished computations at 10.4968 seconds.
-Process 19 finished computations at 10.499 seconds.
-Process 114 finished computations at 10.4981 seconds.
-Process 58 finished computations at 10.5014 seconds.
-Process 17 finished computations at 10.5012 seconds.
-Process 111 finished computations at 10.5048 seconds.
-Process 102 finished computations at 10.4942 seconds.
-Process 9 finished computations at 10.5063 seconds.
-Process 27 finished computations at 10.5059 seconds.
-Process 122 finished computations at 10.5051 seconds.
-Process 26 finished computations at 10.5088 seconds.
-Process 115 finished computations at 10.5082 seconds.
-Process 49 finished computations at 10.5088 seconds.
-Process 107 finished computations at 10.5087 seconds.
-Process 75 finished computations at 10.4989 seconds.
-Process 50 finished computations at 10.5103 seconds.
-Process 36 finished computations at 10.5106 seconds.
-Process 90 finished computations at 10.5111 seconds.
-Process 18 finished computations at 10.511 seconds.
-Process 34 finished computations at 10.5124 seconds.
-Process 24 finished computations at 10.5113 seconds.
-Process 126 finished computations at 10.511 seconds.
-Process 127 finished computations at 10.5109 seconds.
-Process 67 finished computations at 10.512 seconds.
-Process 73 finished computations at 10.5138 seconds.
-Process 25 finished computations at 10.513 seconds.
-Process 42 finished computations at 10.5151 seconds.
-Process 60 finished computations at 10.5171 seconds.
-Process 123 finished computations at 10.5189 seconds.
-Process 71 finished computations at 10.506 seconds.
-Process 41 finished computations at 10.5201 seconds.
-Process 3 finished computations at 10.5217 seconds.
-Process 13 finished computations at 10.5205 seconds.
-Process 121 finished computations at 10.5214 seconds.
-Process 48 finished computations at 10.5255 seconds.
-Process 10 finished computations at 10.527 seconds.
-Process 86 finished computations at 10.5257 seconds.
-Process 72 finished computations at 10.5253 seconds.
-Process 40 finished computations at 10.5279 seconds.
-Process 6 finished computations at 10.53 seconds.
-Process 82 finished computations at 10.5286 seconds.
-Process 5 finished computations at 10.5278 seconds.
-Process 1 finished computations at 10.53 seconds.
-Process 77 finished computations at 10.5293 seconds.
-Process 63 finished computations at 10.5289 seconds.
-Process 125 finished computations at 10.5298 seconds.
-Process 101 finished computations at 10.53 seconds.
-Process 74 finished computations at 10.533 seconds.
-Process 68 finished computations at 10.5316 seconds.
-Process 99 finished computations at 10.5323 seconds.
-Process 31 finished computations at 10.5323 seconds.
-Process 84 finished computations at 10.5339 seconds.
-Process 54 finished computations at 10.5377 seconds.
-Process 96 finished computations at 10.5361 seconds.
-Process 69 finished computations at 10.5418 seconds.
-Process 43 finished computations at 10.5408 seconds.
-Process 15 finished computations at 10.5427 seconds.
-Process 0 finished computations at 10.5435 seconds.
-Process 109 finished computations at 10.5435 seconds.
-Process 28 finished computations at 10.5469 seconds.
-Process 95 finished computations at 10.5479 seconds.
-Process 12 finished computations at 10.5481 seconds.
-Process 4 finished computations at 10.5536 seconds.
-Process 39 finished computations at 10.5409 seconds.
-Process 22 finished computations at 10.5523 seconds.
-Process 124 finished computations at 10.5433 seconds.
-Process 21 finished computations at 10.5538 seconds.
-Process 98 finished computations at 10.5556 seconds.
-Process 100 finished computations at 10.5572 seconds.
-Process 61 finished computations at 10.5559 seconds.
-Process 94 finished computations at 10.5557 seconds.
-Process 119 finished computations at 10.5584 seconds.
-Process 85 finished computations at 10.5598 seconds.
-Process 20 finished computations at 10.5638 seconds.
-Process 93 finished computations at 10.5643 seconds.
-Process 30 finished computations at 10.5667 seconds.
-Process 116 finished computations at 10.5667 seconds.
-Process 14 finished computations at 10.5663 seconds.
-Process 53 finished computations at 10.5675 seconds.
-Process 45 finished computations at 10.5687 seconds.
-Process 38 finished computations at 10.5589 seconds.
-Process 52 finished computations at 10.5701 seconds.
-Process 44 finished computations at 10.572 seconds.
-Process 23 finished computations at 10.5736 seconds.
-Process 118 finished computations at 10.5732 seconds.
-Process 70 finished computations at 10.5771 seconds.
-Process 110 finished computations at 10.5768 seconds.
-Process 108 finished computations at 10.5818 seconds.
-Process 46 finished computations at 10.5837 seconds.
-Process 76 finished computations at 10.5872 seconds.
-Process 37 finished computations at 10.5774 seconds.
-Process 47 finished computations at 10.5932 seconds.
-Process 117 finished computations at 10.5863 seconds.
-Process 92 finished computations at 10.5957 seconds.
-Process 203 finished computations at 10.6577 seconds.
-Process 183 finished computations at 10.6671 seconds.
-Process 223 finished computations at 10.6807 seconds.
-Process 158 finished computations at 10.6791 seconds.
-Process 182 finished computations at 10.6803 seconds.
-Process 207 finished computations at 10.6805 seconds.
-Process 146 finished computations at 10.6863 seconds.
-Process 181 finished computations at 10.6869 seconds.
-Process 161 finished computations at 10.6935 seconds.
-Process 228 finished computations at 10.6931 seconds.
-Process 184 finished computations at 10.6955 seconds.
-Process 214 finished computations at 10.6938 seconds.
-Process 215 finished computations at 10.6962 seconds.
-Process 238 finished computations at 10.6996 seconds.
-Process 239 finished computations at 10.6992 seconds.
-Process 143 finished computations at 10.7032 seconds.
-Process 237 finished computations at 10.7028 seconds.
-Process 231 finished computations at 10.7032 seconds.
-Process 192 finished computations at 10.7031 seconds.
-Process 149 finished computations at 10.7039 seconds.
-Process 159 finished computations at 10.7065 seconds.
-Process 167 finished computations at 10.7055 seconds.
-Process 129 finished computations at 10.7094 seconds.
-Process 199 finished computations at 10.7077 seconds.
-Process 188 finished computations at 10.7108 seconds.
-Process 134 finished computations at 10.7113 seconds.
-Process 253 finished computations at 10.7117 seconds.
-Process 230 finished computations at 10.7127 seconds.
-Process 135 finished computations at 10.7134 seconds.
-Process 197 finished computations at 10.7136 seconds.
-Process 229 finished computations at 10.7137 seconds.
-Process 132 finished computations at 10.7162 seconds.
-Process 156 finished computations at 10.7165 seconds.
-Process 206 finished computations at 10.7161 seconds.
-Process 244 finished computations at 10.7156 seconds.
-Process 140 finished computations at 10.72 seconds.
-Process 128 finished computations at 10.7212 seconds.
-Process 191 finished computations at 10.7196 seconds.
-Process 148 finished computations at 10.7218 seconds.
-Process 151 finished computations at 10.7236 seconds.
-Process 205 finished computations at 10.7226 seconds.
-Process 204 finished computations at 10.7237 seconds.
-Process 147 finished computations at 10.7258 seconds.
-Process 154 finished computations at 10.7208 seconds.
-Process 201 finished computations at 10.7271 seconds.
-Process 162 finished computations at 10.7266 seconds.
-Process 155 finished computations at 10.7264 seconds.
-Process 152 finished computations at 10.7273 seconds.
-Process 193 finished computations at 10.73 seconds.
-Process 133 finished computations at 10.7299 seconds.
-Process 198 finished computations at 10.7289 seconds.
-Process 176 finished computations at 10.7291 seconds.
-Process 166 finished computations at 10.733 seconds.
-Process 137 finished computations at 10.7322 seconds.
-Process 179 finished computations at 10.7332 seconds.
-Process 254 finished computations at 10.7313 seconds.
-Process 217 finished computations at 10.733 seconds.
-Process 227 finished computations at 10.7342 seconds.
-Process 180 finished computations at 10.7349 seconds.
-Process 212 finished computations at 10.7348 seconds.
-Process 219 finished computations at 10.7358 seconds.
-Process 171 finished computations at 10.7363 seconds.
-Process 142 finished computations at 10.7329 seconds.
-Process 130 finished computations at 10.7402 seconds.
-Process 247 finished computations at 10.7385 seconds.
-Process 186 finished computations at 10.7421 seconds.
-Process 222 finished computations at 10.7403 seconds.
-Process 175 finished computations at 10.7421 seconds.
-Process 172 finished computations at 10.7436 seconds.
-Process 190 finished computations at 10.7439 seconds.
-Process 202 finished computations at 10.7451 seconds.
-Process 153 finished computations at 10.7466 seconds.
-Process 251 finished computations at 10.7459 seconds.
-Process 196 finished computations at 10.7474 seconds.
-Process 160 finished computations at 10.7469 seconds.
-Process 150 finished computations at 10.7481 seconds.
-Process 249 finished computations at 10.748 seconds.
-Process 225 finished computations at 10.7472 seconds.
-Process 144 finished computations at 10.7484 seconds.
-Process 157 finished computations at 10.7471 seconds.
-Process 185 finished computations at 10.7493 seconds.
-Process 173 finished computations at 10.7499 seconds.
-Process 141 finished computations at 10.7496 seconds.
-Process 136 finished computations at 10.7526 seconds.
-Process 164 finished computations at 10.7567 seconds.
-Process 234 finished computations at 10.7568 seconds.
-Process 178 finished computations at 10.7545 seconds.
-Process 169 finished computations at 10.756 seconds.
-Process 226 finished computations at 10.7582 seconds.
-Process 246 finished computations at 10.7557 seconds.
-Process 174 finished computations at 10.7558 seconds.
-Process 145 finished computations at 10.7582 seconds.
-Process 255 finished computations at 10.76 seconds.
-Process 194 finished computations at 10.7603 seconds.
-Process 209 finished computations at 10.7598 seconds.
-Process 189 finished computations at 10.7609 seconds.
-Process 131 finished computations at 10.7611 seconds.
-Process 213 finished computations at 10.7608 seconds.
-Process 177 finished computations at 10.7635 seconds.
-Process 235 finished computations at 10.764 seconds.
-Process 165 finished computations at 10.7626 seconds.
-Process 245 finished computations at 10.7623 seconds.
-Process 248 finished computations at 10.7635 seconds.
-Process 236 finished computations at 10.7635 seconds.
-Process 216 finished computations at 10.7662 seconds.
-Process 220 finished computations at 10.7672 seconds.
-Process 200 finished computations at 10.7677 seconds.
-Process 138 finished computations at 10.7688 seconds.
-Process 210 finished computations at 10.7682 seconds.
-Process 242 finished computations at 10.7692 seconds.
-Process 211 finished computations at 10.7725 seconds.
-Process 232 finished computations at 10.772 seconds.
-Process 163 finished computations at 10.7758 seconds.
-Process 250 finished computations at 10.7814 seconds.
-Process 221 finished computations at 10.7829 seconds.
-Process 218 finished computations at 10.7852 seconds.
-Process 233 finished computations at 10.7852 seconds.
-Process 252 finished computations at 10.7819 seconds.
-Process 168 finished computations at 10.7906 seconds.
-Process 170 finished computations at 10.7948 seconds.
-Process 195 finished computations at 10.7935 seconds.
-Process 187 finished computations at 10.7945 seconds.
-Process 208 finished computations at 10.8059 seconds.
-Process 243 finished computations at 10.8043 seconds.
-Process 240 finished computations at 10.8064 seconds.
-Process 224 finished computations at 10.8095 seconds.
-Process 241 finished computations at 10.8144 seconds.
-Process 139 finished computations at 11.7539 seconds.
-Total time taken: 11.8869 seconds.
-21.300 
+Process 239 finished computations at 16.76 seconds.
+Process 234 finished computations at 16.8179 seconds.
+Process 240 finished computations at 16.8204 seconds.
+Process 236 finished computations at 16.8436 seconds.
+Process 237 finished computations at 16.8608 seconds.
+Process 238 finished computations at 16.8659 seconds.
+Process 255 finished computations at 16.8677 seconds.
+Process 235 finished computations at 16.9033 seconds.
+Process 254 finished computations at 16.9103 seconds.
+Process 233 finished computations at 16.9192 seconds.
+Process 242 finished computations at 16.9348 seconds.
+Process 241 finished computations at 16.9494 seconds.
+Process 252 finished computations at 16.9537 seconds.
+Process 250 finished computations at 16.9808 seconds.
+Process 253 finished computations at 17.0285 seconds.
+Process 243 finished computations at 17.0293 seconds.
+Process 232 finished computations at 17.0394 seconds.
+Process 249 finished computations at 17.0743 seconds.
+Process 0 finished computations at 17.0815 seconds.
+Process 248 finished computations at 17.0917 seconds.
+Process 245 finished computations at 17.1129 seconds.
+Process 229 finished computations at 17.1266 seconds.
+Process 244 finished computations at 17.1298 seconds.
+Process 231 finished computations at 17.14 seconds.
+Process 246 finished computations at 17.155 seconds.
+Process 251 finished computations at 17.1577 seconds.
+Process 230 finished computations at 17.1579 seconds.
+Process 227 finished computations at 17.2078 seconds.
+Process 247 finished computations at 17.2102 seconds.
+Process 228 finished computations at 17.2194 seconds.
+Process 1 finished computations at 17.2334 seconds.
+Process 226 finished computations at 17.2393 seconds.
+Process 225 finished computations at 17.3397 seconds.
+Process 2 finished computations at 17.388 seconds.
+Process 206 finished computations at 17.4145 seconds.
+Process 3 finished computations at 17.4167 seconds.
+Process 224 finished computations at 17.4416 seconds.
+Process 223 finished computations at 17.4624 seconds.
+Process 203 finished computations at 17.4861 seconds.
+Process 221 finished computations at 17.4968 seconds.
+Process 211 finished computations at 17.505 seconds.
+Process 208 finished computations at 17.5121 seconds.
+Process 222 finished computations at 17.5148 seconds.
+Process 209 finished computations at 17.5186 seconds.
+Process 4 finished computations at 17.5278 seconds.
+Process 201 finished computations at 17.5192 seconds.
+Process 220 finished computations at 17.5399 seconds.
+Process 210 finished computations at 17.5564 seconds.
+Process 205 finished computations at 17.5586 seconds.
+Process 207 finished computations at 17.5626 seconds.
+Process 202 finished computations at 17.5731 seconds.
+Process 219 finished computations at 17.581 seconds.
+Process 204 finished computations at 17.5845 seconds.
+Process 200 finished computations at 17.6151 seconds.
+Process 212 finished computations at 17.635 seconds.
+Process 199 finished computations at 17.6454 seconds.
+Process 218 finished computations at 17.6467 seconds.
+Process 217 finished computations at 17.6514 seconds.
+Process 216 finished computations at 17.6567 seconds.
+Process 214 finished computations at 17.669 seconds.
+Process 215 finished computations at 17.6787 seconds.
+Process 213 finished computations at 17.7041 seconds.
+Process 171 finished computations at 17.7268 seconds.
+Process 194 finished computations at 17.738 seconds.
+Process 198 finished computations at 17.7398 seconds.
+Process 192 finished computations at 17.7404 seconds.
+Process 188 finished computations at 17.7449 seconds.
+Process 170 finished computations at 17.7477 seconds.
+Process 169 finished computations at 17.7476 seconds.
+Process 168 finished computations at 17.7516 seconds.
+Process 186 finished computations at 17.7539 seconds.
+Process 189 finished computations at 17.7575 seconds.
+Process 172 finished computations at 17.7582 seconds.
+Process 196 finished computations at 17.7638 seconds.
+Process 195 finished computations at 17.7647 seconds.
+Process 187 finished computations at 17.7743 seconds.
+Process 179 finished computations at 17.7746 seconds.
+Process 181 finished computations at 17.7805 seconds.
+Process 191 finished computations at 17.783 seconds.
+Process 197 finished computations at 17.7851 seconds.
+Process 190 finished computations at 17.8019 seconds.
+Process 182 finished computations at 17.8143 seconds.
+Process 184 finished computations at 17.817 seconds.
+Process 167 finished computations at 17.8181 seconds.
+Process 5 finished computations at 17.8205 seconds.
+Process 180 finished computations at 17.8259 seconds.
+Process 174 finished computations at 17.8337 seconds.
+Process 185 finished computations at 17.8344 seconds.
+Process 173 finished computations at 17.8396 seconds.
+Process 178 finished computations at 17.8361 seconds.
+Process 166 finished computations at 17.854 seconds.
+Process 176 finished computations at 17.8555 seconds.
+Process 177 finished computations at 17.8665 seconds.
+Process 8 finished computations at 17.8788 seconds.
+Process 183 finished computations at 17.8914 seconds.
+Process 175 finished computations at 17.9035 seconds.
+Process 9 finished computations at 17.9051 seconds.
+Process 165 finished computations at 17.9083 seconds.
+Process 162 finished computations at 17.9097 seconds.
+Process 6 finished computations at 17.9296 seconds.
+Process 163 finished computations at 17.9652 seconds.
+Process 7 finished computations at 17.97 seconds.
+Process 164 finished computations at 17.9863 seconds.
+Process 10 finished computations at 17.9966 seconds.
+Process 160 finished computations at 18.0834 seconds.
+Process 161 finished computations at 18.0895 seconds.
+Process 11 finished computations at 18.1032 seconds.
+Process 159 finished computations at 18.1168 seconds.
+Process 17 finished computations at 18.1221 seconds.
+Process 18 finished computations at 18.1328 seconds.
+Process 16 finished computations at 18.1368 seconds.
+Process 158 finished computations at 18.1512 seconds.
+Process 157 finished computations at 18.1553 seconds.
+Process 19 finished computations at 18.1678 seconds.
+Process 156 finished computations at 18.2145 seconds.
+Process 26 finished computations at 18.2368 seconds.
+Process 155 finished computations at 18.2581 seconds.
+Process 154 finished computations at 18.2917 seconds.
+Process 14 finished computations at 18.2928 seconds.
+Process 24 finished computations at 18.3109 seconds.
+Process 27 finished computations at 18.3138 seconds.
+Process 12 finished computations at 18.3206 seconds.
+Process 13 finished computations at 18.3314 seconds.
+Process 153 finished computations at 18.3434 seconds.
+Process 25 finished computations at 18.3497 seconds.
+Process 152 finished computations at 18.3693 seconds.
+Process 15 finished computations at 18.3794 seconds.
+Process 151 finished computations at 18.449 seconds.
+Process 20 finished computations at 18.4514 seconds.
+Process 150 finished computations at 18.4898 seconds.
+Process 21 finished computations at 18.5115 seconds.
+Process 22 finished computations at 18.5488 seconds.
+Process 23 finished computations at 18.5756 seconds.
+Process 149 finished computations at 18.5767 seconds.
+Process 148 finished computations at 18.5923 seconds.
+Process 28 finished computations at 18.6163 seconds.
+Process 147 finished computations at 18.6409 seconds.
+Process 146 finished computations at 18.6496 seconds.
+Process 145 finished computations at 18.6531 seconds.
+Process 29 finished computations at 18.6912 seconds.
+Process 144 finished computations at 18.7172 seconds.
+Process 33 finished computations at 18.7379 seconds.
+Process 35 finished computations at 18.7475 seconds.
+Process 32 finished computations at 18.7511 seconds.
+Process 34 finished computations at 18.7651 seconds.
+Process 30 finished computations at 18.7916 seconds.
+Process 31 finished computations at 18.805 seconds.
+Process 141 finished computations at 18.8095 seconds.
+Process 143 finished computations at 18.8303 seconds.
+Process 142 finished computations at 18.8311 seconds.
+Process 40 finished computations at 18.9934 seconds.
+Process 140 finished computations at 19.0316 seconds.
+Process 139 finished computations at 19.0313 seconds.
+Process 105 finished computations at 19.0348 seconds.
+Process 36 finished computations at 19.0369 seconds.
+Process 41 finished computations at 19.0437 seconds.
+Process 42 finished computations at 19.0462 seconds.
+Process 38 finished computations at 19.0611 seconds.
+Process 65 finished computations at 19.086 seconds.
+Process 106 finished computations at 19.0998 seconds.
+Process 104 finished computations at 19.0988 seconds.
+Process 37 finished computations at 19.101 seconds.
+Process 193 finished computations at 19.1099 seconds.
+Process 43 finished computations at 19.1186 seconds.
+Process 107 finished computations at 19.1222 seconds.
+Process 138 finished computations at 19.1227 seconds.
+Process 128 finished computations at 19.1237 seconds.
+Process 64 finished computations at 19.1288 seconds.
+Process 137 finished computations at 19.1385 seconds.
+Process 51 finished computations at 19.1426 seconds.
+Process 39 finished computations at 19.1451 seconds.
+Process 136 finished computations at 19.152 seconds.
+Process 66 finished computations at 19.1564 seconds.
+Process 132 finished computations at 19.1785 seconds.
+Process 134 finished computations at 19.1855 seconds.
+Process 99 finished computations at 19.1888 seconds.
+Process 129 finished computations at 19.1895 seconds.
+Process 135 finished computations at 19.1931 seconds.
+Process 98 finished computations at 19.195 seconds.
+Process 59 finished computations at 19.1936 seconds.
+Process 67 finished computations at 19.1981 seconds.
+Process 133 finished computations at 19.2083 seconds.
+Process 50 finished computations at 19.2136 seconds.
+Process 48 finished computations at 19.2139 seconds.
+Process 103 finished computations at 19.2181 seconds.
+Process 58 finished computations at 19.2187 seconds.
+Process 97 finished computations at 19.2225 seconds.
+Process 57 finished computations at 19.2252 seconds.
+Process 96 finished computations at 19.2277 seconds.
+Process 130 finished computations at 19.2306 seconds.
+Process 131 finished computations at 19.2203 seconds.
+Process 49 finished computations at 19.2404 seconds.
+Process 90 finished computations at 19.2444 seconds.
+Process 91 finished computations at 19.2598 seconds.
+Process 101 finished computations at 19.2686 seconds.
+Process 88 finished computations at 19.2669 seconds.
+Process 102 finished computations at 19.2729 seconds.
+Process 56 finished computations at 19.2772 seconds.
+Process 100 finished computations at 19.2861 seconds.
+Process 89 finished computations at 19.2971 seconds.
+Process 115 finished computations at 19.3157 seconds.
+Process 83 finished computations at 19.3201 seconds.
+Process 54 finished computations at 19.3326 seconds.
+Process 82 finished computations at 19.3376 seconds.
+Process 62 finished computations at 19.3417 seconds.
+Process 94 finished computations at 19.3621 seconds.
+Process 72 finished computations at 19.3671 seconds.
+Process 63 finished computations at 19.3727 seconds.
+Process 44 finished computations at 19.3836 seconds.
+Process 61 finished computations at 19.391 seconds.
+Process 52 finished computations at 19.3894 seconds.
+Process 60 finished computations at 19.3973 seconds.
+Process 92 finished computations at 19.3981 seconds.
+Process 93 finished computations at 19.402 seconds.
+Process 81 finished computations at 19.4032 seconds.
+Process 53 finished computations at 19.4081 seconds.
+Process 86 finished computations at 19.4099 seconds.
+Process 73 finished computations at 19.4253 seconds.
+Process 87 finished computations at 19.4277 seconds.
+Process 95 finished computations at 19.4357 seconds.
+Process 55 finished computations at 19.4385 seconds.
+Process 108 finished computations at 19.4534 seconds.
+Process 45 finished computations at 19.4685 seconds.
+Process 123 finished computations at 19.4739 seconds.
+Process 122 finished computations at 19.4766 seconds.
+Process 85 finished computations at 19.4772 seconds.
+Process 71 finished computations at 19.4841 seconds.
+Process 74 finished computations at 19.4846 seconds.
+Process 121 finished computations at 19.4923 seconds.
+Process 47 finished computations at 19.494 seconds.
+Process 69 finished computations at 19.4948 seconds.
+Process 120 finished computations at 19.4944 seconds.
+Process 84 finished computations at 19.5007 seconds.
+Process 70 finished computations at 19.5006 seconds.
+Process 80 finished computations at 19.5009 seconds.
+Process 112 finished computations at 19.5047 seconds.
+Process 46 finished computations at 19.5073 seconds.
+Process 68 finished computations at 19.5058 seconds.
+Process 113 finished computations at 19.5107 seconds.
+Process 114 finished computations at 19.4998 seconds.
+Process 75 finished computations at 19.5189 seconds.
+Process 109 finished computations at 19.5802 seconds.
+Process 127 finished computations at 19.5881 seconds.
+Process 77 finished computations at 19.6125 seconds.
+Process 79 finished computations at 19.6221 seconds.
+Process 116 finished computations at 19.622 seconds.
+Process 110 finished computations at 19.6415 seconds.
+Process 78 finished computations at 19.6501 seconds.
+Process 76 finished computations at 19.6724 seconds.
+Process 124 finished computations at 19.6822 seconds.
+Process 119 finished computations at 19.6863 seconds.
+Process 111 finished computations at 19.6927 seconds.
+Process 118 finished computations at 19.694 seconds.
+Process 117 finished computations at 19.703 seconds.
+Process 125 finished computations at 19.7021 seconds.
+Process 126 finished computations at 19.719 seconds.
+Total time taken: 19.9792 seconds.
+35.560 
 With OMP off...
 128, Running with 128 MPI processes.
-Process 66 finished computations at 10.4685 seconds.
-Process 51 finished computations at 10.4666 seconds.
-Process 80 finished computations at 10.475 seconds.
-Process 40 finished computations at 10.4762 seconds.
-Process 74 finished computations at 10.4809 seconds.
-Process 50 finished computations at 10.4863 seconds.
-Process 56 finished computations at 10.4857 seconds.
-Process 27 finished computations at 10.4883 seconds.
-Process 91 finished computations at 10.4909 seconds.
-Process 107 finished computations at 10.4914 seconds.
-Process 105 finished computations at 10.4938 seconds.
-Process 89 finished computations at 10.4955 seconds.
-Process 100 finished computations at 10.4997 seconds.
-Process 73 finished computations at 10.5013 seconds.
-Process 65 finished computations at 10.5021 seconds.
-Process 104 finished computations at 10.502 seconds.
-Process 114 finished computations at 10.5038 seconds.
-Process 3 finished computations at 10.5053 seconds.
-Process 109 finished computations at 10.5048 seconds.
-Process 67 finished computations at 10.5059 seconds.
-Process 88 finished computations at 10.5037 seconds.
-Process 115 finished computations at 10.5078 seconds.
-Process 17 finished computations at 10.5105 seconds.
-Process 8 finished computations at 10.5113 seconds.
-Process 39 finished computations at 10.5119 seconds.
-Process 32 finished computations at 10.4999 seconds.
-Process 96 finished computations at 10.5134 seconds.
-Process 75 finished computations at 10.5146 seconds.
-Process 121 finished computations at 10.5161 seconds.
-Process 90 finished computations at 10.5176 seconds.
-Process 102 finished computations at 10.5185 seconds.
-Process 57 finished computations at 10.518 seconds.
-Process 64 finished computations at 10.518 seconds.
-Process 19 finished computations at 10.518 seconds.
-Process 9 finished computations at 10.5188 seconds.
-Process 4 finished computations at 10.5195 seconds.
-Process 45 finished computations at 10.5207 seconds.
-Process 59 finished computations at 10.5204 seconds.
-Process 112 finished computations at 10.5208 seconds.
-Process 82 finished computations at 10.5225 seconds.
-Process 2 finished computations at 10.5246 seconds.
-Process 18 finished computations at 10.5067 seconds.
-Process 120 finished computations at 10.524 seconds.
-Process 29 finished computations at 10.5236 seconds.
-Process 34 finished computations at 10.524 seconds.
-Process 53 finished computations at 10.5237 seconds.
-Process 72 finished computations at 10.5251 seconds.
-Process 125 finished computations at 10.5246 seconds.
-Process 99 finished computations at 10.5251 seconds.
-Process 43 finished computations at 10.5253 seconds.
-Process 98 finished computations at 10.5275 seconds.
-Process 113 finished computations at 10.5162 seconds.
-Process 41 finished computations at 10.5291 seconds.
-Process 97 finished computations at 10.5241 seconds.
-Process 16 finished computations at 10.5327 seconds.
-Process 103 finished computations at 10.5328 seconds.
-Process 33 finished computations at 10.5332 seconds.
-Process 93 finished computations at 10.5343 seconds.
-Process 25 finished computations at 10.536 seconds.
-Process 71 finished computations at 10.5361 seconds.
-Process 92 finished computations at 10.5366 seconds.
-Process 35 finished computations at 10.5384 seconds.
-Process 49 finished computations at 10.5372 seconds.
-Process 1 finished computations at 10.5418 seconds.
-Process 46 finished computations at 10.5415 seconds.
-Process 42 finished computations at 10.5377 seconds.
-Process 122 finished computations at 10.5414 seconds.
-Process 81 finished computations at 10.5432 seconds.
-Process 44 finished computations at 10.5423 seconds.
-Process 28 finished computations at 10.548 seconds.
-Process 119 finished computations at 10.5463 seconds.
-Process 58 finished computations at 10.5468 seconds.
-Process 108 finished computations at 10.5499 seconds.
-Process 106 finished computations at 10.5501 seconds.
-Process 10 finished computations at 10.5492 seconds.
-Process 63 finished computations at 10.5507 seconds.
-Process 118 finished computations at 10.5522 seconds.
-Process 117 finished computations at 10.5525 seconds.
-Process 87 finished computations at 10.551 seconds.
-Process 83 finished computations at 10.5506 seconds.
-Process 15 finished computations at 10.5527 seconds.
-Process 111 finished computations at 10.5535 seconds.
-Process 55 finished computations at 10.555 seconds.
-Process 11 finished computations at 10.5554 seconds.
-Process 101 finished computations at 10.5512 seconds.
-Process 68 finished computations at 10.5596 seconds.
-Process 31 finished computations at 10.5604 seconds.
-Process 77 finished computations at 10.5607 seconds.
-Process 79 finished computations at 10.5623 seconds.
-Process 76 finished computations at 10.5618 seconds.
-Process 26 finished computations at 10.5625 seconds.
-Process 24 finished computations at 10.5644 seconds.
-Process 123 finished computations at 10.5654 seconds.
-Process 127 finished computations at 10.5665 seconds.
-Process 62 finished computations at 10.5668 seconds.
-Process 124 finished computations at 10.5664 seconds.
-Process 52 finished computations at 10.5698 seconds.
-Process 48 finished computations at 10.5688 seconds.
-Process 38 finished computations at 10.5704 seconds.
-Process 13 finished computations at 10.5718 seconds.
-Process 69 finished computations at 10.5712 seconds.
-Process 61 finished computations at 10.5733 seconds.
-Process 0 finished computations at 10.5765 seconds.
-Process 95 finished computations at 10.5645 seconds.
-Process 94 finished computations at 10.5796 seconds.
-Process 47 finished computations at 10.5805 seconds.
-Process 85 finished computations at 10.5673 seconds.
-Process 86 finished computations at 10.581 seconds.
-Process 126 finished computations at 10.5834 seconds.
-Process 14 finished computations at 10.5833 seconds.
-Process 54 finished computations at 10.5843 seconds.
-Process 78 finished computations at 10.5826 seconds.
-Process 30 finished computations at 10.584 seconds.
-Process 6 finished computations at 10.5848 seconds.
-Process 21 finished computations at 10.5869 seconds.
-Process 60 finished computations at 10.5903 seconds.
-Process 110 finished computations at 10.5896 seconds.
-Process 36 finished computations at 10.5923 seconds.
-Process 84 finished computations at 10.5869 seconds.
-Process 5 finished computations at 10.596 seconds.
-Process 7 finished computations at 10.5969 seconds.
-Process 116 finished computations at 10.5989 seconds.
-Process 37 finished computations at 10.6014 seconds.
-Process 70 finished computations at 10.6071 seconds.
-Process 12 finished computations at 10.6077 seconds.
-Process 22 finished computations at 10.6056 seconds.
-Process 20 finished computations at 10.6129 seconds.
-Process 23 finished computations at 10.6231 seconds.
-Total time taken: 10.6715 seconds.
-17.673
+Process 120 finished computations at 17.1007 seconds.
+Process 115 finished computations at 17.1761 seconds.
+Process 121 finished computations at 17.2281 seconds.
+Process 0 finished computations at 17.2324 seconds.
+Process 119 finished computations at 17.276 seconds.
+Process 127 finished computations at 17.268 seconds.
+Process 118 finished computations at 17.2886 seconds.
+Process 113 finished computations at 17.3173 seconds.
+Process 122 finished computations at 17.3301 seconds.
+Process 123 finished computations at 17.3639 seconds.
+Process 117 finished computations at 17.3905 seconds.
+Process 114 finished computations at 17.4305 seconds.
+Process 1 finished computations at 17.4481 seconds.
+Process 116 finished computations at 17.4671 seconds.
+Process 126 finished computations at 17.4738 seconds.
+Process 125 finished computations at 17.4745 seconds.
+Process 124 finished computations at 17.5819 seconds.
+Process 112 finished computations at 17.6208 seconds.
+Process 104 finished computations at 17.6548 seconds.
+Process 2 finished computations at 17.657 seconds.
+Process 105 finished computations at 17.8091 seconds.
+Process 3 finished computations at 17.8302 seconds.
+Process 106 finished computations at 17.8349 seconds.
+Process 99 finished computations at 17.8701 seconds.
+Process 107 finished computations at 17.9084 seconds.
+Process 111 finished computations at 17.9285 seconds.
+Process 103 finished computations at 17.9356 seconds.
+Process 110 finished computations at 17.9659 seconds.
+Process 102 finished computations at 17.9892 seconds.
+Process 97 finished computations at 17.9891 seconds.
+Process 96 finished computations at 17.9943 seconds.
+Process 91 finished computations at 18.0089 seconds.
+Process 101 finished computations at 18.0174 seconds.
+Process 83 finished computations at 18.0193 seconds.
+Process 90 finished computations at 18.0195 seconds.
+Process 89 finished computations at 18.0198 seconds.
+Process 109 finished computations at 18.055 seconds.
+Process 98 finished computations at 18.0556 seconds.
+Process 82 finished computations at 18.058 seconds.
+Process 85 finished computations at 18.0551 seconds.
+Process 108 finished computations at 18.074 seconds.
+Process 100 finished computations at 18.09 seconds.
+Process 88 finished computations at 18.0985 seconds.
+Process 92 finished computations at 18.1104 seconds.
+Process 94 finished computations at 18.1284 seconds.
+Process 4 finished computations at 18.1318 seconds.
+Process 81 finished computations at 18.1512 seconds.
+Process 84 finished computations at 18.1676 seconds.
+Process 8 finished computations at 18.2024 seconds.
+Process 9 finished computations at 18.217 seconds.
+Process 93 finished computations at 18.2437 seconds.
+Process 95 finished computations at 18.247 seconds.
+Process 86 finished computations at 18.242 seconds.
+Process 10 finished computations at 18.2533 seconds.
+Process 87 finished computations at 18.3068 seconds.
+Process 5 finished computations at 18.3352 seconds.
+Process 80 finished computations at 18.3531 seconds.
+Process 6 finished computations at 18.3732 seconds.
+Process 11 finished computations at 18.4054 seconds.
+Process 7 finished computations at 18.425 seconds.
+Process 79 finished computations at 18.544 seconds.
+Process 78 finished computations at 18.6012 seconds.
+Process 12 finished computations at 18.6686 seconds.
+Process 77 finished computations at 18.6918 seconds.
+Process 13 finished computations at 18.6958 seconds.
+Process 75 finished computations at 18.7409 seconds.
+Process 14 finished computations at 18.7481 seconds.
+Process 76 finished computations at 18.7927 seconds.
+Process 16 finished computations at 18.7983 seconds.
+Process 17 finished computations at 18.8152 seconds.
+Process 74 finished computations at 18.8078 seconds.
+Process 15 finished computations at 18.8458 seconds.
+Process 73 finished computations at 18.8651 seconds.
+Process 18 finished computations at 18.8958 seconds.
+Process 72 finished computations at 18.9062 seconds.
+Process 19 finished computations at 18.9649 seconds.
+Process 51 finished computations at 19.0623 seconds.
+Process 50 finished computations at 19.114 seconds.
+Process 32 finished computations at 19.202 seconds.
+Process 43 finished computations at 19.2058 seconds.
+Process 25 finished computations at 19.2401 seconds.
+Process 48 finished computations at 19.2579 seconds.
+Process 71 finished computations at 19.2594 seconds.
+Process 26 finished computations at 19.2669 seconds.
+Process 33 finished computations at 19.2763 seconds.
+Process 49 finished computations at 19.2964 seconds.
+Process 42 finished computations at 19.2949 seconds.
+Process 27 finished computations at 19.3106 seconds.
+Process 20 finished computations at 19.302 seconds.
+Process 52 finished computations at 19.3228 seconds.
+Process 24 finished computations at 19.3309 seconds.
+Process 21 finished computations at 19.364 seconds.
+Process 67 finished computations at 19.3821 seconds.
+Process 41 finished computations at 19.3901 seconds.
+Process 34 finished computations at 19.3805 seconds.
+Process 35 finished computations at 19.3933 seconds.
+Process 53 finished computations at 19.3955 seconds.
+Process 64 finished computations at 19.4136 seconds.
+Process 65 finished computations at 19.4168 seconds.
+Process 46 finished computations at 19.4185 seconds.
+Process 70 finished computations at 19.422 seconds.
+Process 30 finished computations at 19.4543 seconds.
+Process 66 finished computations at 19.4601 seconds.
+Process 47 finished computations at 19.455 seconds.
+Process 31 finished computations at 19.4553 seconds.
+Process 29 finished computations at 19.4719 seconds.
+Process 22 finished computations at 19.4799 seconds.
+Process 40 finished computations at 19.5037 seconds.
+Process 69 finished computations at 19.5211 seconds.
+Process 59 finished computations at 19.5342 seconds.
+Process 44 finished computations at 19.5399 seconds.
+Process 45 finished computations at 19.5473 seconds.
+Process 56 finished computations at 19.5503 seconds.
+Process 58 finished computations at 19.5539 seconds.
+Process 28 finished computations at 19.5564 seconds.
+Process 57 finished computations at 19.5712 seconds.
+Process 68 finished computations at 19.5805 seconds.
+Process 23 finished computations at 19.5895 seconds.
+Process 54 finished computations at 19.6593 seconds.
+Process 36 finished computations at 19.6798 seconds.
+Process 62 finished computations at 19.6873 seconds.
+Process 63 finished computations at 19.7096 seconds.
+Process 39 finished computations at 19.7188 seconds.
+Process 38 finished computations at 19.7476 seconds.
+Process 61 finished computations at 19.7523 seconds.
+Process 60 finished computations at 19.7681 seconds.
+Process 55 finished computations at 19.774 seconds.
+Process 37 finished computations at 19.7959 seconds.
+Total time taken: 19.8766 seconds.
+54.431
 With OMP on...
 128, Running with 128 MPI processes.
-Process 89 finished computations at 10.4627 seconds.
-Process 66 finished computations at 10.468 seconds.
-Process 51 finished computations at 10.4878 seconds.
-Process 34 finished computations at 10.4947 seconds.
-Process 56 finished computations at 10.5035 seconds.
-Process 39 finished computations at 10.5126 seconds.
-Process 80 finished computations at 10.5123 seconds.
-Process 107 finished computations at 10.5225 seconds.
-Process 19 finished computations at 10.5232 seconds.
-Process 27 finished computations at 10.5234 seconds.
-Process 91 finished computations at 10.5253 seconds.
-Process 122 finished computations at 10.5176 seconds.
-Process 50 finished computations at 10.5278 seconds.
-Process 115 finished computations at 10.5264 seconds.
-Process 40 finished computations at 10.5276 seconds.
-Process 88 finished computations at 10.5349 seconds.
-Process 3 finished computations at 10.5383 seconds.
-Process 114 finished computations at 10.5372 seconds.
-Process 120 finished computations at 10.5381 seconds.
-Process 67 finished computations at 10.5391 seconds.
-Process 121 finished computations at 10.5404 seconds.
-Process 105 finished computations at 10.5434 seconds.
-Process 98 finished computations at 10.5452 seconds.
-Process 64 finished computations at 10.546 seconds.
-Process 2 finished computations at 10.5487 seconds.
-Process 73 finished computations at 10.5486 seconds.
-Process 97 finished computations at 10.5476 seconds.
-Process 90 finished computations at 10.5492 seconds.
-Process 74 finished computations at 10.5489 seconds.
-Process 96 finished computations at 10.5535 seconds.
-Process 104 finished computations at 10.5526 seconds.
-Process 82 finished computations at 10.5542 seconds.
-Process 72 finished computations at 10.5529 seconds.
-Process 75 finished computations at 10.5529 seconds.
-Process 65 finished computations at 10.5564 seconds.
-Process 38 finished computations at 10.5577 seconds.
-Process 17 finished computations at 10.5599 seconds.
-Process 32 finished computations at 10.5589 seconds.
-Process 113 finished computations at 10.5608 seconds.
-Process 25 finished computations at 10.5625 seconds.
-Process 81 finished computations at 10.5606 seconds.
-Process 102 finished computations at 10.5628 seconds.
-Process 92 finished computations at 10.563 seconds.
-Process 15 finished computations at 10.5646 seconds.
-Process 57 finished computations at 10.5642 seconds.
-Process 18 finished computations at 10.5685 seconds.
-Process 33 finished computations at 10.569 seconds.
-Process 112 finished computations at 10.5673 seconds.
-Process 76 finished computations at 10.5701 seconds.
-Process 54 finished computations at 10.5718 seconds.
-Process 42 finished computations at 10.5724 seconds.
-Process 43 finished computations at 10.5704 seconds.
-Process 59 finished computations at 10.5724 seconds.
-Process 8 finished computations at 10.5749 seconds.
-Process 21 finished computations at 10.573 seconds.
-Process 16 finished computations at 10.5753 seconds.
-Process 9 finished computations at 10.577 seconds.
-Process 49 finished computations at 10.5756 seconds.
-Process 68 finished computations at 10.5749 seconds.
-Process 62 finished computations at 10.5767 seconds.
-Process 14 finished computations at 10.5796 seconds.
-Process 63 finished computations at 10.5803 seconds.
-Process 35 finished computations at 10.5796 seconds.
-Process 85 finished computations at 10.5805 seconds.
-Process 95 finished computations at 10.5822 seconds.
-Process 44 finished computations at 10.5667 seconds.
-Process 52 finished computations at 10.5779 seconds.
-Process 58 finished computations at 10.588 seconds.
-Process 1 finished computations at 10.5878 seconds.
-Process 83 finished computations at 10.5875 seconds.
-Process 106 finished computations at 10.5897 seconds.
-Process 55 finished computations at 10.5929 seconds.
-Process 48 finished computations at 10.5832 seconds.
-Process 10 finished computations at 10.5916 seconds.
-Process 41 finished computations at 10.5799 seconds.
-Process 99 finished computations at 10.5968 seconds.
-Process 108 finished computations at 10.5876 seconds.
-Process 119 finished computations at 10.5968 seconds.
-Process 29 finished computations at 10.5971 seconds.
-Process 103 finished computations at 10.5984 seconds.
-Process 93 finished computations at 10.5991 seconds.
-Process 125 finished computations at 10.5989 seconds.
-Process 26 finished computations at 10.6013 seconds.
-Process 53 finished computations at 10.6012 seconds.
-Process 77 finished computations at 10.5999 seconds.
-Process 101 finished computations at 10.6004 seconds.
-Process 20 finished computations at 10.6037 seconds.
-Process 28 finished computations at 10.6034 seconds.
-Process 86 finished computations at 10.604 seconds.
-Process 123 finished computations at 10.604 seconds.
-Process 79 finished computations at 10.6047 seconds.
-Process 6 finished computations at 10.6065 seconds.
-Process 24 finished computations at 10.6053 seconds.
-Process 22 finished computations at 10.5977 seconds.
-Process 13 finished computations at 10.6076 seconds.
-Process 100 finished computations at 10.6071 seconds.
-Process 0 finished computations at 10.6081 seconds.
-Process 70 finished computations at 10.6163 seconds.
-Process 78 finished computations at 10.6165 seconds.
-Process 11 finished computations at 10.6179 seconds.
-Process 111 finished computations at 10.6062 seconds.
-Process 118 finished computations at 10.6101 seconds.
-Process 30 finished computations at 10.6215 seconds.
-Process 126 finished computations at 10.6121 seconds.
-Process 31 finished computations at 10.6094 seconds.
-Process 94 finished computations at 10.6231 seconds.
-Process 87 finished computations at 10.6245 seconds.
-Process 117 finished computations at 10.6184 seconds.
-Process 36 finished computations at 10.6265 seconds.
-Process 5 finished computations at 10.628 seconds.
-Process 110 finished computations at 10.6307 seconds.
-Process 12 finished computations at 10.6311 seconds.
-Process 127 finished computations at 10.6299 seconds.
-Process 46 finished computations at 10.6221 seconds.
-Process 71 finished computations at 10.6296 seconds.
-Process 37 finished computations at 10.6328 seconds.
-Process 124 finished computations at 10.6242 seconds.
-Process 7 finished computations at 10.6322 seconds.
-Process 116 finished computations at 10.6348 seconds.
-Process 23 finished computations at 10.6354 seconds.
-Process 60 finished computations at 10.6363 seconds.
-Process 61 finished computations at 10.6364 seconds.
-Process 69 finished computations at 10.6376 seconds.
-Process 84 finished computations at 10.6382 seconds.
-Process 4 finished computations at 10.638 seconds.
-Process 109 finished computations at 10.6414 seconds.
-Process 47 finished computations at 10.6538 seconds.
-Process 45 finished computations at 10.8122 seconds.
-Total time taken: 10.8439 seconds.
-17.932 
+Process 120 finished computations at 17.0758 seconds.
+Process 127 finished computations at 17.156 seconds.
+Process 0 finished computations at 17.1987 seconds.
+Process 122 finished computations at 17.207 seconds.
+Process 118 finished computations at 17.2356 seconds.
+Process 119 finished computations at 17.2431 seconds.
+Process 121 finished computations at 17.2814 seconds.
+Process 115 finished computations at 17.3094 seconds.
+Process 117 finished computations at 17.3478 seconds.
+Process 123 finished computations at 17.3549 seconds.
+Process 114 finished computations at 17.3998 seconds.
+Process 116 finished computations at 17.4318 seconds.
+Process 126 finished computations at 17.4556 seconds.
+Process 113 finished computations at 17.4676 seconds.
+Process 125 finished computations at 17.4892 seconds.
+Process 1 finished computations at 17.4913 seconds.
+Process 124 finished computations at 17.555 seconds.
+Process 2 finished computations at 17.6143 seconds.
+Process 112 finished computations at 17.6146 seconds.
+Process 104 finished computations at 17.739 seconds.
+Process 105 finished computations at 17.7979 seconds.
+Process 3 finished computations at 17.826 seconds.
+Process 101 finished computations at 17.8634 seconds.
+Process 107 finished computations at 17.8745 seconds.
+Process 103 finished computations at 17.8825 seconds.
+Process 106 finished computations at 17.8879 seconds.
+Process 99 finished computations at 17.8861 seconds.
+Process 111 finished computations at 17.8985 seconds.
+Process 83 finished computations at 17.9125 seconds.
+Process 110 finished computations at 17.9243 seconds.
+Process 97 finished computations at 17.9403 seconds.
+Process 102 finished computations at 17.9532 seconds.
+Process 90 finished computations at 17.9961 seconds.
+Process 109 finished computations at 18.0123 seconds.
+Process 96 finished computations at 18.0136 seconds.
+Process 98 finished computations at 18.0142 seconds.
+Process 91 finished computations at 18.0285 seconds.
+Process 89 finished computations at 18.0452 seconds.
+Process 100 finished computations at 18.0483 seconds.
+Process 94 finished computations at 18.0564 seconds.
+Process 82 finished computations at 18.1028 seconds.
+Process 108 finished computations at 18.1052 seconds.
+Process 88 finished computations at 18.1152 seconds.
+Process 9 finished computations at 18.114 seconds.
+Process 4 finished computations at 18.136 seconds.
+Process 85 finished computations at 18.1376 seconds.
+Process 81 finished computations at 18.183 seconds.
+Process 84 finished computations at 18.1865 seconds.
+Process 92 finished computations at 18.1783 seconds.
+Process 5 finished computations at 18.2003 seconds.
+Process 86 finished computations at 18.2051 seconds.
+Process 95 finished computations at 18.2179 seconds.
+Process 8 finished computations at 18.2234 seconds.
+Process 93 finished computations at 18.2539 seconds.
+Process 7 finished computations at 18.2751 seconds.
+Process 87 finished computations at 18.2773 seconds.
+Process 80 finished computations at 18.2986 seconds.
+Process 10 finished computations at 18.3361 seconds.
+Process 6 finished computations at 18.3875 seconds.
+Process 11 finished computations at 18.4402 seconds.
+Process 79 finished computations at 18.5114 seconds.
+Process 12 finished computations at 18.5822 seconds.
+Process 78 finished computations at 18.5841 seconds.
+Process 13 finished computations at 18.6681 seconds.
+Process 77 finished computations at 18.6895 seconds.
+Process 14 finished computations at 18.7492 seconds.
+Process 75 finished computations at 18.7589 seconds.
+Process 76 finished computations at 18.7749 seconds.
+Process 17 finished computations at 18.7963 seconds.
+Process 16 finished computations at 18.8075 seconds.
+Process 74 finished computations at 18.8058 seconds.
+Process 73 finished computations at 18.8238 seconds.
+Process 15 finished computations at 18.8276 seconds.
+Process 18 finished computations at 18.9197 seconds.
+Process 72 finished computations at 18.9217 seconds.
+Process 19 finished computations at 18.9373 seconds.
+Process 51 finished computations at 19.074 seconds.
+Process 50 finished computations at 19.1529 seconds.
+Process 32 finished computations at 19.1994 seconds.
+Process 71 finished computations at 19.1883 seconds.
+Process 48 finished computations at 19.214 seconds.
+Process 52 finished computations at 19.2325 seconds.
+Process 27 finished computations at 19.2447 seconds.
+Process 33 finished computations at 19.247 seconds.
+Process 26 finished computations at 19.2315 seconds.
+Process 25 finished computations at 19.25 seconds.
+Process 20 finished computations at 19.2635 seconds.
+Process 43 finished computations at 19.2831 seconds.
+Process 49 finished computations at 19.2911 seconds.
+Process 21 finished computations at 19.3119 seconds.
+Process 29 finished computations at 19.342 seconds.
+Process 24 finished computations at 19.3416 seconds.
+Process 42 finished computations at 19.3486 seconds.
+Process 53 finished computations at 19.3497 seconds.
+Process 34 finished computations at 19.3693 seconds.
+Process 41 finished computations at 19.3834 seconds.
+Process 31 finished computations at 19.391 seconds.
+Process 35 finished computations at 19.391 seconds.
+Process 66 finished computations at 19.3917 seconds.
+Process 70 finished computations at 19.3928 seconds.
+Process 30 finished computations at 19.4135 seconds.
+Process 64 finished computations at 19.4136 seconds.
+Process 22 finished computations at 19.4171 seconds.
+Process 67 finished computations at 19.4181 seconds.
+Process 46 finished computations at 19.4508 seconds.
+Process 65 finished computations at 19.4632 seconds.
+Process 47 finished computations at 19.4853 seconds.
+Process 69 finished computations at 19.5008 seconds.
+Process 57 finished computations at 19.5058 seconds.
+Process 40 finished computations at 19.5067 seconds.
+Process 59 finished computations at 19.5168 seconds.
+Process 23 finished computations at 19.5223 seconds.
+Process 58 finished computations at 19.5367 seconds.
+Process 44 finished computations at 19.5456 seconds.
+Process 45 finished computations at 19.5482 seconds.
+Process 28 finished computations at 19.5494 seconds.
+Process 56 finished computations at 19.57 seconds.
+Process 68 finished computations at 19.6001 seconds.
+Process 54 finished computations at 19.5914 seconds.
+Process 36 finished computations at 19.6529 seconds.
+Process 62 finished computations at 19.66 seconds.
+Process 63 finished computations at 19.6706 seconds.
+Process 39 finished computations at 19.7111 seconds.
+Process 38 finished computations at 19.711 seconds.
+Process 61 finished computations at 19.73 seconds.
+Process 55 finished computations at 19.7359 seconds.
+Process 37 finished computations at 19.7749 seconds.
+Process 60 finished computations at 19.7807 seconds.
+Total time taken: 19.8737 seconds.
+30.031 
 With OMP off...
 64, Running with 64 MPI processes.
-Process 40 finished computations at 10.1365 seconds.
-Process 8 finished computations at 10.1789 seconds.
-Process 25 finished computations at 10.1886 seconds.
-Process 49 finished computations at 10.1896 seconds.
-Process 43 finished computations at 10.1931 seconds.
-Process 21 finished computations at 10.1943 seconds.
-Process 33 finished computations at 10.1976 seconds.
-Process 19 finished computations at 10.2002 seconds.
-Process 34 finished computations at 10.2006 seconds.
-Process 52 finished computations at 10.2 seconds.
-Process 44 finished computations at 10.2005 seconds.
-Process 9 finished computations at 10.2014 seconds.
-Process 32 finished computations at 10.2057 seconds.
-Process 63 finished computations at 10.2068 seconds.
-Process 38 finished computations at 10.2106 seconds.
-Process 22 finished computations at 10.2112 seconds.
-Process 56 finished computations at 10.212 seconds.
-Process 51 finished computations at 10.2118 seconds.
-Process 45 finished computations at 10.2122 seconds.
-Process 16 finished computations at 10.2147 seconds.
-Process 10 finished computations at 10.2148 seconds.
-Process 50 finished computations at 10.2177 seconds.
-Process 13 finished computations at 10.2178 seconds.
-Process 59 finished computations at 10.219 seconds.
-Process 1 finished computations at 10.218 seconds.
-Process 47 finished computations at 10.2197 seconds.
-Process 27 finished computations at 10.2206 seconds.
-Process 37 finished computations at 10.2208 seconds.
-Process 57 finished computations at 10.2223 seconds.
-Process 46 finished computations at 10.2223 seconds.
-Process 18 finished computations at 10.2235 seconds.
-Process 42 finished computations at 10.2264 seconds.
-Process 48 finished computations at 10.2257 seconds.
-Process 62 finished computations at 10.2265 seconds.
-Process 3 finished computations at 10.2311 seconds.
-Process 0 finished computations at 10.2346 seconds.
-Process 24 finished computations at 10.2355 seconds.
-Process 41 finished computations at 10.2361 seconds.
-Process 60 finished computations at 10.2365 seconds.
-Process 39 finished computations at 10.2393 seconds.
-Process 17 finished computations at 10.2404 seconds.
-Process 2 finished computations at 10.2415 seconds.
-Process 28 finished computations at 10.2409 seconds.
-Process 30 finished computations at 10.2408 seconds.
-Process 53 finished computations at 10.2416 seconds.
-Process 14 finished computations at 10.2459 seconds.
-Process 54 finished computations at 10.245 seconds.
-Process 31 finished computations at 10.2457 seconds.
-Process 26 finished computations at 10.2469 seconds.
-Process 15 finished computations at 10.2476 seconds.
-Process 61 finished computations at 10.2528 seconds.
-Process 58 finished computations at 10.2562 seconds.
-Process 11 finished computations at 10.2575 seconds.
-Process 35 finished computations at 10.2571 seconds.
-Process 6 finished computations at 10.2588 seconds.
-Process 4 finished computations at 10.2606 seconds.
-Process 7 finished computations at 10.263 seconds.
-Process 23 finished computations at 10.2712 seconds.
-Process 20 finished computations at 10.274 seconds.
-Process 5 finished computations at 10.2803 seconds.
-Process 55 finished computations at 10.2823 seconds.
-Process 12 finished computations at 10.2848 seconds.
-Process 36 finished computations at 10.2854 seconds.
-Process 29 finished computations at 10.3006 seconds.
-Total time taken: 10.3173 seconds.
-15.116
+Process 59 finished computations at 16.4896 seconds.
+Process 58 finished computations at 16.5598 seconds.
+Process 63 finished computations at 16.6044 seconds.
+Process 60 finished computations at 16.6039 seconds.
+Process 61 finished computations at 16.6732 seconds.
+Process 0 finished computations at 16.7462 seconds.
+Process 62 finished computations at 16.7489 seconds.
+Process 57 finished computations at 16.7892 seconds.
+Process 56 finished computations at 16.8867 seconds.
+Process 55 finished computations at 17.0729 seconds.
+Process 1 finished computations at 17.0824 seconds.
+Process 52 finished computations at 17.0933 seconds.
+Process 51 finished computations at 17.1407 seconds.
+Process 54 finished computations at 17.238 seconds.
+Process 50 finished computations at 17.2438 seconds.
+Process 2 finished computations at 17.3258 seconds.
+Process 53 finished computations at 17.3485 seconds.
+Process 49 finished computations at 17.3546 seconds.
+Process 47 finished computations at 17.361 seconds.
+Process 42 finished computations at 17.3889 seconds.
+Process 48 finished computations at 17.4032 seconds.
+Process 45 finished computations at 17.4153 seconds.
+Process 44 finished computations at 17.418 seconds.
+Process 43 finished computations at 17.4364 seconds.
+Process 46 finished computations at 17.4547 seconds.
+Process 41 finished computations at 17.5225 seconds.
+Process 3 finished computations at 17.5929 seconds.
+Process 4 finished computations at 17.6113 seconds.
+Process 40 finished computations at 17.7039 seconds.
+Process 39 finished computations at 17.7212 seconds.
+Process 5 finished computations at 17.7522 seconds.
+Process 6 finished computations at 17.8223 seconds.
+Process 7 finished computations at 17.8995 seconds.
+Process 38 finished computations at 17.9514 seconds.
+Process 37 finished computations at 18.1457 seconds.
+Process 9 finished computations at 18.2066 seconds.
+Process 8 finished computations at 18.2231 seconds.
+Process 36 finished computations at 18.285 seconds.
+Process 35 finished computations at 18.4386 seconds.
+Process 10 finished computations at 18.4869 seconds.
+Process 25 finished computations at 18.5243 seconds.
+Process 26 finished computations at 18.5536 seconds.
+Process 16 finished computations at 18.5834 seconds.
+Process 15 finished computations at 18.608 seconds.
+Process 12 finished computations at 18.6094 seconds.
+Process 11 finished computations at 18.6311 seconds.
+Process 23 finished computations at 18.6419 seconds.
+Process 13 finished computations at 18.6556 seconds.
+Process 24 finished computations at 18.6694 seconds.
+Process 14 finished computations at 18.6769 seconds.
+Process 21 finished computations at 18.6818 seconds.
+Process 22 finished computations at 18.7311 seconds.
+Process 34 finished computations at 18.7442 seconds.
+Process 17 finished computations at 18.7489 seconds.
+Process 20 finished computations at 18.7489 seconds.
+Process 33 finished computations at 18.7973 seconds.
+Process 32 finished computations at 18.8506 seconds.
+Process 19 finished computations at 18.8576 seconds.
+Process 31 finished computations at 18.8861 seconds.
+Process 27 finished computations at 18.8894 seconds.
+Process 18 finished computations at 18.93 seconds.
+Process 28 finished computations at 18.9483 seconds.
+Process 30 finished computations at 18.9496 seconds.
+Process 29 finished computations at 18.9495 seconds.
+Total time taken: 18.9797 seconds.
+32.243
 With OMP on...
 64, Running with 64 MPI processes.
-Process 16 finished computations at 10.1454 seconds.
-Process 34 finished computations at 10.173 seconds.
-Process 62 finished computations at 10.1839 seconds.
-Process 40 finished computations at 10.1911 seconds.
-Process 56 finished computations at 10.1915 seconds.
-Process 32 finished computations at 10.194 seconds.
-Process 19 finished computations at 10.1967 seconds.
-Process 51 finished computations at 10.1982 seconds.
-Process 25 finished computations at 10.1982 seconds.
-Process 8 finished computations at 10.1988 seconds.
-Process 26 finished computations at 10.1991 seconds.
-Process 22 finished computations at 10.2034 seconds.
-Process 57 finished computations at 10.2032 seconds.
-Process 5 finished computations at 10.204 seconds.
-Process 38 finished computations at 10.206 seconds.
-Process 48 finished computations at 10.2079 seconds.
-Process 31 finished computations at 10.2077 seconds.
-Process 50 finished computations at 10.2087 seconds.
-Process 33 finished computations at 10.2107 seconds.
-Process 44 finished computations at 10.2141 seconds.
-Process 35 finished computations at 10.2174 seconds.
-Process 45 finished computations at 10.2178 seconds.
-Process 3 finished computations at 10.2185 seconds.
-Process 1 finished computations at 10.2193 seconds.
-Process 59 finished computations at 10.2214 seconds.
-Process 43 finished computations at 10.2248 seconds.
-Process 49 finished computations at 10.229 seconds.
-Process 37 finished computations at 10.2295 seconds.
-Process 21 finished computations at 10.2311 seconds.
-Process 42 finished computations at 10.2339 seconds.
-Process 14 finished computations at 10.2335 seconds.
-Process 46 finished computations at 10.2355 seconds.
-Process 47 finished computations at 10.2361 seconds.
-Process 4 finished computations at 10.2378 seconds.
-Process 39 finished computations at 10.2383 seconds.
-Process 60 finished computations at 10.2402 seconds.
-Process 53 finished computations at 10.2412 seconds.
-Process 54 finished computations at 10.2442 seconds.
-Process 20 finished computations at 10.245 seconds.
-Process 7 finished computations at 10.2456 seconds.
-Process 6 finished computations at 10.2457 seconds.
-Process 9 finished computations at 10.246 seconds.
-Process 10 finished computations at 10.2464 seconds.
-Process 41 finished computations at 10.2463 seconds.
-Process 28 finished computations at 10.248 seconds.
-Process 63 finished computations at 10.2502 seconds.
-Process 2 finished computations at 10.2503 seconds.
-Process 15 finished computations at 10.2506 seconds.
-Process 18 finished computations at 10.2522 seconds.
-Process 58 finished computations at 10.252 seconds.
-Process 61 finished computations at 10.2529 seconds.
-Process 30 finished computations at 10.2534 seconds.
-Process 52 finished computations at 10.2549 seconds.
-Process 27 finished computations at 10.2563 seconds.
-Process 0 finished computations at 10.259 seconds.
-Process 24 finished computations at 10.2609 seconds.
-Process 23 finished computations at 10.2625 seconds.
-Process 17 finished computations at 10.2637 seconds.
-Process 13 finished computations at 10.265 seconds.
-Process 11 finished computations at 10.2659 seconds.
-Process 36 finished computations at 10.2658 seconds.
-Process 12 finished computations at 10.277 seconds.
-Process 29 finished computations at 10.2801 seconds.
-Process 55 finished computations at 10.3002 seconds.
-Total time taken: 10.317 seconds.
-15.164 
+Process 59 finished computations at 16.4754 seconds.
+Process 58 finished computations at 16.5921 seconds.
+Process 60 finished computations at 16.6119 seconds.
+Process 63 finished computations at 16.6356 seconds.
+Process 0 finished computations at 16.7055 seconds.
+Process 61 finished computations at 16.7422 seconds.
+Process 57 finished computations at 16.7425 seconds.
+Process 62 finished computations at 16.764 seconds.
+Process 56 finished computations at 16.9162 seconds.
+Process 55 finished computations at 17.0962 seconds.
+Process 1 finished computations at 17.0985 seconds.
+Process 50 finished computations at 17.0993 seconds.
+Process 52 finished computations at 17.1157 seconds.
+Process 51 finished computations at 17.1175 seconds.
+Process 54 finished computations at 17.2238 seconds.
+Process 53 finished computations at 17.226 seconds.
+Process 2 finished computations at 17.2606 seconds.
+Process 49 finished computations at 17.35 seconds.
+Process 46 finished computations at 17.3551 seconds.
+Process 47 finished computations at 17.3564 seconds.
+Process 42 finished computations at 17.3734 seconds.
+Process 43 finished computations at 17.3763 seconds.
+Process 48 finished computations at 17.406 seconds.
+Process 45 finished computations at 17.4123 seconds.
+Process 41 finished computations at 17.4813 seconds.
+Process 44 finished computations at 17.4841 seconds.
+Process 3 finished computations at 17.5948 seconds.
+Process 4 finished computations at 17.6504 seconds.
+Process 39 finished computations at 17.7182 seconds.
+Process 40 finished computations at 17.7184 seconds.
+Process 5 finished computations at 17.7697 seconds.
+Process 6 finished computations at 17.803 seconds.
+Process 38 finished computations at 17.8857 seconds.
+Process 7 finished computations at 17.9103 seconds.
+Process 8 finished computations at 18.098 seconds.
+Process 37 finished computations at 18.1495 seconds.
+Process 36 finished computations at 18.2969 seconds.
+Process 9 finished computations at 18.3194 seconds.
+Process 35 finished computations at 18.398 seconds.
+Process 10 finished computations at 18.4678 seconds.
+Process 26 finished computations at 18.5382 seconds.
+Process 25 finished computations at 18.5501 seconds.
+Process 16 finished computations at 18.5788 seconds.
+Process 24 finished computations at 18.6165 seconds.
+Process 15 finished computations at 18.6195 seconds.
+Process 14 finished computations at 18.6299 seconds.
+Process 13 finished computations at 18.6416 seconds.
+Process 23 finished computations at 18.643 seconds.
+Process 21 finished computations at 18.6484 seconds.
+Process 12 finished computations at 18.6667 seconds.
+Process 11 finished computations at 18.6835 seconds.
+Process 34 finished computations at 18.7165 seconds.
+Process 22 finished computations at 18.7429 seconds.
+Process 20 finished computations at 18.775 seconds.
+Process 17 finished computations at 18.8045 seconds.
+Process 33 finished computations at 18.8219 seconds.
+Process 32 finished computations at 18.8557 seconds.
+Process 18 finished computations at 18.8598 seconds.
+Process 27 finished computations at 18.8953 seconds.
+Process 19 finished computations at 18.9121 seconds.
+Process 29 finished computations at 18.9451 seconds.
+Process 30 finished computations at 18.9462 seconds.
+Process 31 finished computations at 18.9544 seconds.
+Process 28 finished computations at 18.9564 seconds.
+Total time taken: 18.9884 seconds.
+54.579 
 With OMP off...
 32, Running with 32 MPI processes.
-Process 12 finished computations at 10.1781 seconds.
-Process 16 finished computations at 10.1869 seconds.
-Process 8 finished computations at 10.1885 seconds.
-Process 20 finished computations at 10.1905 seconds.
-Process 19 finished computations at 10.1947 seconds.
-Process 24 finished computations at 10.1952 seconds.
-Process 4 finished computations at 10.1956 seconds.
-Process 27 finished computations at 10.1961 seconds.
-Process 22 finished computations at 10.2008 seconds.
-Process 10 finished computations at 10.2023 seconds.
-Process 15 finished computations at 10.2033 seconds.
-Process 31 finished computations at 10.2033 seconds.
-Process 29 finished computations at 10.2052 seconds.
-Process 1 finished computations at 10.2055 seconds.
-Process 18 finished computations at 10.2081 seconds.
-Process 21 finished computations at 10.2096 seconds.
-Process 23 finished computations at 10.2105 seconds.
-Process 9 finished computations at 10.2115 seconds.
-Process 17 finished computations at 10.2129 seconds.
-Process 7 finished computations at 10.2135 seconds.
-Process 26 finished computations at 10.215 seconds.
-Process 11 finished computations at 10.2157 seconds.
-Process 25 finished computations at 10.2211 seconds.
-Process 3 finished computations at 10.2214 seconds.
-Process 13 finished computations at 10.2213 seconds.
-Process 30 finished computations at 10.2221 seconds.
-Process 6 finished computations at 10.223 seconds.
-Process 0 finished computations at 10.2293 seconds.
-Process 2 finished computations at 10.2317 seconds.
-Process 28 finished computations at 10.2333 seconds.
-Process 14 finished computations at 10.2397 seconds.
-Process 5 finished computations at 10.2539 seconds.
-Total time taken: 10.2624 seconds.
-14.443
+Process 29 finished computations at 16.4373 seconds.
+Process 30 finished computations at 16.7134 seconds.
+Process 31 finished computations at 16.7706 seconds.
+Process 28 finished computations at 16.824 seconds.
+Process 0 finished computations at 16.8502 seconds.
+Process 25 finished computations at 17.156 seconds.
+Process 26 finished computations at 17.2082 seconds.
+Process 27 finished computations at 17.2223 seconds.
+Process 21 finished computations at 17.3738 seconds.
+Process 23 finished computations at 17.4075 seconds.
+Process 2 finished computations at 17.4503 seconds.
+Process 22 finished computations at 17.4584 seconds.
+Process 24 finished computations at 17.4678 seconds.
+Process 1 finished computations at 17.4863 seconds.
+Process 20 finished computations at 17.5358 seconds.
+Process 19 finished computations at 17.7177 seconds.
+Process 3 finished computations at 17.824 seconds.
+Process 4 finished computations at 18.2282 seconds.
+Process 18 finished computations at 18.2638 seconds.
+Process 12 finished computations at 18.5799 seconds.
+Process 7 finished computations at 18.5956 seconds.
+Process 5 finished computations at 18.6121 seconds.
+Process 8 finished computations at 18.6157 seconds.
+Process 6 finished computations at 18.6386 seconds.
+Process 17 finished computations at 18.6782 seconds.
+Process 10 finished computations at 18.6897 seconds.
+Process 13 finished computations at 18.7075 seconds.
+Process 11 finished computations at 18.7302 seconds.
+Process 16 finished computations at 18.8772 seconds.
+Process 15 finished computations at 18.9107 seconds.
+Process 14 finished computations at 18.9207 seconds.
+Process 9 finished computations at 18.9332 seconds.
+Total time taken: 18.9468 seconds.
+24.847
 With OMP on...
 32, Running with 32 MPI processes.
-Process 3 finished computations at 10.1457 seconds.
-Process 24 finished computations at 10.1888 seconds.
-Process 18 finished computations at 10.1947 seconds.
-Process 15 finished computations at 10.1972 seconds.
-Process 1 finished computations at 10.2001 seconds.
-Process 12 finished computations at 10.1996 seconds.
-Process 22 finished computations at 10.2015 seconds.
-Process 25 finished computations at 10.2028 seconds.
-Process 19 finished computations at 10.2074 seconds.
-Process 17 finished computations at 10.2086 seconds.
-Process 7 finished computations at 10.2093 seconds.
-Process 26 finished computations at 10.2114 seconds.
-Process 16 finished computations at 10.2218 seconds.
-Process 27 finished computations at 10.2215 seconds.
-Process 2 finished computations at 10.2221 seconds.
-Process 13 finished computations at 10.2218 seconds.
-Process 21 finished computations at 10.2219 seconds.
-Process 11 finished computations at 10.2247 seconds.
-Process 10 finished computations at 10.2275 seconds.
-Process 8 finished computations at 10.2282 seconds.
-Process 30 finished computations at 10.2284 seconds.
-Process 0 finished computations at 10.2304 seconds.
-Process 31 finished computations at 10.2318 seconds.
-Process 29 finished computations at 10.2334 seconds.
-Process 9 finished computations at 10.2353 seconds.
-Process 23 finished computations at 10.235 seconds.
-Process 20 finished computations at 10.2377 seconds.
-Process 6 finished computations at 10.2405 seconds.
-Process 28 finished computations at 10.241 seconds.
-Process 4 finished computations at 10.2471 seconds.
-Process 5 finished computations at 10.2489 seconds.
-Process 14 finished computations at 10.2603 seconds.
-Total time taken: 10.2683 seconds.
-14.272 
+Process 29 finished computations at 16.5622 seconds.
+Process 30 finished computations at 16.7125 seconds.
+Process 28 finished computations at 16.8348 seconds.
+Process 31 finished computations at 16.8549 seconds.
+Process 0 finished computations at 16.8712 seconds.
+Process 27 finished computations at 17.1355 seconds.
+Process 26 finished computations at 17.1777 seconds.
+Process 25 finished computations at 17.2306 seconds.
+Process 21 finished computations at 17.3874 seconds.
+Process 24 finished computations at 17.3988 seconds.
+Process 23 finished computations at 17.4208 seconds.
+Process 22 finished computations at 17.4414 seconds.
+Process 20 finished computations at 17.4677 seconds.
+Process 1 finished computations at 17.4737 seconds.
+Process 19 finished computations at 17.6259 seconds.
+Process 2 finished computations at 17.638 seconds.
+Process 3 finished computations at 17.8223 seconds.
+Process 4 finished computations at 18.2271 seconds.
+Process 18 finished computations at 18.295 seconds.
+Process 12 finished computations at 18.549 seconds.
+Process 5 finished computations at 18.5767 seconds.
+Process 7 finished computations at 18.6279 seconds.
+Process 8 finished computations at 18.6479 seconds.
+Process 6 finished computations at 18.6607 seconds.
+Process 17 finished computations at 18.6906 seconds.
+Process 11 finished computations at 18.7088 seconds.
+Process 13 finished computations at 18.7329 seconds.
+Process 10 finished computations at 18.7417 seconds.
+Process 16 finished computations at 18.832 seconds.
+Process 14 finished computations at 18.8427 seconds.
+Process 15 finished computations at 18.8944 seconds.
+Process 9 finished computations at 18.9333 seconds.
+Total time taken: 18.9477 seconds.
+24.893 
 With OMP off...
 16, Running with 16 MPI processes.
-Process 8 finished computations at 10.1204 seconds.
-Process 3 finished computations at 10.1262 seconds.
-Process 12 finished computations at 10.1469 seconds.
-Process 6 finished computations at 10.1534 seconds.
-Process 1 finished computations at 10.1561 seconds.
-Process 5 finished computations at 10.1605 seconds.
-Process 13 finished computations at 10.161 seconds.
-Process 0 finished computations at 10.1652 seconds.
-Process 7 finished computations at 10.1654 seconds.
-Process 10 finished computations at 10.1673 seconds.
-Process 2 finished computations at 10.1674 seconds.
-Process 11 finished computations at 10.1686 seconds.
-Process 9 finished computations at 10.1711 seconds.
-Process 14 finished computations at 10.1927 seconds.
-Process 15 finished computations at 10.1936 seconds.
-Process 4 finished computations at 10.1976 seconds.
-Total time taken: 10.2019 seconds.
-13.344
+Process 14 finished computations at 16.7535 seconds.
+Process 15 finished computations at 16.7926 seconds.
+Process 0 finished computations at 17.1742 seconds.
+Process 13 finished computations at 17.1895 seconds.
+Process 11 finished computations at 17.3339 seconds.
+Process 12 finished computations at 17.3488 seconds.
+Process 10 finished computations at 17.4639 seconds.
+Process 1 finished computations at 17.638 seconds.
+Process 9 finished computations at 18.0699 seconds.
+Process 2 finished computations at 18.1976 seconds.
+Process 6 finished computations at 18.388 seconds.
+Process 5 finished computations at 18.5046 seconds.
+Process 4 finished computations at 18.5968 seconds.
+Process 3 finished computations at 18.6813 seconds.
+Process 8 finished computations at 18.8982 seconds.
+Process 7 finished computations at 18.916 seconds.
+Total time taken: 18.9231 seconds.
+22.775
 With OMP on...
 16, Running with 16 MPI processes.
-Process 12 finished computations at 10.0939 seconds.
-Process 2 finished computations at 10.1034 seconds.
-Process 13 finished computations at 10.1287 seconds.
-Process 8 finished computations at 10.1323 seconds.
-Process 0 finished computations at 10.1454 seconds.
-Process 11 finished computations at 10.1521 seconds.
-Process 1 finished computations at 10.1523 seconds.
-Process 10 finished computations at 10.1575 seconds.
-Process 6 finished computations at 10.1606 seconds.
-Process 7 finished computations at 10.1644 seconds.
-Process 5 finished computations at 10.1673 seconds.
-Process 9 finished computations at 10.1673 seconds.
-Process 14 finished computations at 10.1837 seconds.
-Process 3 finished computations at 10.1868 seconds.
-Process 15 finished computations at 10.19 seconds.
-Process 4 finished computations at 10.2025 seconds.
-Total time taken: 10.2065 seconds.
-13.387 
+Process 14 finished computations at 16.6908 seconds.
+Process 15 finished computations at 16.8337 seconds.
+Process 0 finished computations at 17.2488 seconds.
+Process 13 finished computations at 17.2874 seconds.
+Process 12 finished computations at 17.3242 seconds.
+Process 11 finished computations at 17.3614 seconds.
+Process 10 finished computations at 17.5206 seconds.
+Process 1 finished computations at 17.7898 seconds.
+Process 9 finished computations at 18.1409 seconds.
+Process 6 finished computations at 18.3183 seconds.
+Process 2 finished computations at 18.3945 seconds.
+Process 5 finished computations at 18.5197 seconds.
+Process 4 finished computations at 18.6165 seconds.
+Process 3 finished computations at 18.7218 seconds.
+Process 7 finished computations at 18.8562 seconds.
+Process 8 finished computations at 18.9759 seconds.
+Total time taken: 18.983 seconds.
+27.926 
 With OMP off...
 8, Running with 8 MPI processes.
-Process 2 finished computations at 9.12502 seconds.
-Process 1 finished computations at 9.14433 seconds.
-Process 0 finished computations at 9.85746 seconds.
-Process 7 finished computations at 10.252 seconds.
-Process 3 finished computations at 10.3178 seconds.
-Process 5 finished computations at 10.4025 seconds.
-Process 6 finished computations at 10.4788 seconds.
-Process 4 finished computations at 10.7976 seconds.
-Total time taken: 10.7998 seconds.
-13.523
+Process 7 finished computations at 16.6279 seconds.
+Process 6 finished computations at 17.2636 seconds.
+Process 0 finished computations at 17.4682 seconds.
+Process 5 finished computations at 17.4898 seconds.
+Process 4 finished computations at 18.5545 seconds.
+Process 1 finished computations at 18.6773 seconds.
+Process 3 finished computations at 18.8119 seconds.
+Process 2 finished computations at 18.8593 seconds.
+Total time taken: 18.8629 seconds.
+22.171
 With OMP on...
 8, Running with 8 MPI processes.
-Process 2 finished computations at 9.12895 seconds.
-Process 1 finished computations at 9.14506 seconds.
-Process 0 finished computations at 9.86763 seconds.
-Process 7 finished computations at 10.2568 seconds.
-Process 3 finished computations at 10.2674 seconds.
-Process 5 finished computations at 10.4058 seconds.
-Process 6 finished computations at 10.4782 seconds.
-Process 4 finished computations at 10.8089 seconds.
-Total time taken: 10.8114 seconds.
-13.454 
+Process 7 finished computations at 16.6018 seconds.
+Process 6 finished computations at 17.2114 seconds.
+Process 5 finished computations at 17.3688 seconds.
+Process 0 finished computations at 17.4623 seconds.
+Process 4 finished computations at 18.5594 seconds.
+Process 1 finished computations at 18.5998 seconds.
+Process 2 finished computations at 18.7741 seconds.
+Process 3 finished computations at 18.7929 seconds.
+Total time taken: 18.7962 seconds.
+21.828 
 With OMP off...
 4, Running with 4 MPI processes.
-Process 0 finished computations at 9.29415 seconds.
-Process 1 finished computations at 9.70624 seconds.
-Process 3 finished computations at 10.3016 seconds.
-Process 2 finished computations at 10.7619 seconds.
-Total time taken: 10.763 seconds.
-13.177
+Process 3 finished computations at 17.0083 seconds.
+Process 0 finished computations at 17.2686 seconds.
+Process 2 finished computations at 17.5784 seconds.
+Process 1 finished computations at 18.2147 seconds.
+Total time taken: 18.2164 seconds.
+21.329
 With OMP on...
 4, Running with 4 MPI processes.
-Process 0 finished computations at 9.30097 seconds.
-Process 1 finished computations at 9.70258 seconds.
-Process 3 finished computations at 10.3092 seconds.
-Process 2 finished computations at 10.7627 seconds.
-Total time taken: 10.7637 seconds.
-13.178 
+Process 3 finished computations at 17.0412 seconds.
+Process 0 finished computations at 17.5074 seconds.
+Process 2 finished computations at 17.576 seconds.
+Process 1 finished computations at 18.2272 seconds.
+Total time taken: 18.2289 seconds.
+21.350 
 With OMP off...
 2, Running with 2 MPI processes.
-Process 0 finished computations at 9.12371 seconds.
-Process 1 finished computations at 10.6531 seconds.
-Total time taken: 10.6441 seconds.
-13.088
+Process 1 finished computations at 17.3378 seconds.
+Process 0 finished computations at 17.8783 seconds.
+Total time taken: 17.8793 seconds.
+20.618
 With OMP on...
 2, Running with 2 MPI processes.
-Process 0 finished computations at 9.1071 seconds.
-Process 1 finished computations at 10.6115 seconds.
-Total time taken: 10.6028 seconds.
-13.037 
+Process 1 finished computations at 17.3413 seconds.
+Process 0 finished computations at 17.9756 seconds.
+Total time taken: 17.9765 seconds.
+21.182 
 With OMP off...
 1, Running with 1 MPI processes.
-Process 0 finished computations at 9.60144 seconds.
-Total time taken: 9.60173 seconds.
-12.011
+Process 0 finished computations at 17.2184 seconds.
+Total time taken: 17.2189 seconds.
+20.022
 With OMP on...
 1, Running with 1 MPI processes.
-Process 0 finished computations at 9.59161 seconds.
-Total time taken: 9.5919 seconds.
-12.015 
+Process 0 finished computations at 17.2491 seconds.
+Total time taken: 17.2495 seconds.
+19.823 
