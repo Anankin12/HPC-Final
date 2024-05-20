@@ -6,7 +6,6 @@
 #SBATCH --exclusive
 #SBATCH --time=02:00:00
 #SBATCH --exclude=fat[001-002]
-#SBATCH --account=dssc
 
 # Load the openMPI module
 module load openMPI/4.1.5/gnu
