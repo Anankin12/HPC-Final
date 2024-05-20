@@ -1,0 +1,129 @@
+Running with 128 threads...
+Resolution of 4096 x 4096
+128, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 38.4247 seconds.
+Total time taken: 38.5372 seconds.
+42.477
+Running with 96 threads...
+Resolution of 4096 x 4096
+96, Running with 1 MPI processes.
+Process 0 finished computations at 48.517 seconds.
+Total time taken: 48.6305 seconds.
+50.720
+Running with 64 threads...
+Resolution of 4096 x 4096
+64, Running with 1 MPI processes.
+Process 0 finished computations at 72.9487 seconds.
+Total time taken: 73.0618 seconds.
+75.281
+Running with 32 threads...
+Resolution of 4096 x 4096
+32, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 145.752 seconds.
+Total time taken: 145.863 seconds.
+147.970
+Running with 128 threads...
+Resolution of 4096 x 4096
+128, Running with 1 MPI processes.
+Process 0 finished computations at 39.151 seconds.
+Total time taken: 39.2667 seconds.
+42.605
+Running with 64 threads...
+Resolution of 4096 x 4096
+64, Running with 1 MPI processes.
+Process 0 finished computations at 73.665 seconds.
+Total time taken: 73.7802 seconds.
+76.553
+Running with 32 threads...
+Resolution of 4096 x 4096
+32, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 148.159 seconds.
+Total time taken: 148.272 seconds.
+153.508
+Running with 16 threads...
+Resolution of 4096 x 4096
+16, Running with 1 MPI processes.
+Process 0 finished computations at 288.113 seconds.
+Total time taken: 288.227 seconds.
+291.137
+Running with 8 threads...
+Resolution of 4096 x 4096
+8, Running with 1 MPI processes.
+Process 0 finished computations at 571.163 seconds.
+Total time taken: 571.279 seconds.
+573.461
+Running with 4 threads...
+Resolution of 4096 x 4096
+4, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 1139.76 seconds.
+Total time taken: 1139.87 seconds.
+1141.999
+Running with 2 threads...
+Resolution of 4096 x 4096
+2, epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+epyc008.hpc.rd.areasciencepark.it:rank0.Run6-4: Failed to modify UD QP to INIT on ibp161s0: Operation not permitted
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: epyc008
+  Location: mtl_ofi_component.c:509
+  Error: Invalid argument (22)
+--------------------------------------------------------------------------
+Running with 1 MPI processes.
+Process 0 finished computations at 2274.63 seconds.
+Total time taken: 2274.74 seconds.
+2276.852
+Running with 1 threads...
+Resolution of 4096 x 4096
+slurmstepd: error: *** JOB 425260 ON epyc008 CANCELLED AT 2024-05-20T17:38:00 DUE TO TIME LIMIT ***
