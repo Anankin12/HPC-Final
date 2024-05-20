@@ -7,7 +7,6 @@
 #SBATCH --time=02:00:00
 #SBATCH --exclude=fat[001-002]
 
-#SBATCH --account=dssc
 # Load the openMPI module
 module load openMPI/4.1.5/gnu
 
@@ -37,13 +36,16 @@ for (( i=max_threads; i>=1; i = i / 2))
 do
 	echo "Running with $i threads..."
 
+
+	export OMP_NUM_THREADS=$i
+
 	width_weak=$(($i*$height/$max_threads))
 	height_weak=$(($height))
 
 	echo "Resolution of $width_weak x $height_weak"
 	# Adjust MPI command to handle oversubscription gracefully
 	echo "With OMP off..." >> "$output_file"
-	command="mpiexec -np $i $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
+	command="mpiexec -np 1 $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
 
 	# Execute the MPI program and measure the time
 	TIMEFORMAT=%R
@@ -52,10 +54,6 @@ do
         # Save the result
 	echo "$i, $time_taken"
         echo "$i, $time_taken" >> "$output_file"
-
-
-	echo "With OMP on..." >> "$output_file"
-	command2="mpiexec --use-hwthread-cpus -np $i $program_name $xl $yl $xr $yr $width_weak $height_weak $max_iterations"
 
 	TIMEFORMAT=%R
 	time_taken1=$( { time $command2; } 2>&1 )

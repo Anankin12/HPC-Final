@@ -54,7 +54,7 @@ do
         echo "$i, $time_taken" >> "$output_file"
 done
 
-for (( i=max_threads; i>=1; i = i / 2))
+for (( i=max_threads; i>=2; i = i / 2))
 do
 	echo "Running with $i threads..."
 
