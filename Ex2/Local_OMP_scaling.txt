@@ -1,0 +1,65 @@
+Threads, Time (seconds)
+16, Running with 1 MPI processes.
+Process 0 finished computations at 23.6162 seconds.
+Total time taken: 23.6221 seconds.
+25,356
+15, Running with 1 MPI processes.
+Process 0 finished computations at 25.7612 seconds.
+Total time taken: 25.7699 seconds.
+27,502
+14, Running with 1 MPI processes.
+Process 0 finished computations at 26.6077 seconds.
+Total time taken: 26.6159 seconds.
+28,355
+13, Running with 1 MPI processes.
+Process 0 finished computations at 27.0347 seconds.
+Total time taken: 27.0439 seconds.
+28,788
+12, Running with 1 MPI processes.
+Process 0 finished computations at 27.15 seconds.
+Total time taken: 27.1592 seconds.
+28,896
+11, Running with 1 MPI processes.
+Process 0 finished computations at 28.1775 seconds.
+Total time taken: 28.1865 seconds.
+29,923
+10, Running with 1 MPI processes.
+Process 0 finished computations at 29.1066 seconds.
+Total time taken: 29.1127 seconds.
+30,856
+9, Running with 1 MPI processes.
+Process 0 finished computations at 30.1677 seconds.
+Total time taken: 30.1764 seconds.
+31,915
+8, Running with 1 MPI processes.
+Process 0 finished computations at 31.5067 seconds.
+Total time taken: 31.5125 seconds.
+33,252
+7, Running with 1 MPI processes.
+Process 0 finished computations at 32.7769 seconds.
+Total time taken: 32.7827 seconds.
+34,526
+6, Running with 1 MPI processes.
+Process 0 finished computations at 34.4789 seconds.
+Total time taken: 34.4839 seconds.
+36,216
+5, Running with 1 MPI processes.
+Process 0 finished computations at 36.4467 seconds.
+Total time taken: 36.4522 seconds.
+38,186
+4, Running with 1 MPI processes.
+Process 0 finished computations at 38.3215 seconds.
+Total time taken: 38.3267 seconds.
+40,062
+3, Running with 1 MPI processes.
+Process 0 finished computations at 48.0945 seconds.
+Total time taken: 48.0988 seconds.
+49,837
+2, Running with 1 MPI processes.
+Process 0 finished computations at 66.8339 seconds.
+Total time taken: 66.838 seconds.
+68,577
+1, Running with 1 MPI processes.
+Process 0 finished computations at 121.622 seconds.
+Total time taken: 121.626 seconds.
+123,358

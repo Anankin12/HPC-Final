@@ -1,0 +1,21 @@
+Threads, Time (seconds)
+With OMP on...
+16, Running with 16 MPI processes.
+Process 2 finished computations at 94.2285 seconds.
+Process 13 finished computations at 96.644 seconds.
+Process 0 finished computations at 101.756 seconds.
+Process 1 finished computations at 103.348 seconds.
+Process 12 finished computations at 105.32 seconds.
+Process 11 finished computations at 105.576 seconds.
+Process 5 finished computations at 106.14 seconds.
+Process 8 finished computations at 106.478 seconds.
+Process 14 finished computations at 106.604 seconds.
+Process 15 finished computations at 107.125 seconds.
+Process 10 finished computations at 107.41 seconds.
+Process 4 finished computations at 107.747 seconds.
+Process 7 finished computations at 108.332 seconds.
+Process 9 finished computations at 108.362 seconds.
+Process 3 finished computations at 108.885 seconds.
+Process 6 finished computations at 109.034 seconds.
+Total time taken: 109.069 seconds.
+110,956

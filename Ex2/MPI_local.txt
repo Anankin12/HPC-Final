@@ -1,0 +1,201 @@
+Threads, Time (seconds)
+With OMP off...
+16, Running with 16 MPI processes.
+Process 15 finished computations at 18.6859 seconds.
+Process 14 finished computations at 18.7395 seconds.
+Process 3 finished computations at 18.8439 seconds.
+Process 12 finished computations at 18.8611 seconds.
+Process 4 finished computations at 19.5043 seconds.
+Process 13 finished computations at 19.6484 seconds.
+Process 5 finished computations at 20.0521 seconds.
+Process 8 finished computations at 20.091 seconds.
+Process 0 finished computations at 30.6904 seconds.
+Process 11 finished computations at 30.7471 seconds.
+Process 6 finished computations at 30.8458 seconds.
+Process 10 finished computations at 31.0031 seconds.
+Process 9 finished computations at 31.0579 seconds.
+Process 2 finished computations at 31.0597 seconds.
+Process 1 finished computations at 31.1267 seconds.
+Process 7 finished computations at 31.468 seconds.
+Total time taken: 31.4761 seconds.
+33,073
+With OMP off...
+15, Running with 15 MPI processes.
+Process 4 finished computations at 16.1069 seconds.
+Process 5 finished computations at 21.8391 seconds.
+Process 9 finished computations at 21.9237 seconds.
+Process 13 finished computations at 21.9262 seconds.
+Process 2 finished computations at 21.9628 seconds.
+Process 7 finished computations at 25.0617 seconds.
+Process 10 finished computations at 26.474 seconds.
+Process 14 finished computations at 28.8199 seconds.
+Process 3 finished computations at 32.182 seconds.
+Process 11 finished computations at 33.9795 seconds.
+Process 6 finished computations at 36.6137 seconds.
+Process 1 finished computations at 36.8309 seconds.
+Process 8 finished computations at 37.1574 seconds.
+Process 12 finished computations at 37.5195 seconds.
+Process 0 finished computations at 37.6495 seconds.
+Total time taken: 37.6564 seconds.
+38,813
+With OMP off...
+14, Running with 14 MPI processes.
+Process 9 finished computations at 14.291 seconds.
+Process 13 finished computations at 16.6898 seconds.
+Process 11 finished computations at 20.6009 seconds.
+Process 4 finished computations at 23.0697 seconds.
+Process 10 finished computations at 23.2085 seconds.
+Process 2 finished computations at 23.3355 seconds.
+Process 8 finished computations at 25.2784 seconds.
+Process 6 finished computations at 38.4781 seconds.
+Process 1 finished computations at 39.0348 seconds.
+Process 0 finished computations at 39.0469 seconds.
+Process 3 finished computations at 39.0526 seconds.
+Process 7 finished computations at 39.0796 seconds.
+Process 12 finished computations at 39.157 seconds.
+Process 5 finished computations at 39.2642 seconds.
+Total time taken: 39.2725 seconds.
+40,431
+With OMP off...
+13, Running with 13 MPI processes.
+Process 1 finished computations at 14.564 seconds.
+Process 6 finished computations at 15.3442 seconds.
+Process 2 finished computations at 18.5017 seconds.
+Process 5 finished computations at 19.9728 seconds.
+Process 4 finished computations at 23.9022 seconds.
+Process 3 finished computations at 25.0735 seconds.
+Process 0 finished computations at 40.3988 seconds.
+Process 8 finished computations at 40.4334 seconds.
+Process 10 finished computations at 40.4821 seconds.
+Process 11 finished computations at 40.5805 seconds.
+Process 12 finished computations at 40.6459 seconds.
+Process 9 finished computations at 40.693 seconds.
+Process 7 finished computations at 40.78 seconds.
+Total time taken: 40.785 seconds.
+41,934
+With OMP off...
+12, Running with 12 MPI processes.
+Process 4 finished computations at 15.4909 seconds.
+Process 7 finished computations at 15.5642 seconds.
+Process 2 finished computations at 16.8345 seconds.
+Process 6 finished computations at 17.3116 seconds.
+Process 3 finished computations at 24.5061 seconds.
+Process 1 finished computations at 44.2032 seconds.
+Process 8 finished computations at 44.3217 seconds.
+Process 5 finished computations at 44.3984 seconds.
+Process 10 finished computations at 44.4708 seconds.
+Process 0 finished computations at 44.8843 seconds.
+Process 9 finished computations at 44.942 seconds.
+Process 11 finished computations at 44.9923 seconds.
+Total time taken: 44.9967 seconds.
+46,142
+With OMP off...
+11, Running with 11 MPI processes.
+Process 6 finished computations at 16.8957 seconds.
+Process 5 finished computations at 17.5825 seconds.
+Process 2 finished computations at 19.533 seconds.
+Process 3 finished computations at 23.2896 seconds.
+Process 0 finished computations at 25.8066 seconds.
+Process 9 finished computations at 35.6097 seconds.
+Process 8 finished computations at 46.8871 seconds.
+Process 10 finished computations at 47.0235 seconds.
+Process 1 finished computations at 47.1847 seconds.
+Process 4 finished computations at 47.2099 seconds.
+Process 7 finished computations at 47.2524 seconds.
+Total time taken: 47.257 seconds.
+48,426
+With OMP off...
+10, Running with 10 MPI processes.
+Process 0 finished computations at 17.9561 seconds.
+Process 2 finished computations at 17.9604 seconds.
+Process 5 finished computations at 17.9928 seconds.
+Process 4 finished computations at 22.4095 seconds.
+Process 9 finished computations at 27.8904 seconds.
+Process 1 finished computations at 49.8701 seconds.
+Process 7 finished computations at 50.1675 seconds.
+Process 8 finished computations at 50.2764 seconds.
+Process 3 finished computations at 50.4099 seconds.
+Process 6 finished computations at 50.523 seconds.
+Total time taken: 50.5276 seconds.
+51,668
+With OMP off...
+9, Running with 9 MPI processes.
+Process 3 finished computations at 20.9247 seconds.
+Process 2 finished computations at 21.8662 seconds.
+Process 1 finished computations at 22.6583 seconds.
+Process 7 finished computations at 26.5855 seconds.
+Process 6 finished computations at 26.878 seconds.
+Process 8 finished computations at 49.2882 seconds.
+Process 5 finished computations at 54.9654 seconds.
+Process 4 finished computations at 55.0875 seconds.
+Process 0 finished computations at 55.5382 seconds.
+Total time taken: 55.5441 seconds.
+56,659
+With OMP off...
+8, Running with 8 MPI processes.
+Process 2 finished computations at 21.586 seconds.
+Process 0 finished computations at 22.2936 seconds.
+Process 6 finished computations at 26.2347 seconds.
+Process 5 finished computations at 27.09 seconds.
+Process 3 finished computations at 30.2727 seconds.
+Process 1 finished computations at 59.6558 seconds.
+Process 7 finished computations at 59.669 seconds.
+Process 4 finished computations at 59.8386 seconds.
+Total time taken: 59.8436 seconds.
+60,983
+With OMP off...
+7, Running with 7 MPI processes.
+Process 2 finished computations at 25.5439 seconds.
+Process 1 finished computations at 27.1265 seconds.
+Process 0 finished computations at 27.1651 seconds.
+Process 3 finished computations at 31.9945 seconds.
+Process 4 finished computations at 33.3014 seconds.
+Process 5 finished computations at 39.489 seconds.
+Process 6 finished computations at 39.8206 seconds.
+Total time taken: 39.8247 seconds.
+40,950
+With OMP off...
+6, Running with 6 MPI processes.
+Process 1 finished computations at 28.8659 seconds.
+Process 4 finished computations at 28.9722 seconds.
+Process 0 finished computations at 33.0577 seconds.
+Process 5 finished computations at 33.2267 seconds.
+Process 3 finished computations at 35.7336 seconds.
+Process 2 finished computations at 55.12 seconds.
+Total time taken: 55.1249 seconds.
+56,245
+With OMP off...
+5, Running with 5 MPI processes.
+Process 0 finished computations at 33.2603 seconds.
+Process 4 finished computations at 33.4497 seconds.
+Process 2 finished computations at 36.717 seconds.
+Process 1 finished computations at 40.7912 seconds.
+Process 3 finished computations at 44.4064 seconds.
+Total time taken: 44.4106 seconds.
+45,531
+With OMP off...
+4, Running with 4 MPI processes.
+Process 3 finished computations at 38.8926 seconds.
+Process 1 finished computations at 38.8998 seconds.
+Process 2 finished computations at 39.656 seconds.
+Process 0 finished computations at 39.7493 seconds.
+Total time taken: 39.7539 seconds.
+40,864
+With OMP off...
+3, Running with 3 MPI processes.
+Process 1 finished computations at 49.6019 seconds.
+Process 2 finished computations at 49.9595 seconds.
+Process 0 finished computations at 50.3431 seconds.
+Total time taken: 50.347 seconds.
+51,479
+With OMP off...
+2, Running with 2 MPI processes.
+Process 0 finished computations at 107.654 seconds.
+Process 1 finished computations at 107.668 seconds.
+Total time taken: 107.672 seconds.
+108,786
+With OMP off...
+1, Running with 1 MPI processes.
+Process 0 finished computations at 121.803 seconds.
+Total time taken: 121.806 seconds.
+122,902
