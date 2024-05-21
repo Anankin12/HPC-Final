@@ -1,0 +1,41 @@
+Running with 128 threads...
+128, Running with 1 MPI processes.
+Process 0 finished computations at 39.2555 seconds.
+Total time taken: 39.3633 seconds.
+42.039
+Running with 96 threads...
+96, Running with 1 MPI processes.
+Process 0 finished computations at 48.5523 seconds.
+Total time taken: 48.6676 seconds.
+50.969
+Running with 64 threads...
+64, Running with 1 MPI processes.
+Process 0 finished computations at 72.662 seconds.
+Total time taken: 72.7722 seconds.
+75.098
+Running with 32 threads...
+32, Running with 1 MPI processes.
+Process 0 finished computations at 144.805 seconds.
+Total time taken: 144.916 seconds.
+147.216
+Running with 16 threads...
+16, Running with 1 MPI processes.
+Process 0 finished computations at 287.237 seconds.
+Total time taken: 287.345 seconds.
+289.631
+Running with 8 threads...
+8, Running with 1 MPI processes.
+Process 0 finished computations at 573.216 seconds.
+Total time taken: 573.33 seconds.
+575.602
+Running with 4 threads...
+4, Running with 1 MPI processes.
+Process 0 finished computations at 1146.07 seconds.
+Total time taken: 1146.17 seconds.
+1148.429
+Running with 2 threads...
+2, Running with 1 MPI processes.
+Process 0 finished computations at 2286.08 seconds.
+Total time taken: 2286.19 seconds.
+2288.443
+All runs completed.
