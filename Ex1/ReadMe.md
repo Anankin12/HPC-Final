@@ -1,3 +1,3 @@
 # Exercise 1
 
-Repo containing all of the stuff for Cozzini's part.
+Repo containing the material of exercise 1.
