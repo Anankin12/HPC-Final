@@ -1,5 +1,0 @@
-Running with 256 threads...
-Execution time: mpiexec: Error: unknown option "--bind-by-numa"
-Type 'mpiexec --help' for usage.
-0.007 seconds
-All runs completed.

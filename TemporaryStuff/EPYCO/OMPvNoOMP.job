@@ -1,8 +1,0 @@
-#!/bin/bash
-
-#SBATCH --partition=EPYC
-#SBATCH --nodes=2
-#SBATCH --job-name=Mandelbrother
-#SBATCH --account=DSSC
-
-

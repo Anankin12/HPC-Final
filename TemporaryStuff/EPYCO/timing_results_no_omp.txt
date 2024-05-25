@@ -1,5 +1,0 @@
-Threads, Time (seconds)
-64, Running with 1 MPI processes.
-Process 0 finished computations at 4551.89 seconds.
-Total time taken: 4552 seconds.
-4554.314
