@@ -1,0 +1,6 @@
+Threads, Time (seconds)
+With OMP off...
+1, Running with 1 MPI processes.
+Process 0 finished computations at 4600.95 seconds.
+Total time taken: 4601.06 seconds.
+4605.695

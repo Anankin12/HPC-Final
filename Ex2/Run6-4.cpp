@@ -5,6 +5,7 @@
 #include <mpi.h>
 #include <vector>
 
+
 using namespace std;
 
 // Functoin to write the PGM image
